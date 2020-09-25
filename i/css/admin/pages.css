@@ -1,0 +1,42 @@
+	/*#pages{
+		text-align: center;
+	}
+	
+	#pages label{
+		float: left; 
+		margin-left: 41px;
+	}
+	
+	.pages_input {width: 90%;}
+	
+	#redactor_div{
+		text-align: center; width: 96%;
+	}
+	
+	.redactor_box{
+		margin-left: 39px;
+	}
+	
+	#approve_select{
+		float:right; margin-right:50px;
+	}
+	
+	#approve_select select{
+		padding: 2px 7px; 
+		margin-bottom: 5px;
+	}
+	
+	.std-table td{
+		text-align: center;
+                padding: 5px 2px 0 2px !important;
+	}
+
+        #pages a {text-decoration: none;}
+
+        #change-link-block {width: 1075px; margin: 0 auto; display: none;}
+        #confirm-change-link {float: right; margin-right: 5px;}
+        #change-link-area {margin-left: 50px;}
+        #transit-link-text {text-align: left; float: left; height: 25px; color: gray;}
+        #change-link {text-align: left; display: none;}
+        #change-link a {color: #08c;}
+        input[name=page_link] {width: 957px; float: left;}*/

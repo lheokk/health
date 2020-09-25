@@ -1,0 +1,54 @@
+
+    .admin-list-slide
+    {
+        border: 1px solid #ccc;
+        .m-border-radius(7px);
+
+        padding: 10px;
+        margin: 20px 0;
+
+        label
+        {
+            display: inline-block;
+            margin-right: 20px;
+
+            span
+            {
+                display: block;
+            }
+        }
+
+        .id
+        {
+            width: 20px;
+        }
+
+        .href
+        {
+            input
+            {
+                width: 300px;
+            }
+        }
+
+        .order
+        {
+            width: 110px;
+            select
+            {
+                width: 100px;
+            }
+        }
+
+        img
+        {
+            max-width:  600px;
+            max-height: 200px;
+        }
+
+        .clear
+        {
+            margin-top: 10px;
+            clear: both;
+        }
+    }

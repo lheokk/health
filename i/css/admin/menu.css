@@ -1,0 +1,165 @@
+
+    .admin-menu
+    {
+        text-align: center;
+        border-bottom: 1px solid #AAA;
+
+        padding: 4px 20px;
+
+        .m-gradient(#444, #333);
+
+        border-top:    1px solid #222;
+        border-bottom: 1px solid #000;
+
+        .admin-menu-inner
+        {
+            width: 1014px;
+            margin: 0 auto;
+
+            a
+            {
+                float: left;
+                display: block;
+           
+                margin-right: 4px;
+           
+                padding: 4px 8px 2px;
+
+                color: #ccc;
+                .m-text-shadow(#111, 1px);
+                text-decoration: none;
+                
+                &:hover
+                {
+                    background: #BBB;
+                    color: white;
+                }
+			}	
+		
+
+		a:hover,
+		a.active
+		{
+			background: none;
+			color: #fff;
+		}
+           
+		.push-right
+		{
+			float: right;
+			display: block;
+			color: #00A2F1;
+		}
+           
+		.clear
+		{	
+                clear: both;
+		}
+	}
+}
+
+    .edit-menu-block-input
+    {
+        height: 5px;
+    }
+
+    .menu-selector
+    {
+        padding: 2px 0;
+    }
+    .menu-selector-sortable-box 
+    {
+        cursor: move;
+    }
+
+    .menu-options
+    {
+        .m-border-radius (3px);
+        .m-gradient (#E6E6E6, #F0ECE9);
+
+        border: 1px solid lightGrey;
+        cursor: pointer;
+        position: absolute;
+        top: 5px;
+        width: 18px;
+        height: 18px;
+    }
+
+    .menu-option:hover
+    {
+        border: 1px solid #555
+    }
+
+    .menu-option-delete
+    {
+        right: 28px;
+    }
+
+    .menu-option-edit
+    {
+        right: 53px;
+    }
+
+    .menu-option-end-edit
+    {
+        right: 53px;
+    }
+
+    .menu-option-confirm
+    {
+        left: 175px;
+        top: 7px !important;
+        width: 16px !important;
+        height: 16px !important;
+    }
+
+    .menu-option-move
+    {
+        right: 11px;
+        position: absolute;
+        top: 7px;
+    }
+
+    .menu-selector li
+	{
+        margin: 0;
+    }
+
+    .ui-state-highlight
+    {
+        padding: 5px 0;
+        
+        margin-left: 27px !important;
+        height: 30px;
+        -moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		-o-border-radius: 5px;
+		-ms-border-radius: 5px;
+		-khtml-border-radius: 5px;
+		border-radius: 5px;
+    }
+	
+	.dedicated-text
+	{
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		-o-border-radius: 3px;
+		-ms-border-radius: 3px;
+		-khtml-border-radius: 3px;
+		border-radius: 3px;
+		background-color: #f3f1f0 !important;
+		background-repeat: repeat-x;
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6f6f6',endColorstr='#f0ece9',GradientType=0);
+		background-image: -khtml-gradient(linear,left top,left bottom,from(#F6F6F6),to(#F0ECE9));
+		background-image: -moz-linear-gradient(top,#F6F6F6,#F0ECE9);
+		background-image: -ms-linear-gradient(top,#F6F6F6,#F0ECE9);
+		background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#F6F6F6),color-stop(100%,#F0ECE9));
+		background-image: -webkit-linear-gradient(top,#F6F6F6,#F0ECE9);
+		background-image: -o-linear-gradient(top,#F6F6F6,#F0ECE9);
+		background-image: linear-gradient(#F6F6F6,#F0ECE9);
+		border: 1px solid #D4D4D4;
+		border-color: #D4D4D4 #D4D4D4 #BCBCBC;
+		padding: 6px;
+		margin: 5px;
+		position: relative;
+	}

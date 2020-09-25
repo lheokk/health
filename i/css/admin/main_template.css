@@ -1,0 +1,238 @@
+    html
+    {
+        background-color: white;
+		height: 100%;
+		padding:0;
+		margin:0;
+		position:relative;
+    }
+
+    body
+    {
+        background-color: white;
+        color: #111;
+        line-height: 150%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+		padding:0;
+		margin:0;
+		height:100%;
+		position:relative;
+    }
+
+    ul
+    {
+        margin: 0 0 5px 0;
+        padding: 0px;
+        list-style-type: none;
+        padding-left: 10px;
+    }
+
+    ul li
+    {
+        padding-left: 22px;
+    }
+
+    table td
+    {
+        text-align: left;
+        line-height: 150%;
+    }
+
+    a img,
+    a img:hover
+    {
+        border: none 0;
+    }
+
+    a, a:hover
+    {
+        cursor: pointer;
+    }
+
+    a, a:link
+    {
+        color: #222;
+        text-decoration: underline;
+    }
+
+    a:visited
+    {
+        color: #098eff;
+    }
+
+    a:active
+    {
+        color: #000;
+    }
+
+    a:hover
+    {
+        color: #111;
+        text-decoration: none;
+    }
+
+    h1, h2, h3
+    {
+        background-color: transparent;
+        color: #666;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 3px 0 6px;
+        margin-bottom: 7px;
+    }
+
+    h1, h2
+    {
+        border-bottom: 1px solid #DDD;
+    }
+
+    h2
+    {
+        font-size: 16px;
+    }
+
+    h3
+    {
+        font-size: 14px;
+    }
+
+    h4, h5, h6
+    {
+        font-size: 14px;
+        font-weight: normal;
+    }
+
+    h1, h2, h3, h4, h5, h6
+    {
+        small
+        {
+            color: #999;
+            font-size: 12px;
+        }
+    }
+
+    input, textarea, select
+    {
+        border: 1px solid #BBB;
+        padding: 5px 7px;
+        font-size: 14px;
+
+        text-align: left;
+        color: #222;
+
+        .m-border-radius(4px);
+        .m-inset-shadow(#DDD, 6px, 1px, 0);
+    }
+
+    input:focus,
+    select:focus,
+    textarea:focus
+    {
+        border-color: #569aff;
+        background: #EFEFEF;
+        outline: none;
+    }
+
+    small
+    {
+        font-size: 11px;
+        color: #B0B0B0;
+        line-height: 1.5;
+    }
+
+
+
+    /* Для главного шаблона админки */
+    .container
+    {
+        width: 1000px;
+        margin: 0 auto;
+        margin-bottom: -30px;
+    }
+
+    #head
+    {
+        background: #EEE;
+        padding: 15px;
+        border-bottom: 1px solid #DDD;
+        margin-bottom: 15px;
+
+        .menu
+        {
+            text-align: center;
+
+            a
+            {
+                padding: 7px;
+                background: #DDD;
+                border: 1px solid #999;
+                color: #111;
+                .m-border-radius(5px);
+                text-decoration: none;
+                
+                &:hover
+                {
+                    background: #BBB;
+                    color: white;
+                }
+            }
+        }
+    }
+
+    #content
+    {
+		min-height:100%;
+    }
+	.container
+	{
+		padding-bottom:20px;
+	}
+    #footer
+    {
+        border-top: 1px solid #DDD;
+        margin-top: 15px;
+        padding: 15px;
+        color: #999;
+        font-size: 12px;
+    }
+
+    .dedicated-text
+    {
+        .m-border-radius (3px);
+        .m-gradient (#F6F6F6, #F0ECE9);
+
+        border: 1px solid #D4D4D4;
+        border-color: #D4D4D4 #D4D4D4 #BCBCBC;
+        padding: 6px;
+        margin: 5px;
+        position: relative;
+    }
+
+    .ajax-dotted-line
+    {
+        width: 100%;
+        height: 1px;
+        background: url(/i/image/admin/ajax_dotted_line.jpg) repeat-x;
+    }
+
+    .space
+    {
+        width: 100%;
+        height: 10px;
+    }
+
+    .footer
+    {
+        width: 100%;
+        color: white;
+        font-size: 11px;
+        padding: 4px 0 4px 0 !important;
+        height:20px; /* высота футера */
+        margin-top:-20px; /* отрицательный маргин, равный высоте футера */
+        position:relative;
+    }
+
+    .footer a {color: white; text-decoration: none;}
+    .footer a:hover {color: white;}
+    .footer-menu {position: absolute; right: 150px; top: 4px;}

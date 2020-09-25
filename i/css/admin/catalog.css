@@ -1,0 +1,20 @@
+#ans-item-cat {display: none;}
+
+#new-item-form input[type=text] {width: 550px;}
+
+.catalog-item-box {width: 256px; padding: 10px; float: left; margin-right: 15px; margin-top: 15px; position: relative;
+    .m-border-radius (8px);
+    .m-gradient (#F6F6F6, #F0ECE9);}
+
+.catalog-item-box-close {position: absolute; background: #ffa1a1; width: 17px; height: 17px; top: -4px; right: -4px; cursor: pointer;
+    .m-border-radius (3px);}
+
+.upload, .catalog-item-img, .update-img {width: 256px; height: 200px; background: #ebffeb; border: 1px dotted lightgray; font-weight: bold; margin-bottom: 10px;}
+.catalog-item-img {border: none;}
+.new-variety-area {position: relative;}
+
+.color-pic, .color-pic-edit {margin: 0; padding: 0;}
+.color-pic li, .color-pic-edit li {float: left; margin: 0; padding: 0; margin-left: 5px; cursor: pointer; width: 32px; height: 34px;}
+.color-pic li.selected {background: url(/i/image/catalog/color_pic_selected_white.png) no-repeat center center; border: 2px solid #757474; border-radius: 7px; -moz-border-radius: 7px; -webkit-border-radius: 7px; width: 28px; height: 30px;}
+
+.added_image img {margin-top: 70px;}

@@ -1,0 +1,28 @@
+
+    .admin-login-form
+    {
+        background: #f8f8f8;
+        border: 1px solid #e8e8e8;
+        .m-border-radius(7px);
+
+        width: 267px;
+        margin: 60px auto;
+
+        padding: 15px 30px 25px 30px;
+
+        input
+        {
+            width: 250px;
+        }
+
+        label
+        {
+            margin: 10px 0;
+            display: block;
+            span
+            {
+                font-size: 13px;
+                display: block;
+            }
+        }
+    }

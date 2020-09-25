@@ -1,0 +1,43 @@
+
+    /**
+     * Стандартная таблица
+     *
+     * @author Zmi
+     */
+
+
+    table.std-table
+    {
+        background-color: #EEE;
+        border-collapse: collapse;
+        margin: 4px 0 15px 0;
+        text-align: left;
+        line-height: 125%;
+        font-size: 11px;
+        color: #121212;
+
+        tr
+        {
+            th
+            {
+                background: #d7d3d2 url("../../image/dev/std_table.png") left top repeat-x;
+                border: 1px solid #BBB5B7;
+                padding: 2px 5px 2px 5px;
+                text-align: center;
+                vertical-align: middle;
+            }
+
+            td
+            {
+                color: #2D3935;
+                padding: 2px 5px 2px 5px;
+                vertical-align: top;
+                border: 1px solid #D0D0D0;
+            }
+        }
+
+        tr:hover td
+        {
+            background-color: #D0D0D0;
+        }
+    }
