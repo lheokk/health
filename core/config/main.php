@@ -50,7 +50,7 @@
     $g_config['extrapacker']                             = array();
     $g_config['extrapacker']['dir']                      = 'auto_merge_css_js';
     $g_config['extrapacker']['packHtml']                 = false;
-    $g_config['extrapacker']['packCss']                  = true;
+    $g_config['extrapacker']['packCss']                  = false;
     $g_config['extrapacker']['packJs']                   = false;
     $g_config['extrapacker']['arrExeptions_js']          = array();
     $g_config['extrapacker']['arrExeptionsNotAdd_js']    = array();

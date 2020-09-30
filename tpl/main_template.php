@@ -19,18 +19,16 @@
         <link rel="stylesheet" type="text/css" href="<?= Root('i/css/normalize.css') ?>" />
         <link rel="stylesheet" type="text/css" href="<?= Root('i/css/dev/funcs.css') ?>" />
         <link rel="stylesheet" type="text/css" href="<?= Root('i/css/main.css') ?>" />
+        <link rel="stylesheet" type="text/css" href="<?= Root('i/css/style.css') ?>" />
 
         <script type="text/javascript" src="<?= Root('i/js/jquery-1.7.2.min.js') ?>"></script>
         <script type="text/javascript" src="<?= Root('i/js/main.js') ?>"></script>
         <!-- extraPacker -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     </head>
     <body>
 
         <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-        <link rel="stylesheet" href="styyle.css"> 
-        <title>health</title>
-    </head>
 
 <body>
     <style> .wrap {width: 100%; margin: 0 auto}</style>
@@ -224,9 +222,10 @@
             </div>
         </div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-        <script src="js/megamenu.js"></script>
+        <script src="<?= Root('i/js/js/megamenu.js') ?>"></script>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    </div>
 </body>
 </html>
