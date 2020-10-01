@@ -21,7 +21,13 @@
         <link rel="stylesheet" type="text/css" href="<?= Root('i/css/main.css') ?>" />
         <link rel="stylesheet" type="text/css" href="<?= Root('i/css/sttyle.css') ?>" />
         <link rel="stylesheet" type="text/css" href="<?= Root('i/css/megamenu.css') ?>" />
+       
+<!--        карусель-->
+        <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+        <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
 
+        
+        
         <script type="text/javascript" src="<?= Root('i/js/jquery-1.7.2.min.js') ?>"></script>
         <script type="text/javascript" src="<?= Root('i/js/main.js') ?>"></script>
         <!-- extraPacker -->
@@ -212,48 +218,65 @@
             </div>
         </div>
 
+     <div class="owl-carousel owl-theme">
+    <div class="item" style="width:191px"><h4><img src="/i/image/metropol.jpg"></h4></div>
+    <div class="item" style="width:100px"><h4><img src="/i/image/okay.png"></h4></div>
+    <div class="item" style="width:220px"><h4><img src="/i/image/hotel.png"></h4></div>
+    <div class="item" style="width:152px"><h4><img src="/i/image/globus.png"></h4></div>
+    <div class="item" style="width:310px"><h4><img src="/i/image/cosmic.png"></h4></div>
+    <div class="item" style="width:240px"><h4><img src="/i/image/moscow.png"></h4></div>
+    <div class="item" style="width:143px"><h4><img src="/i/image/ukraine.png"></h4></div>
+    <div class="item" style="width:214px"><h4><img src="/i/image/procons.png"></h4></div>
+    <div class="item" style="width:226px"><h4><img src="/i/image/line.png"></h4></div>
+    <div class="item" style="width:240px"><h4><img src="/i/image/work.png"></h4></div>
+ 
+</div>
         <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="cookie">
+                    Cookie/обработка данных
+                    </div>
+                </div>
+                <div class="col-md-1">
+                    <div class="star star_"></div>
+                </div>
+                <div class="col-md-8">
+                    <div class="RUS">РУСМЕДЗДРАВ</div>
+                </div>
+            </div>
             <div class="row">
                 <div class="col">
                     <ul class="footer">
-                        <li><a href="#">Menu</a></li>
-                        <li><a href="#">Menu</a></li>
-                        <li><a href="#">Menu</a></li>
-                        <li><a href="#">Menu</a></li>
-                        <li><a href="#">Menu</a></li>
-                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Справка для водителей</a></li>
+                        <li><a href="#">Справка на оружие</a></li>
+                        <li><a href="#">Справка для бассейна и фитнеса</a></li>
+                        <li><a href="#">Справка в ВУЗ</a></li>
+                        <li><a href="#">Справка в для госслужбы</a></li>
+                      
                     </ul>
                 </div>
                 <div class="col">
-                    <ul>
-                        <li><a href="#">Menu</a></li>
-                        <li><a href="#">Menu</a></li>
-                        <li><a href="#">Menu</a></li>
-                        <li><a href="#">Menu</a></li>
-                        <li><a href="#">Menu</a></li>
-                        <li><a href="#">Menu</a></li>
+                    <ul class="footer">
+                        <li><a href="#">Профосмотры</a></li>
+                        <li><a href="#">Медкнижки</a></li>
+                        <li><a href="#">Выездные профосмотры</a></li>
+                        <li><a href="#">Психиатричесое свидетельство</a></li>
+                        <li><a href="#">Справки для госслужбы</a></li>
+                       
                     </ul>
                 </div>
                 <div class="col">
-                    <ul>
-                        <li><a href="#">Menu</a></li>
-                        <li><a href="#">Menu</a></li>
-                        <li><a href="#">Menu</a></li>
-                        <li><a href="#">Menu</a></li>
-                        <li><a href="#">Menu</a></li>
-                        <li><a href="#">Menu</a></li>
-                    </ul>
+                    <ul class="footer">
+                        
+                        <li><a href="#">Отзывы</a></li>
+                        <li><a href="#">Документы</a></li>
+                        <li><a href="#">Партнеры</a></li>
+                        <li><a href="#">Структура</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>   
                 </div>
-                <div class="col ">
-                    <ul>
-                        <li><a href="#">Menu</a></li>
-                        <li><a href="#">Menu</a></li>
-                        <li><a href="#">Menu</a></li>
-                        <li><a href="#">Menu</a></li>
-                        <li><a href="#">Menu</a></li>
-                        <li><a href="#">Menu</a></li>
-                    </ul>
-                </div>
+                
             </div>
         </div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
