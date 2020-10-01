@@ -20,6 +20,7 @@
         <link rel="stylesheet" type="text/css" href="<?= Root('i/css/dev/funcs.css') ?>" />
         <link rel="stylesheet" type="text/css" href="<?= Root('i/css/main.css') ?>" />
         <link rel="stylesheet" type="text/css" href="<?= Root('i/css/style.css') ?>" />
+        <link rel="stylesheet" type="text/css" href="<?= Root('i/css/megamenu.css') ?>" />
 
         <script type="text/javascript" src="<?= Root('i/js/jquery-1.7.2.min.js') ?>"></script>
         <script type="text/javascript" src="<?= Root('i/js/main.js') ?>"></script>
@@ -27,137 +28,126 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     </head>
     <body>
-
-        <!-- Bootstrap CSS -->
-
-<body>
-    <style> .wrap {width: 100%; margin: 0 auto}</style>
-    <style> .full {width: 100%; height: auto}</style>
-    <div class="row">
-        <div class="col">
-            <div class="menu-container">
-                <div class="menu star">
-                    <div class= ' rusmed'> РУСМЕДЗДРАВ
-                    </div>
-                </div>
-            </div>
-        </div> 
-
-        <div class="col">
-            <div class="menu-container ">
-                <div class="menu">
-                    <ul>
-                        <li>О центре</li>
-                        <li>Услуги</li>
-                        <li>Акции</li>
-                        <li>Партнёрство</li>
-                        <!-- What ever, basic html menu(lists)! Dont worry megamenu.js will know -->
-                    </ul>
-                </div>
-            </div>
-        </div> 
-
-        <div class="col">
-            <div class="menu-container ">
-                <div class="menu ">
-                    <ul>
-                        <li>Карьера</li>
-                        <li>Блог</li>
-                        <!-- What ever, basic html menu(lists)! Dont worry megamenu.js will know -->
-                    </ul>
-                </div>
-            </div>
-        </div> 
-    </div>
-
-    <div class='full'>     
-        <div class="container ">
+        <style> .full {width: 100%; height: auto}</style>
+        <div class="container">
             <div class="row">
+                <div class="col">
+                    <div class="star">
+                        <div class='rusmed'>
+                            РУСМЕДЗДРАВ
+                        </div>
+                    </div>
+                </div> 
+
                 <div class="col">
                     <div class="menu-container">
                         <div class="menu">
-                            <div class='blue-line full'> COVID-19. Тестирование на коронавирус с выездом на дом и предприятие. Читать подробнее
-                            </div>
+                            <ul>
+                                <li>О центре</li>
+                                <li>Услуги</li>
+                                <li>Акции</li>
+                                <li>Партнёрство</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> 
+
+                <div class="col">
+                    <div class="menu-container ">
+                        <div class="menu ">
+                            <ul>
+                                <li>Карьера</li>
+                                <li>Блог</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <div class='full blue-line'> 
+            <div class="container ">
+                <div class="row">
+                    <div class="col">
+                        <div style="padding: 25px 0;">
+                            COVID-19. Тестирование на коронавирус с выездом на дом и предприятие. Читать подробнее
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class='row'>
-        <div class='col med'>
-
-        </div>    
-    </div>
-    <div class='container'>    
-        <div class='row'>
-            <div class='col offset-1'>
-                <div class='bell'>
-                    Заказать обратный звонок
+        <div class='container'>    
+            <div class='row'>
+                <div class='col-lg-4 col-md-4'>
+                    <div class='bell'>
+                        Заказать обратный звонок
+                    </div>
+                </div>
+                <div class='col-lg-8 col-md-8'>
+                    ООО «РУСМЕДЗДРАВ» предоставляет полный <br> пакет услуг согласно Приказу Министерства <br> здравоохранения и социального развития РФ <br> от 12.04.2011№ 302 н «Об утверждении перечней <br> вредных и (или) опасных производственных <br> факторов, при выполнении которых проводятся <br> обязательные предварительные и периодические <br> осмотры (обследования)»
                 </div>
             </div>
         </div>
-
-
-        <div class='row '>
-            <div class='col offset-7'>
-
-                ООО «РУСМЕДЗДРАВ» предоставляет полный <br> пакет услуг согласно Приказу Министерства <br> здравоохранения и социального развития РФ <br> от 12.04.2011№ 302 н «Об утверждении перечней <br> вредных и (или) опасных производственных <br> факторов, при выполнении которых проводятся <br> обязательные предварительные и периодические <br> осмотры (обследования)»
-
-            </div>
-        </div>
-
         <div class='bg-F7'>
             <div class="container">
                 <div class="row">
                     <div class="col">
-                        <div class='book-img'></div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="list-img"></div>
+                                </div>
+                                <div class="col">
+                                    <div class="med-book">Медицинские справки </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="garant">
+                                        Мы обладаем медицинской лицензией МинЗдрава РФ и предоставляет только официальные документы...
+                                    </div>
+                                    <div class="read"> Читать полностью...</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class=""></div>
+                        <div class="doctor-img"></div>
+                        <div class="low"> Дешевле, чем у конкурентов</div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class=""></div>
+                        <div class="doctor-img"></div>
                         <div class="low"> Дешевле, чем у конкурентов</div>
                     </div>
                     <div class="col">
-
-                        <div class="line">
-                            <div class="kniga-img line">
-                                <div class="med-book line"<br>Медицинские книжки </div>
-                            </div>
-
-                            <div class="both"></div>
-                            <div class="garant">
-                                У нас вы можете заказать оформление <br> и продление Медицинской книжки. Мы <br> гарантируем, что....
-                            </div>
-                            <div class="read"> Читать полностью...</div>
-                        </div>
-                    </div> 
-                </div>
-
-                <div class="container">
-                    <div class="row">
-                        <div class="col">
-
-                            <div class="line">
-                                <div class="list-img line">
-                                    <div class="med-book line"<br>Медицинские справки </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="list-img"></div>
                                 </div>
-
-                                <div class="both"></div>
-                                <div class="garant">
-                                    Мы обладаем медицинской лицензией МинЗдрава РФ и предоставляет только официальные документы...
+                                <div class="col">
+                                    <div class="med-book">Медицинские справки</div>
                                 </div>
-                                <div class="read"> Читать полностью...</div>
                             </div>
-                        </div> 
-                        <div class="col">
-                            <div class=""></div>
-                            <div class="doctor-img"></div>
-                            <div class="low"> Дешевле, чем у конкурентов</div>
-
+                            <div class="row">
+                                <div class="col">
+                                    <div class="garant">
+                                        Мы обладаем медицинской лицензией МинЗдрава РФ и предоставляет только официальные документы...
+                                    </div>
+                                    <div class="read"> Читать полностью...</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-
                 </div>
             </div>
-            <div class="star2"></div>
         </div>
+        <div class="star2"></div>
 
         <div class="container">
             <div class="row">
@@ -221,11 +211,56 @@
                 </div>
             </div>
         </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <ul>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Menu</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Menu</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Menu</a></li>
+                    </ul>
+                </div>
+                <div class="col ">
+                    <ul>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Menu</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-        <script src="<?= Root('i/js/js/megamenu.js') ?>"></script>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    </div>
-</body>
+        <script src="<?= Root('i/js/megamenu.js') ?>"></script>
+
+    </body>
 </html>
