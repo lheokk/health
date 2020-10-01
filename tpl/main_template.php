@@ -19,7 +19,7 @@
         <link rel="stylesheet" type="text/css" href="<?= Root('i/css/normalize.css') ?>" />
         <link rel="stylesheet" type="text/css" href="<?= Root('i/css/dev/funcs.css') ?>" />
         <link rel="stylesheet" type="text/css" href="<?= Root('i/css/main.css') ?>" />
-        <link rel="stylesheet" type="text/css" href="<?= Root('i/css/style.css') ?>" />
+        <link rel="stylesheet" type="text/css" href="<?= Root('i/css/sttyle.css') ?>" />
         <link rel="stylesheet" type="text/css" href="<?= Root('i/css/megamenu.css') ?>" />
 
         <script type="text/javascript" src="<?= Root('i/js/jquery-1.7.2.min.js') ?>"></script>
@@ -215,7 +215,7 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <ul>
+                    <ul class="footer">
                         <li><a href="#">Menu</a></li>
                         <li><a href="#">Menu</a></li>
                         <li><a href="#">Menu</a></li>

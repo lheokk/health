@@ -23,8 +23,8 @@
         (
             'db' => array(
                 'dsn' => 'mysql:host=localhost;dbname=gpsite;charset=utf8',
-                'login' => 'root',
-                'pwd' => ''
+                'login' => 'mysql',
+                'pwd' => 'mysql'
             ),
         );
     }
