@@ -22,14 +22,17 @@
         <link rel="stylesheet" type="text/css" href="<?= Root('i/css/sttyle.css') ?>" />
         <link rel="stylesheet" type="text/css" href="<?= Root('i/css/megamenu.css') ?>" />
        
-<!--        карусель-->
-        <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
-        <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
 
         
-        
+        <!-- карусель тут подкюлчатеся -->
+        <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+        <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+        <script src="jquery-3.5.1.min.js"></script>
+        <script src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+            
         <script type="text/javascript" src="<?= Root('i/js/jquery-1.7.2.min.js') ?>"></script>
         <script type="text/javascript" src="<?= Root('i/js/main.js') ?>"></script>
+       
         <!-- extraPacker -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     </head>
@@ -231,7 +234,15 @@
     <div class="item" style="width:240px"><h4><img src="/i/image/work.png"></h4></div>
  
 </div>
-        <div class="container">
+        <script>
+            $('.owl-carousel').owlCarousel({
+    margin:10,
+    loop:true,
+    autoWidth:true,
+    items:4 })
+      </script>
+        
+      <div class="container">
             <div class="row">
                 <div class="col-md-3">
                     <div class="cookie">
