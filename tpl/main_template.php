@@ -19,18 +19,19 @@
         <link rel="stylesheet" type="text/css" href="<?= Root('i/css/normalize.css') ?>" />
         <link rel="stylesheet" type="text/css" href="<?= Root('i/css/dev/funcs.css') ?>" />
         <link rel="stylesheet" type="text/css" href="<?= Root('i/css/main.css') ?>" />
-        <link rel="stylesheet" type="text/css" href="<?= Root('i/css/da.css') ?>" />
+        <link rel="stylesheet" type="text/css" href="<?= Root('i/css/style.css') ?>" />
         <link rel="stylesheet" type="text/css" href="<?= Root('i/css/megamenu.css') ?>" />
        
 
         
         <!-- карусель тут подкюлчатеся -->
-        <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
-        <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
-        <script src="jquery-3.5.1.min.js"></script>
-        <script src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
-            
+        <link rel="stylesheet" href="<?= Root('i/css/owl.carousel.min.css')?>">
+              
+        <link rel="stylesheet" href="<?= Root ('i/css/owl.theme.default.min.css')?>">
+       
         <script type="text/javascript" src="<?= Root('i/js/jquery-1.7.2.min.js') ?>"></script>
+        <script src="<?= Root ('i/js/owl.carousel.min.js') ?>"></script>
+       
         <script type="text/javascript" src="<?= Root('i/js/main.js') ?>"></script>
        
         <!-- extraPacker -->
@@ -92,6 +93,7 @@
                 </div>
             </div>
         </div>
+            </div>
         <div class='container'>    
             <div class='row'>
                 <div class='col-lg-4 col-md-4'>
@@ -249,26 +251,10 @@
     autoWidth:true,
     items:4 })
       </script>
-      <div class="bg-F7">
-          <div class="container">
-              <div class="row">
-                  <div class="col-md-4">
-                      <div class="procent"></div>
-                      <div class="sale">Акция</div>
-                  </div>   
-                  
-                  <div class="col-md-4">
-                      <div class="doc"></div>
-                      <div class="sale">Статья</div>
-                  </div>   
-                  
-                  <div class="col-md-4">
-                      <div class="stop"></div>
-                      <div class="sale">Новость</div>
-                  </div>   
-              </div>
-          </div>
-      </div>    
+      <div class="bg-F7"> 
+     
+        
+          
       <div class="container">
             <div class="row">
                 <div class="col-md-3">
@@ -314,7 +300,6 @@
                         <li><a href="#">Контакты</a></li>
                     </ul>   
                 </div>
-                
             </div>
         </div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
