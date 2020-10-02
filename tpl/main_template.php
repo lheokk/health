@@ -22,14 +22,12 @@
         <link rel="stylesheet" type="text/css" href="<?= Root('i/css/style.css') ?>" />
         <link rel="stylesheet" type="text/css" href="<?= Root('i/css/megamenu.css') ?>" />
        
-
-        
         <!-- карусель тут подкюлчатеся -->
         <link rel="stylesheet" href="<?= Root('i/css/owl.carousel.min.css')?>">
               
         <link rel="stylesheet" href="<?= Root ('i/css/owl.theme.default.min.css')?>">
        
-        <script type="text/javascript" src="<?= Root('i/js/jquery-1.7.2.min.js') ?>"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
         <script src="<?= Root ('i/js/owl.carousel.min.js') ?>"></script>
        
         <script type="text/javascript" src="<?= Root('i/js/main.js') ?>"></script>
