@@ -19,7 +19,7 @@
         <link rel="stylesheet" type="text/css" href="<?= Root('i/css/normalize.css') ?>" />
         <link rel="stylesheet" type="text/css" href="<?= Root('i/css/dev/funcs.css') ?>" />
         <link rel="stylesheet" type="text/css" href="<?= Root('i/css/main.css') ?>" />
-        <link rel="stylesheet" type="text/css" href="<?= Root('i/css/sttyle.css') ?>" />
+        <link rel="stylesheet" type="text/css" href="<?= Root('i/css/da.css') ?>" />
         <link rel="stylesheet" type="text/css" href="<?= Root('i/css/megamenu.css') ?>" />
        
 
@@ -81,6 +81,14 @@
                             COVID-19. Тестирование на коронавирус с выездом на дом и предприятие. Читать подробнее
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="med">
                 </div>
             </div>
         </div>
@@ -241,7 +249,26 @@
     autoWidth:true,
     items:4 })
       </script>
-        
+      <div class="bg-F7">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-4">
+                      <div class="procent"></div>
+                      <div class="sale">Акция</div>
+                  </div>   
+                  
+                  <div class="col-md-4">
+                      <div class="doc"></div>
+                      <div class="sale">Статья</div>
+                  </div>   
+                  
+                  <div class="col-md-4">
+                      <div class="stop"></div>
+                      <div class="sale">Новость</div>
+                  </div>   
+              </div>
+          </div>
+      </div>    
       <div class="container">
             <div class="row">
                 <div class="col-md-3">
