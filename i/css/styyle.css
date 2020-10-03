@@ -307,6 +307,12 @@ star_ {
 .pr {
     margin-right: 10000px;
 }
+
+.star_big {
+    width: 77px;
+    height: 67px;
+    background: transparent url(/i/image/star_big.png) center center no-repeat ;
+}
 @media only screen and (max-width: 576px) {
   
 }
