@@ -19,7 +19,7 @@
         <link rel="stylesheet" type="text/css" href="<?= Root('i/css/normalize.css') ?>" />
         <link rel="stylesheet" type="text/css" href="<?= Root('i/css/dev/funcs.css') ?>" />
         <link rel="stylesheet" type="text/css" href="<?= Root('i/css/main.css') ?>" />
-        <link rel="stylesheet" type="text/css" href="<?= Root('i/css/style.css') ?>" />
+        <link rel="stylesheet" type="text/css" href="<?= Root('i/css/styyle.css') ?>" />
         <link rel="stylesheet" type="text/css" href="<?= Root('i/css/megamenu.css') ?>" />
        
         <!-- карусель тут подкюлчатеся -->
@@ -228,31 +228,91 @@
                 </div>
             </div>
         </div>
-
-     <div class="owl-carousel owl-theme">
-    <div class="item" style="width:191px"><h4><img src="/i/image/metropol.jpg"></h4></div>
-    <div class="item" style="width:100px"><h4><img src="/i/image/okay.png"></h4></div>
-    <div class="item" style="width:220px"><h4><img src="/i/image/hotel.png"></h4></div>
-    <div class="item" style="width:152px"><h4><img src="/i/image/globus.png"></h4></div>
-    <div class="item" style="width:310px"><h4><img src="/i/image/cosmic.png"></h4></div>
-    <div class="item" style="width:240px"><h4><img src="/i/image/moscow.png"></h4></div>
-    <div class="item" style="width:143px"><h4><img src="/i/image/ukraine.png"></h4></div>
-    <div class="item" style="width:214px"><h4><img src="/i/image/procons.png"></h4></div>
-    <div class="item" style="width:226px"><h4><img src="/i/image/line.png"></h4></div>
-    <div class="item" style="width:240px"><h4><img src="/i/image/work.png"></h4></div>
- 
-</div>
-        <script>
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="us">
+            С нами работали:
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+         <div class="owl-carousel owl-theme">
+            <div class="item" style="width:285px"><img src="/i/image/metropol.jpg"></div>
+            <div class="item" style="width:285px"><img src="/i/image/okay.jpg"></div>
+            <div class="item" style="width:285px"><img src="/i/image/hotel.jpg"></div>
+            <div class="item" style="width:285px"><img src="/i/image/globus.jpg"></div>
+            <div class="item" style="width:285px"><img src="/i/image/cosmic.jpg"></div>
+            <div class="item" style="width:285px"><img src="/i/image/moscow.jpg"></div>
+<!--        <div class="item" style="width:285px"><img src="/i/image/ukraine.png"></div>-->
+            <div class="item" style="width:285px"><img src="/i/image/procons.jpg"></div>
+            <div class="item" style="width:285px"><img src="/i/image/line.jpg"></div>
+            <div class="item" style="width:285px"><img src="/i/image/work.jpg"></div>
+        </div>
+        </div>
+    </div>
+</div>        <script>
             $('.owl-carousel').owlCarousel({
     margin:10,
     loop:true,
     autoWidth:true,
     items:4 })
       </script>
-      <div class="bg-F7"> 
-     
+      
+      
+    <div class="bg-F7">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+    <div class="owl-carousel owl-theme">
+    
         
-          
+    <div class="item"><h4>
+        <div class="procent"></div>
+        <div class="v_text_16">Акция</div>
+        <div class="rectangle"></div>
+        <div class=""></div></h4>
+    </div>
+        
+         <div class="item"><h4>
+        <div class="procent"></div>
+        <div class="v_text_16">Акция</div>
+        <div class="rectangle"></div>
+        <div class=""></div></h4>
+    </div>
+        
+    
+ 
+        
+    
+    </div>
+                 </div>
+            </div>
+        </div>
+    </div>  
+    
+        <script>
+           $('.owl-carousel').owlCarousel({
+    loop:false,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+      </script>
+    
+      </div>    
+       
       <div class="container">
             <div class="row">
                 <div class="col-md-3">
