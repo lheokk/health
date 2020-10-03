@@ -21,17 +21,17 @@
         <link rel="stylesheet" type="text/css" href="<?= Root('i/css/main.css') ?>" />
         <link rel="stylesheet" type="text/css" href="<?= Root('i/css/styyle.css') ?>" />
         <link rel="stylesheet" type="text/css" href="<?= Root('i/css/megamenu.css') ?>" />
-       
+
         <!-- карусель тут подкюлчатеся -->
-        <link rel="stylesheet" href="<?= Root('i/css/owl.carousel.min.css')?>">
-              
-        <link rel="stylesheet" href="<?= Root ('i/css/owl.theme.default.min.css')?>">
-       
+        <link rel="stylesheet" href="<?= Root('i/css/owl.carousel.min.css') ?>">
+
+        <link rel="stylesheet" href="<?= Root('i/css/owl.theme.default.min.css') ?>">
+
         <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-        <script src="<?= Root ('i/js/owl.carousel.min.js') ?>"></script>
-       
+        <script src="<?= Root('i/js/owl.carousel.min.js') ?>"></script>
+
         <script type="text/javascript" src="<?= Root('i/js/main.js') ?>"></script>
-       
+
         <!-- extraPacker -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     </head>
@@ -83,15 +83,15 @@
                 </div>
             </div>
         </div>
-        
+
         <div class="container">
             <div class="row">
                 <div class="col">
                     <div class="med">
+                    </div>
                 </div>
             </div>
         </div>
-            </div>
         <div class='container'>    
             <div class='row'>
                 <div class='col-lg-4 col-md-4'>
@@ -228,144 +228,169 @@
                 </div>
             </div>
         </div>
-<div class="container">
-    <div class="row">
-        <div class="col">
-            <div class="us">
-            С нами работали:
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col">
-         <div class="owl-carousel owl-theme">
-            <div class="item" style="width:285px"><img src="/i/image/metropol.jpg"></div>
-            <div class="item" style="width:285px"><img src="/i/image/okay.jpg"></div>
-            <div class="item" style="width:285px"><img src="/i/image/hotel.jpg"></div>
-            <div class="item" style="width:285px"><img src="/i/image/globus.jpg"></div>
-            <div class="item" style="width:285px"><img src="/i/image/cosmic.jpg"></div>
-            <div class="item" style="width:285px"><img src="/i/image/moscow.jpg"></div>
-<!--        <div class="item" style="width:285px"><img src="/i/image/ukraine.png"></div>-->
-            <div class="item" style="width:285px"><img src="/i/image/procons.jpg"></div>
-            <div class="item" style="width:285px"><img src="/i/image/line.jpg"></div>
-            <div class="item" style="width:285px"><img src="/i/image/work.jpg"></div>
-        </div>
-        </div>
-    </div>
-</div>        <script>
-            $('.owl-carousel').owlCarousel({
-    margin:10,
-    loop:true,
-    autoWidth:true,
-    items:4 })
-      </script>
-      
-      
-    <div class="bg-F7">
-       <div class="container">
+        <div class="container">
             <div class="row">
                 <div class="col">
-    <div class="owl-carousel owl-theme">
-    
-       <div class="pr"> 
-    <div class="item"><h4>
-        <div class="procent"></div>
-        <div class="v_text_16">Акция</div>
-        <div class="rectangle"></div>
-        <div class=""></div></h4>
-    </div></div>
-        
-        <div class="pr"> 
-         <div class="item"><h4>
-        <div class="procent"></div>
-        <div class="v_text_16">Акция</div>
-        <div class="rectangle"></div>
-        <div class=""></div></h4>
-    </div></div>
-        
-    
- 
-        
-    
-    </div>
-                 </div>
-            </div>
-        </div>
-    </div>  
-    
-        <script>
-           $('.owl-carousel').owlCarousel({
-    loop:false,
-    margin:10,
-    nav:true,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:3
-        },
-        1000:{
-            items:5
-        }
-    }
-})
-      </script>
-    
-      </div>    
-       
-      <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="cookie">
-                    Cookie/обработка данных
+                    <div class="us">
+                        С нами работали:
                     </div>
                 </div>
-                <div class="col-md-1">
-                    <div class="star star_"></div>
-                </div>
-                <div class="col-md-8">
-                    <div class="RUS">РУСМЕДЗДРАВ</div>
-                </div>
             </div>
             <div class="row">
                 <div class="col">
-                    <ul class="footer">
-                        <li><a href="#">Справка для водителей</a></li>
-                        <li><a href="#">Справка на оружие</a></li>
-                        <li><a href="#">Справка для бассейна и фитнеса</a></li>
-                        <li><a href="#">Справка в ВУЗ</a></li>
-                        <li><a href="#">Справка в для госслужбы</a></li>
-                      
-                    </ul>
-                </div>
-                <div class="col">
-                    <ul class="footer">
-                        <li><a href="#">Профосмотры</a></li>
-                        <li><a href="#">Медкнижки</a></li>
-                        <li><a href="#">Выездные профосмотры</a></li>
-                        <li><a href="#">Психиатричесое свидетельство</a></li>
-                        <li><a href="#">Справки для госслужбы</a></li>
-                       
-                    </ul>
-                </div>
-                <div class="col">
-                    <ul class="footer">
-                        
-                        <li><a href="#">Отзывы</a></li>
-                        <li><a href="#">Документы</a></li>
-                        <li><a href="#">Партнеры</a></li>
-                        <li><a href="#">Структура</a></li>
-                        <li><a href="#">Контакты</a></li>
-                    </ul>   
+                    <div class="owl-carousel owl-theme">
+                        <div class="item" style="width:285px"><img src="/i/image/metropol.jpg"></div>
+                        <div class="item" style="width:285px"><img src="/i/image/okay.jpg"></div>
+                        <div class="item" style="width:285px"><img src="/i/image/hotel.jpg"></div>
+                        <div class="item" style="width:285px"><img src="/i/image/globus.jpg"></div>
+                        <div class="item" style="width:285px"><img src="/i/image/cosmic.jpg"></div>
+                        <div class="item" style="width:285px"><img src="/i/image/moscow.jpg"></div>
+            <!--        <div class="item" style="width:285px"><img src="/i/image/ukraine.png"></div>-->
+                        <div class="item" style="width:285px"><img src="/i/image/procons.jpg"></div>
+                        <div class="item" style="width:285px"><img src="/i/image/line.jpg"></div>
+                        <div class="item" style="width:285px"><img src="/i/image/work.jpg"></div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-        <script src="<?= Root('i/js/megamenu.js') ?>"></script>
+        </div>        <script>
+            $('.owl-carousel').owlCarousel({
+                margin: 10,
+                loop: true,
+                autoWidth: true,
+                items: 4})
+        </script>
 
-    </body>
+
+        <div class="bg-F7">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="owl-carousel owl-theme" id="owl">
+
+                            <div class="pr"> 
+                                <div class="item"><h4>
+                                        <div class="procent"></div>
+                                        <div class="v_text_16">Акция</div>
+                                        <div class="rectangle"></div>
+                                        <div class=""></div></h4>
+                                </div></div>
+
+                            <div class="pr"> 
+                                <div class="item"><h4>
+                                        <div class="procent"></div>
+                                        <div class="v_text_16">Акция</div>
+                                        <div class="rectangle"></div>
+                                        <div class=""></div></h4>
+                                </div></div>
+                            <div class="pr"> 
+                                <div class="item"><h4>
+                                        <div class="procent"></div>
+                                        <div class="v_text_16">Акция</div>
+                                        <div class="rectangle"></div>
+                                        <div class=""></div></h4>
+                                </div></div>
+                            <div class="pr"> 
+                                <div class="item"><h4>
+                                        <div class="procent"></div>
+                                        <div class="v_text_16">Акция</div>
+                                        <div class="rectangle"></div>
+                                        <div class=""></div></h4>
+                                </div></div>
+                            <div class="pr"> 
+                                <div class="item"><h4>
+                                        <div class="procent"></div>
+                                        <div class="v_text_16">Акция</div>
+                                        <div class="rectangle"></div>
+                                        <div class=""></div></h4>
+                                </div></div>
+                            <div class="pr"> 
+                                <div class="item"><h4>
+                                        <div class="procent"></div>
+                                        <div class="v_text_16">Акция</div>
+                                        <div class="rectangle"></div>
+                                        <div class=""></div></h4>
+                                </div></div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>  
+
+        <script>
+            $('#owl').owlCarousel({
+                loop: true,
+                margin: 100,
+                autoWidth: false,
+                nav: true,
+                responsive:{
+                    0:{
+                        items:1
+                    },
+                    770:{
+                        items:2
+                    },
+                    1215:{
+                        items:3
+                    }
+                }
+            });
+        </script>
+
+    </div>    
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="cookie">
+                    Cookie/обработка данных
+                </div>
+            </div>
+            <div class="col-md-1">
+                <div class="star star_"></div>
+            </div>
+            <div class="col-md-8">
+                <div class="RUS">РУСМЕДЗДРАВ</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <ul class="footer">
+                    <li><a href="#">Справка для водителей</a></li>
+                    <li><a href="#">Справка на оружие</a></li>
+                    <li><a href="#">Справка для бассейна и фитнеса</a></li>
+                    <li><a href="#">Справка в ВУЗ</a></li>
+                    <li><a href="#">Справка в для госслужбы</a></li>
+
+                </ul>
+            </div>
+            <div class="col">
+                <ul class="footer">
+                    <li><a href="#">Профосмотры</a></li>
+                    <li><a href="#">Медкнижки</a></li>
+                    <li><a href="#">Выездные профосмотры</a></li>
+                    <li><a href="#">Психиатричесое свидетельство</a></li>
+                    <li><a href="#">Справки для госслужбы</a></li>
+
+                </ul>
+            </div>
+            <div class="col">
+                <ul class="footer">
+
+                    <li><a href="#">Отзывы</a></li>
+                    <li><a href="#">Документы</a></li>
+                    <li><a href="#">Партнеры</a></li>
+                    <li><a href="#">Структура</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>   
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="<?= Root('i/js/megamenu.js') ?>"></script>
+
+</body>
 </html>
