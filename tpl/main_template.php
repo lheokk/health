@@ -262,25 +262,26 @@
       
       
     <div class="bg-F7">
-        <div class="container">
+       <div class="container">
             <div class="row">
                 <div class="col">
     <div class="owl-carousel owl-theme">
     
-        
+       <div class="pr"> 
     <div class="item"><h4>
         <div class="procent"></div>
         <div class="v_text_16">Акция</div>
         <div class="rectangle"></div>
         <div class=""></div></h4>
-    </div>
+    </div></div>
         
+        <div class="pr"> 
          <div class="item"><h4>
         <div class="procent"></div>
         <div class="v_text_16">Акция</div>
         <div class="rectangle"></div>
         <div class=""></div></h4>
-    </div>
+    </div></div>
         
     
  

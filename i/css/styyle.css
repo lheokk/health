@@ -303,6 +303,10 @@ star_ {
 .car {
     margin-left: 100px;
 }
+
+.pr {
+    margin-right: 10000px;
+}
 @media only screen and (max-width: 576px) {
   
 }
