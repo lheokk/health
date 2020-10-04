@@ -138,18 +138,18 @@
             <div class="space50"></div>
             <div class="container">
                 <div class="row">
-                    <div class="col">
+                    <div class="col-lg-6">
                         <div class=""></div>
                         <div class="doctor-img"></div>
                         <div class="low"> Дешевле, чем у конкурентов</div>
                     </div>
-                    <div class="col">
+                    <div class="col-lg-6">
                         <div class="container">
                             <div class="row">
                                 <div class="col-5">
                                     <div class="list-img"></div>
                                 </div>
-                                <div class="col">
+                                <div class="col-4">
                                     <div class="med-book">Медицинские справки</div>
                                 </div>
                             </div>

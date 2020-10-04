@@ -464,57 +464,49 @@ input {outline:none;}
     .f-star {
         margin-top: 17px;
         margin-left: 150px;
-         float: left;
-    position: absolute;
+        float: left;
+        position: absolute;
     }
 
     .f-rusmed {
         margin-top: 30px;
         margin-left: 200px;
-        position: relative;
+        position: relative; 
     }
+    
+    .doctor-img {
+        margin-left: 50px;
+    }
+
+    .list-img {
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+
+    .med-book {
+        margin-left: -75px;
+        margin-top: 50px;
+    }
+
+    .low {margin-left: 135px;}
+
+    .garant {
+        font-size: 30px;
+    }
+
+    .read {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+
 }
 
 
 
 @media only screen and (max-width: 992px) {
 
-    .success {
-        font-size: 36px;
-        margin-left: 110px;
-    }
-    
-    .prices {
-        margin-left: 100px;
-        margin-top:35px;
-        font-size: 23px;
-    }
-    
-    .star2 {
-        width: 77px;
-        height: 67px;
-        background: transparent url(/i/image/star2.png) center center no-repeat ;
-        margin-left: 50%;
-        margin-top: 50px;
-        margin-bottom: 50px;
-    }
-    
-    .cookie {margin-left: 15px;
-             margin-bottom: 30px;}
-
-    .f-star {
-        margin-top: 17px;
-        margin-left:50px;
-         float: left;
-    position: absolute;
-    }
-
-    .f-rusmed {
-        margin-top: 30px;
-        margin-left:100px;
-        position: relative;
-    }
-}
+  
 
 @media only screen and (max-width: 1200px) {
 
@@ -701,12 +693,12 @@ input {outline:none;}
 }
 
 
-  .space10 {width: 100%; height: 10px;}
-    .space20 {width: 100%; height: 20px;}
-    .space50 {width: 100%; height: 50px;}
-    .space75 {width: 100%; height: 75px;}
-    .space100 {width: 100%; height: 100px;}
-    .space150 {width: 100%; height: 150px;}
+.space10 {width: 100%; height: 10px;}
+.space20 {width: 100%; height: 20px;}
+.space50 {width: 100%; height: 50px;}
+.space75 {width: 100%; height: 75px;}
+.space100 {width: 100%; height: 100px;}
+.space150 {width: 100%; height: 150px;}
 
 /* ––––––––––––––––––––––––––––––––––––––––––––––––––
 Mobile style's
@@ -759,5 +751,5 @@ Mobile style's
         display: block;
     }
 
-    
+
 }
