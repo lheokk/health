@@ -105,12 +105,13 @@
             </div>
         </div>
         <div class='bg-F7'>
+            <div class="space50"></div>
             <div class="container">
                 <div class="row">
                     <div class="col">
                         <div class="container">
                             <div class="row">
-                                <div class="col">
+                                <div class="col-5">
                                     <div class="list-img"></div>
                                 </div>
                                 <div class="col">
@@ -134,6 +135,7 @@
                     </div>
                 </div>
             </div>
+            <div class="space50"></div>
             <div class="container">
                 <div class="row">
                     <div class="col">
@@ -144,7 +146,7 @@
                     <div class="col">
                         <div class="container">
                             <div class="row">
-                                <div class="col">
+                                <div class="col-5">
                                     <div class="list-img"></div>
                                 </div>
                                 <div class="col">
@@ -444,45 +446,42 @@
 
             <div class="col-md-1">
                 <div class="f-star"></div>
-               <div class="f-rusmed">РУСМЕДЗДРАВ</div>
+                <div class="f-rusmed">РУСМЕДЗДРАВ</div>
             </div>
-            
-               
-               
-            
-
         </div>
     </div>
-    <div class="row">
-        <div class="col">
-            <ul class="footer">
-                <li><a href="#">Справка для водителей</a></li>
-                <li><a href="#">Справка на оружие</a></li>
-                <li><a href="#">Справка для бассейна и фитнеса</a></li>
-                <li><a href="#">Справка в ВУЗ</a></li>
-                <li><a href="#">Справка в для госслужбы</a></li>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <ul class="footer">
+                    <li><a href="#">Справка для водителей</a></li>
+                    <li><a href="#">Справка на оружие</a></li>
+                    <li><a href="#">Справка для бассейна и фитнеса</a></li>
+                    <li><a href="#">Справка в ВУЗ</a></li>
+                    <li><a href="#">Справка в для госслужбы</a></li>
 
-            </ul>
-        </div>
-        <div class="col">
-            <ul class="footer">
-                <li><a href="#">Профосмотры</a></li>
-                <li><a href="#">Медкнижки</a></li>
-                <li><a href="#">Выездные профосмотры</a></li>
-                <li><a href="#">Психиатричесое свидетельство</a></li>
-                <li><a href="#">Справки для госслужбы</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <ul class="footer">
+                    <li><a href="#">Профосмотры</a></li>
+                    <li><a href="#">Медкнижки</a></li>
+                    <li><a href="#">Выездные профосмотры</a></li>
+                    <li><a href="#">Психиатричесое свидетельство</a></li>
+                    <li><a href="#">Справки для госслужбы</a></li>
 
-            </ul>
-        </div>
-        <div class="col">
-            <ul class="footer">
+                </ul>
+            </div>
+            <div class="col">
+                <ul class="footer">
 
-                <li><a href="#">Отзывы</a></li>
-                <li><a href="#">Документы</a></li>
-                <li><a href="#">Партнеры</a></li>
-                <li><a href="#">Структура</a></li>
-                <li><a href="#">Контакты</a></li>
-            </ul>   
+                    <li><a href="#">Отзывы</a></li>
+                    <li><a href="#">Документы</a></li>
+                    <li><a href="#">Партнеры</a></li>
+                    <li><a href="#">Структура</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>   
+            </div>
         </div>
     </div>
 </div>

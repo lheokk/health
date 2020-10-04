@@ -7,7 +7,7 @@
 
 @font-face{
     font-family: 'Helvetica Light';
-    src: url('/i/fonts/Open_Sans/Helvetica Light Regular.ttf');
+    src: url('/i/fonts/Helvetica Light Regular.ttf');
     font-weight: normal;
     font-style: normal;
 }
@@ -90,8 +90,8 @@
 .med-book {
     font-family:  "Helvetica Light";
     font-size: 51px;
-
-
+    line-height: 50px;
+    margin-top: 20px;
 }
 
 .garant {
@@ -113,15 +113,14 @@
     width: 91px;
     height: 91px;
     background: transparent url(/i/image/list.png) center center no-repeat ;
-    margin-top: 150px;
+    margin-top: 20px;
     margin-left: 90px;
 }
 
 .doctor-img {
     width: 543px;
     height: 471px;
-    background: transparent url(/i/image/doctor.jpg) center center no-repeat ;
-    margin-top:140px
+    background: transparent url(/i/image/doctor.jpg) center center no-repeat;
 }
 
 .line {
@@ -702,6 +701,13 @@ input {outline:none;}
 }
 
 
+  .space10 {width: 100%; height: 10px;}
+    .space20 {width: 100%; height: 20px;}
+    .space50 {width: 100%; height: 50px;}
+    .space75 {width: 100%; height: 75px;}
+    .space100 {width: 100%; height: 100px;}
+    .space150 {width: 100%; height: 150px;}
+
 /* ––––––––––––––––––––––––––––––––––––––––––––––––––
 Mobile style's
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -752,3 +758,6 @@ Mobile style's
     .menu .show-on-mobile {
         display: block;
     }
+
+    
+}
