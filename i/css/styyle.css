@@ -506,7 +506,67 @@ input {outline:none;}
 
 @media only screen and (max-width: 992px) {
 
-  
+    .success {
+        font-size: 36px;
+        margin-left: 110px;
+    }
+
+    .prices {
+        margin-left: 100px;
+        margin-top:35px;
+        font-size: 23px;
+    }
+
+    .star2 {
+        width: 77px;
+        height: 67px;
+        background: transparent url(/i/image/star2.png) center center no-repeat ;
+        margin-left: 50%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .cookie {margin-left: 15px;
+             margin-bottom: 30px;}
+
+    .f-star {
+        margin-top: 17px;
+        margin-left:50px;
+        float: left;
+        position: absolute;
+    }
+
+    .f-rusmed {
+        margin-top: 30px;
+        margin-left:100px;
+        position: relative;
+    }
+
+    .doctor-img {
+        margin-left: 100px;
+    }
+
+    .list-img {
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+
+    .med-book {
+        margin-left: -75px;
+        margin-top: 50px;
+    }
+
+    .low {margin-left: 135px;}
+
+    .garant {
+        font-size: 30px;
+    }
+
+    .read {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
 
 @media only screen and (max-width: 1200px) {
 
