@@ -271,6 +271,8 @@ star_ {
     width: 43px;
     height: 43px;
     background: transparent url(/i/image/doc.png) center center no-repeat ;
+    float: left;
+    position: absolute;
 }
 
 .us {
@@ -283,6 +285,8 @@ star_ {
     width: 49px;
     height: 43px;
     background: transparent url(/i/image/stop.png) center center no-repeat ;
+    float: left;
+    position: absolute;
 }
 
 .rectangle {
@@ -306,6 +310,15 @@ star_ {
 
 .pr {
     margin-right: 10000px;
+}
+
+.down-1 {
+    font-size: 22px;
+    font-family: 'Helvetica Light';
+}  
+
+.rectangle-50 {
+    width: 50px;
 }
 
 .star_big {

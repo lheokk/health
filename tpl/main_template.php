@@ -19,7 +19,7 @@
         <link rel="stylesheet" type="text/css" href="<?= Root('i/css/normalize.css') ?>" />
         <link rel="stylesheet" type="text/css" href="<?= Root('i/css/dev/funcs.css') ?>" />
         <link rel="stylesheet" type="text/css" href="<?= Root('i/css/main.css') ?>" />
-        <link rel="stylesheet" type="text/css" href="<?= Root('i/css/style.css') ?>" />
+        <link rel="stylesheet" type="text/css" href="<?= Root('i/css/styyle.css') ?>" />
         <link rel="stylesheet" type="text/css" href="<?= Root('i/css/megamenu.css') ?>" />
 
         <!-- карусель тут подкюлчатеся -->
@@ -178,14 +178,14 @@
         <div class="bg-v">
             <div class="container">
                 <div class="row">
-                    <div class="col">
+                    <div class="col-md-7">
                         <div class="online"> Оставить онлайн заявку </div>
                         <div class="free">Чтобы получить бесплатную консультацию <br> физическому или юридическому лицу, <br> необходимо заполнить форму или обратиться <br>к нашим специалистам по телефону <br>
                             + 7 (495) 666-0-00. </div>
                     </div>
 
 
-                    <div class="col">
+                    <div class="col-md-5">
 
                         <div class="form form-1">
                             <input type="text" value="" name="first_name"  placeholder="Имя" class="form-input" />
@@ -216,13 +216,13 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col">
+                <div class="col-md-6">
                     <div class="sales">
                         Для организаций предусмотрена гибкая система скидок
                     </div>
                 </div>                    
 
-                <div class="col">
+                <div class="col-md-6">
                     <div class="want">Хотите сэкономить до 30%? Получить<br> надежного партнера,  избавиться от <br>головных болей и всегда знать о том, что<br> ваши сотрудники будут иметь<br> необходимые документы на руках?</div>
                     <div class="offer">Читать индивидуальное предложение</div>
                 </div>
@@ -277,15 +277,15 @@
 
                             <div class="pr"> 
                                 <div class="item"><h4>
-                                        <div class="procent"></div>
-                                        <div class="v_text_16">Акция</div>
+                                        <div class="doc"></div>
+                                        <div class="v_text_16">Статья</div>
                                         <div class="rectangle"></div>
-                                        <div class=""></div></h4>
+                                        <div class="down-1"></div></h4>
                                 </div></div>
                             <div class="pr"> 
                                 <div class="item"><h4>
-                                        <div class="procent"></div>
-                                        <div class="v_text_16">Акция</div>
+                                        <div class="stop"></div>
+                                        <div class="v_text_16">Новости</div>
                                         <div class="rectangle"></div>
                                         <div class=""></div></h4>
                                 </div></div>
@@ -380,112 +380,117 @@
                     </p></div>
             </div>
         </div>
- <style>
-   .s:before {
-     content: "- "; /* Добавляем желаемый символ перед элементом списка */ 
-   }
-   .s {
-     list-style: none; /* Убираем исходные маркеры */ 
-   }
-  </style>
+        <style>
+            .s:before {
+                content: "- "; /* Добавляем желаемый символ перед элементом списка */ 
+            }
+            .s {
+                list-style: none; /* Убираем исходные маркеры */ 
+            }
+        </style>
         <div class="row">
             <div class="col">
                 <div class="ul_class ">
-                <strong>Мы предлагаем:</strong>    
+                    <strong>Мы предлагаем:</strong>    
                     <ul> 
-                       <li class="s">проведение всех видов муниципальных осмотров;</li>
-                       <li class="s">абсолютную безопасность в условиях напряженой обстановки по covid-19;</li>
-                       <li class="s">обследование у высококвалификационных, узконаправленных специалистов;</li>
-                       <li class="s">скорость и точность своей работы;</li>
-                       <li class="s">грамотное составление сопутсвующей медицинской документации;</li>
-                       <li class="s">новейшее оборудование;</li>
-                       <li class="s">удобное расположение;</li>
-                       <li class="s">высокое качество сервиса</li>
-                       <li class="s">гибкую систему скидок для постоянных и корпоративных клиентов;</li>
+                        <li class="s">проведение всех видов муниципальных осмотров;</li>
+                        <li class="s">абсолютную безопасность в условиях напряженой обстановки по covid-19;</li>
+                        <li class="s">обследование у высококвалификационных, узконаправленных специалистов;</li>
+                        <li class="s">скорость и точность своей работы;</li>
+                        <li class="s">грамотное составление сопутсвующей медицинской документации;</li>
+                        <li class="s">новейшее оборудование;</li>
+                        <li class="s">удобное расположение;</li>
+                        <li class="s">высокое качество сервиса</li>
+                        <li class="s">гибкую систему скидок для постоянных и корпоративных клиентов;</li>
                     </ul>
                 </div>
             </div>
         </div>
-        
+
         <div class="row">
             <div class="col">
                 <div class="ul_class ">
-                 <strong>Наши задачи:</strong>
+                    <strong>Наши задачи:</strong>
                     <ul>
-                       <li class="s">определить соотвествие здоровья;</li>
-                       <li class="s">установить производственные факторы, негативно влияющие на организм человека;</li>
-                       <li class="s">выявить общие заболевания, не относящиеся к числу профессиональных, и делающие невозможным прием работника на определенную должность или невозможность для него продолжать трудовую деятельность на данной профессии</li>
-                       
+                        <li class="s">определить соотвествие здоровья;</li>
+                        <li class="s">установить производственные факторы, негативно влияющие на организм человека;</li>
+                        <li class="s">выявить общие заболевания, не относящиеся к числу профессиональных, и делающие невозможным прием работника на определенную должность или невозможность для него продолжать трудовую деятельность на данной профессии</li>
+
                     </ul>
                 </div>
             </div>
         </div>
-        
+
         <div class="row">
             <div class="col">
                 <div class="index-text"><h2>2. ЗДОРОВЬЕ РАБОЧЕГО КОЛЛЕКТИВА</h2></div>
             </div>
         </div>
-        
+
         <div class="row">
             <div class="col">
                 <div class="index-text"><p>Каждый работодатель заинтересован в здоровом, во всех отношениях, коллективе, который поможет поддерживать бесперебойный производственный процесс и выполнять, возложенные на него, обязанности. Иметь в своей команде здоровых работников - значит не тратить время на и деньги на больничные, а сконцентрироваться лишь на поставленных целях. Кроме того, суметь своевременно выявить негативные факторы производства, влияющие на здоровье людей, значит иметь возможность устранить или минимизировать их влияние на ваших подчинённых. Сотрудничая с РУСМЕДЗДРАВ, вы получаете неизменно высокое качество предоставляемых услуг по данным направлениям с минимальными временными затратами. <p></div>
             </div>
         </div>
-        
+
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-4">
                 <div class="cookie">
                     Cookie/обработка данных
                 </div>
             </div>
+
             <div class="col-md-1">
-                <div class="star star_"></div>
+                <div class="f-star"></div>
+               <div class="f-rusmed">РУСМЕДЗДРАВ</div>
             </div>
-            <div class="col-md-8">
-                <div class="RUS">РУСМЕДЗДРАВ</div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col">
-                <ul class="footer">
-                    <li><a href="#">Справка для водителей</a></li>
-                    <li><a href="#">Справка на оружие</a></li>
-                    <li><a href="#">Справка для бассейна и фитнеса</a></li>
-                    <li><a href="#">Справка в ВУЗ</a></li>
-                    <li><a href="#">Справка в для госслужбы</a></li>
+            
+               
+               
+            
 
-                </ul>
-            </div>
-            <div class="col">
-                <ul class="footer">
-                    <li><a href="#">Профосмотры</a></li>
-                    <li><a href="#">Медкнижки</a></li>
-                    <li><a href="#">Выездные профосмотры</a></li>
-                    <li><a href="#">Психиатричесое свидетельство</a></li>
-                    <li><a href="#">Справки для госслужбы</a></li>
-
-                </ul>
-            </div>
-            <div class="col">
-                <ul class="footer">
-
-                    <li><a href="#">Отзывы</a></li>
-                    <li><a href="#">Документы</a></li>
-                    <li><a href="#">Партнеры</a></li>
-                    <li><a href="#">Структура</a></li>
-                    <li><a href="#">Контакты</a></li>
-                </ul>   
-            </div>
         </div>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    <script src="<?= Root('i/js/megamenu.js') ?>"></script>
+    <div class="row">
+        <div class="col">
+            <ul class="footer">
+                <li><a href="#">Справка для водителей</a></li>
+                <li><a href="#">Справка на оружие</a></li>
+                <li><a href="#">Справка для бассейна и фитнеса</a></li>
+                <li><a href="#">Справка в ВУЗ</a></li>
+                <li><a href="#">Справка в для госслужбы</a></li>
+
+            </ul>
+        </div>
+        <div class="col">
+            <ul class="footer">
+                <li><a href="#">Профосмотры</a></li>
+                <li><a href="#">Медкнижки</a></li>
+                <li><a href="#">Выездные профосмотры</a></li>
+                <li><a href="#">Психиатричесое свидетельство</a></li>
+                <li><a href="#">Справки для госслужбы</a></li>
+
+            </ul>
+        </div>
+        <div class="col">
+            <ul class="footer">
+
+                <li><a href="#">Отзывы</a></li>
+                <li><a href="#">Документы</a></li>
+                <li><a href="#">Партнеры</a></li>
+                <li><a href="#">Структура</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>   
+        </div>
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="<?= Root('i/js/megamenu.js') ?>"></script>
 
 </body>
 </html>
