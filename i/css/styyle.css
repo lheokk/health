@@ -407,9 +407,7 @@ input {outline:none;}
 
 СЮДА*/
 
-@media only screen and (max-width: 576px) {
 
-}
 
 @media only screen and (max-width: 992px) {
 
@@ -539,28 +537,43 @@ input {outline:none;}
     }
     
     .doctor-img {
-        margin-left: 50px;
+        margin-left: 0px;
     }
 
     .list-img {
-        margin-left: 100px;
+        margin-left: 0px;
         margin-top: 50px;
     }
 
     .med-book {
-        margin-left: -75px;
+        margin-left: -105px;
         margin-top: 50px;
     }
 
-    .low {margin-left: 135px;}
+    .low {margin-left: 20px;}
 
     .garant {
         font-size: 30px;
+        margin-left: 0px;
     }
 
     .read {
         margin-top: 50px;
         margin-bottom: 50px;
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .med-book {
+        margin-left: -40px;
+        margin-top: 50px;
+        font-size: 40px;
+    }
+    
+     .list-img {
+        margin-left: 5px;
+        margin-top: 50px;
     }
 }
 
