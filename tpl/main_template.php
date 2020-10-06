@@ -40,18 +40,15 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <div class="star">
-                        <div class='rusmed'>
-                            РУСМЕДЗДРАВ
-                        </div>
-                    </div>
+                    <div class="star" style="float: left; margin-right: 15px;"></div>
+                    <div class='rusmed' style="line-height: 50px; font-weight: bold; letter-spacing: 5px;">РУСМЕДЗДРАВ</div>
                 </div> 
 
                 <div class="col">
                     <div class="menu-container">
                         <div class="menu">
                             <ul>
-                                <li>О центре</li>
+                                <li><a href="#">О центре</a></li> <!-- megamenu.css строка 65 для того, чтобы поправить отступы. 58, чтобы изменить цвет фона -->
                                 <li>Услуги</li>
                                 <li>Акции</li>
                                 <li>Партнёрство</li>
