@@ -92,18 +92,18 @@
     margin-left:80px;
 }
 
-<<<<<<< HEAD
+
 .med-book-left {
-=======
+
 .med-book-right {
->>>>>>> 8c3392d278558c91f2a043b184b9068dbdfb99b7
+
     font-family:  "Helvetica Light";
     font-size: 40px;
     line-height: 50px;
     margin-top: 20px;
-<<<<<<< HEAD
+
     margin-left: -100px;
-=======
+
     margin-left: -30px;
 
 }
@@ -115,7 +115,7 @@
     line-height: 50px;
     margin-top: 20px;
     margin-left: -30px;
->>>>>>> 8c3392d278558c91f2a043b184b9068dbdfb99b7
+
 }
 
 .med-book-right {
@@ -426,16 +426,8 @@ input {outline:none;}
 }
 
 
-
-
-
-
-
-
-
-
 @media only screen and (max-width: 1200px) {
-<<<<<<< HEAD
+
     .list-img {
         margin-left: 70px;
     }
@@ -452,7 +444,7 @@ input {outline:none;}
     .read {
     }
 }
-=======
+
     .success {
         font-size: 36px;
         margin-left: 90px;
@@ -470,7 +462,6 @@ input {outline:none;}
     line-height: 50px;
     margin-top: 20px;
     margin-left: -5px;
->>>>>>> 8c3392d278558c91f2a043b184b9068dbdfb99b7
 
 }
 
@@ -539,35 +530,32 @@ input {outline:none;}
         margin-top: 50px;
     }
 
-<<<<<<< HEAD
+
     .med-book-left {
-=======
+
     .med-book-right {
->>>>>>> 8c3392d278558c91f2a043b184b9068dbdfb99b7
         margin-left:-70px;
         margin-top: 50px;
     }
     
-<<<<<<< HEAD
+
     .med-book-right {
         margin-left:-70px;
-=======
+
     .med-book-left {
         margin-left:70px;
->>>>>>> 8c3392d278558c91f2a043b184b9068dbdfb99b7
         margin-top: 50px;
     }
 
     .low {margin-left: 135px;}
 
     .garant {
-<<<<<<< HEAD
+
         font-size: 30px;
         margin-left: 100px;
-=======
         font-size: 35px;
 
->>>>>>> 8c3392d278558c91f2a043b184b9068dbdfb99b7
+
     }
 
     .read {
@@ -687,7 +675,7 @@ input {outline:none;}
         margin-top: 50px;
         font-size: 40px;
     }
-<<<<<<< HEAD
+
     
     .med-book-right {
         margin-left: 40px;
@@ -696,10 +684,10 @@ input {outline:none;}
     }
     
      .list-img {
-=======
+
 
     .list-img {
->>>>>>> 8c3392d278558c91f2a043b184b9068dbdfb99b7
+ 8c3392d278558c91f2a043b184b9068dbdfb99b7
         margin-left: 5px;
         margin-top: 50px;
     }
@@ -709,8 +697,7 @@ input {outline:none;}
     }
 }
 
-<<<<<<< HEAD
-=======
+
 
 
 /* ––––––––––––––––––––––––––––––––––––––––––––––––––

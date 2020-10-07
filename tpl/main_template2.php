@@ -19,7 +19,7 @@
         <link rel="stylesheet" type="text/css" href="<?= Root('i/css/normalize.css') ?>" />
         <link rel="stylesheet" type="text/css" href="<?= Root('i/css/dev/funcs.css') ?>" />
         <link rel="stylesheet" type="text/css" href="<?= Root('i/css/main.css') ?>" />
-        <link rel="stylesheet" type="text/css" href="<?= Root('i/css/styyle.css') ?>" />
+        <link rel="stylesheet" type="text/css" href="<?= Root('i/css/styyyle.css') ?>" />
         <link rel="stylesheet" type="text/css" href="<?= Root('i/css/megamenu.css') ?>" />
 
         <!-- карусель тут подкюлчатеся -->
