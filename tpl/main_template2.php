@@ -19,7 +19,7 @@
         <link rel="stylesheet" type="text/css" href="<?= Root('i/css/normalize.css') ?>" />
         <link rel="stylesheet" type="text/css" href="<?= Root('i/css/dev/funcs.css') ?>" />
         <link rel="stylesheet" type="text/css" href="<?= Root('i/css/main.css') ?>" />
-        <link rel="stylesheet" type="text/css" href="<?= Root('i/css/styyyle.css') ?>" />
+        <link rel="stylesheet" type="text/css" href="<?= Root('i/css/styyle.css') ?>" />
         <link rel="stylesheet" type="text/css" href="<?= Root('i/css/megamenu.css') ?>" />
 
         <!-- карусель тут подкюлчатеся -->
@@ -39,24 +39,15 @@
         <style> .full {width: 100%; height: auto}</style>
         <div class="container">
             <div class="row">
-<<<<<<< HEAD
                 <div class="col-2">
                     <div class="star" style="float: left; margin-right: 15px;"></div>
                     <div class='rusmed' style="line-height: 50px; float: left; font-weight: bold; letter-spacing: 5px;">РУСМЕДЗДРАВ</div>
                     <div style="clear: both;"></div>
-=======
+
                 <div class="col">
-<<<<<<< HEAD
-                    <div class="star"></div>
-                        <div class='rusmed'>
-                            РУСМЕДЗДРАВ
-                        </div>
-                    
-=======
-                    <div class="star" style="float: left; margin-right: 15px;"></div>
-                    <div class='rusmed' style="line-height: 50px; font-weight: bold; letter-spacing: 5px;">РУСМЕДЗДРАВ</div>
->>>>>>> da7d93993b766a68751fb9987e8c33b307ee4fc1
->>>>>>> 8c3392d278558c91f2a043b184b9068dbdfb99b7
+
+                   
+
                 </div> 
 
                 <div class="col-6">
@@ -86,6 +77,7 @@
                 </div> 
             </div>
         </div>
+            </div>
         <div class='full blue-line'> 
             <div class="container ">
                 <div class="row">
@@ -114,7 +106,7 @@
                     </div>
                 </div>
                 <div class='col-lg-8 col-md-8'>
-                    ООО «РУСМЕДЗДРАВ» предоставляет полный <br> пакет услуг согласно Приказу Министерства <br> здравоохранения и социального развития РФ <br> от 12.04.2011№ 302 н «Об утверждении перечней <br> вредных и (или) опасных производственных <br> факторов, при выполнении которых проводятся <br> обязательные предварительные и периодические <br> осмотры (обследования)»
+                    ООО «РУСМЕДЗДРАВ» предоставляет полный пакет услуг согласно Приказу Министерства здравоохранения и социального развития РФ <br> от 12.04.2011№ 302 н «Об утверждении перечней вредных и (или) опасных производственных факторов, при выполнении которых проводятся обязательные предварительные и периодические осмотры (обследования)»
                 </div>
             </div>
         </div><link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet" />
@@ -128,13 +120,11 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col">
-<<<<<<< HEAD
+
                                     <div class="list-img" style="float:left; margin-right: 10px;"></div>
                                     <div class="med-book-left">Медицинские справки </div>
                                     <div style="clear: both;"></div>
-=======
-                                    <div class="med-book-left">Медицинские справки </div>
->>>>>>> 8c3392d278558c91f2a043b184b9068dbdfb99b7
+
                                 </div>
                             </div>
                             <div class="row">
@@ -165,19 +155,11 @@
                     <div class="col-lg-6">
                         <div class="container">
                             <div class="row">
-<<<<<<< HEAD
                                 <div class="col">
                                     <div class="list-img" style="float:left; margin-right: 10px;"></div>
                                     <div class="med-book-right">Медицинские справки</div>
                                     <div style="clear: both;"></div>
-=======
-                                <div class="col-5">
-                                    <div class="list-img"></div>
-                                </div>
-                                <div class="col-4">
-                                    <div class="med-book-right">Медицинские справки</div>
->>>>>>> 8c3392d278558c91f2a043b184b9068dbdfb99b7
-                                </div>
+
                             </div>
                             <div class="row">
                                 <div class="col">

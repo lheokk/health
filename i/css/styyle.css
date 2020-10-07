@@ -22,7 +22,6 @@
     width: 100%;
     color: #FFFFFF;
     text-align: center;
-    margin-top: 30px;
 
 }
 
@@ -30,25 +29,21 @@
     width: 47px;
     height: 50px;
     background: transparent url(/i/image/star.jpg) center center no-repeat ;
-    margin-left:65px;
-    margin-top: 5px;
-    
- 
 }
 
 .med { 
     width: 1059px;
-    height: 552px; 
+    height: 552px;
     background: transparent url(/i/image/med.jpg) center center no-repeat ;
     margin-top: 35px;
 }
 .rusmed {
-    margin-top: -35px;
-    margin-left: 120px;
+
     font-size: 16px;
     font-family: 'PTSansNarrow-Bold';
-    letter-spacing: 5px;
-    font-weight: 100;
+
+
+
 }
 
 .bell {
@@ -78,10 +73,11 @@
 }
 
 .low {
-    margin-left: 90px;
-    margin-top: 20px;
+    margin-left: 15px;
+    margin-top: 10px;
     font-family:  "Helvetica Light";
     font-size: 14px;
+    font-style:italic;
 }
 
 .kniga-img {
@@ -92,30 +88,12 @@
     margin-left:80px;
 }
 
-
 .med-book-left {
-
-.med-book-right {
-
     font-family:  "Helvetica Light";
     font-size: 40px;
     line-height: 50px;
     margin-top: 20px;
-
     margin-left: -100px;
-
-    margin-left: -30px;
-
-}
-
-
-.med-book-left {
-    font-family:  "Helvetica Light";
-    font-size: 51px;
-    line-height: 50px;
-    margin-top: 20px;
-    margin-left: -30px;
-
 }
 
 .med-book-right {
@@ -134,10 +112,28 @@
     font-size:23px;
 }
 
+menu-empty {
+    height: 125px;
+    width: 100%;
+}
+
+.empty {
+    height: 140px;
+    width: 100%;
+  
+}
+
 .read {
-    color: #C3B2F2;
+    color: #6837E8;
+    text-decoration: none;align-content: 
     font-size: 15px;
-    margin-left: 75px;
+    margin-left: 10px;
+    margin-top: 175px;
+}
+
+.read a:hover {
+    color: #5B37E3;
+    text-decoration: none;
 }
 
 .list-img {
@@ -167,23 +163,32 @@
     height: 67px;
     background: transparent url(/i/image/star2.png) center center no-repeat ;
     margin: 0 auto;
-    margin-top: 150px;
+    margin-top: -35px;
 }
 
 .success {
     font-family: "Helvetica Light";
     font-size: 43px;
     color: #6837E8;
-    margin-left: 200px
+    margin-left: 100px;
+    margin-top:50px;
+    margin-bottom: 70px;
 }
 
 .prices {
     font-family: "Helvetica Light";
     color: #6837E8;
     font-size: 24px;
-    margin-top: 70px;
-    margin-left: 200px
+    margin-top: 1px;
+    margin-left: 100px;
+    color: #866ceb;
+    text-decoration: none;
 }
+
+.prices:hover {
+    color: #5B37E3;
+    text-decoration: none; }
+
 
 .bg-v {
     background-color: #6633E8;
@@ -209,7 +214,7 @@
 
 .form {
     margin-top: 30px;
-
+    
 }
 
 .input {
@@ -221,10 +226,13 @@
 }
 
 .form-input {
+    font-weight: normal;
     border:none;
     color: white;
     width: 100%;
     background: none;
+    font-size: 22px;
+    text-decoration: none;
 
 }
 input::-webkit-input-placeholder { color: white; }
@@ -263,7 +271,9 @@ input {outline:none;}
 .footer { list-style-type: none;
           color: BLACK;
           margin-top:70px;
-          font-family: 'Helvetica Light';}
+          font-family: 'Helvetica Light';
+          line-height: 20px;
+}
 
 .cookie {
     font-family: 'Helvetica Light';
@@ -395,6 +405,7 @@ input {outline:none;}
 
 }
 
+
 .f-star {
     width: 47px;
     height: 50px;
@@ -426,7 +437,19 @@ input {outline:none;}
 }
 
 
-@media only screen and(max-width: 1200px;)
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+    .list-img {
+        margin-left: 70px;
+    }
+    
     .med-book {
         font-size: 40px;
         line-height: 40px;
@@ -440,56 +463,16 @@ input {outline:none;}
     }
 }
 
-    .success {
-        font-size: 36px;
-        margin-left: 90px;
-    }
-    
-    .prices {
-        margin-left: 100px;
-        margin-top:35px;
-        font-size: 23px;
-    }
-    
-    .med-book-right {
-    font-family:  "Helvetica Light";
-    font-size: 51px;
-    line-height: 50px;
-    margin-top: 20px;
-    margin-left: -5px;
-
-}
-
-
-.med-book-left {
-    font-family:  "Helvetica Light";
-    font-size: 51px;
-    line-height: 50px;
-    margin-top: 20px;
-    margin-left: -20px;
-}
-    
-.list-img {
-    width: 91px;
-    height: 91px;
-    background: transparent url(/i/image/list.png) center center no-repeat ;
-    margin-top: 20px;
-    margin-left: 60px;
-}
-}
 
 @media only screen and (max-width: 992px) {
 
     .success {
         font-size: 36px;
-        margin-left: 90px;
+        margin-left: 110px;
     }
 
-    .prices {
-        margin-left: 100px;
-        margin-top:35px;
-        font-size: 23px;
-    }
+    
+
 
     .star2 {
         width: 77px;
@@ -501,18 +484,18 @@ input {outline:none;}
     }
 
     .cookie {margin-left: 15px;
-             margin-bottom: 30px;}
+             margin-top: 33px;}
 
     .f-star {
         margin-top: 17px;
-        margin-left:50px;
+        margin-left:20px;
         float: left;
         position: absolute;
     }
 
     .f-rusmed {
         margin-top: 30px;
-        margin-left:100px;
+        margin-left:70px;
         position: relative;
     }
 
@@ -525,32 +508,21 @@ input {outline:none;}
         margin-top: 50px;
     }
 
-
     .med-book-left {
-
-    .med-book-right {
         margin-left:-70px;
         margin-top: 50px;
     }
     
-
     .med-book-right {
         margin-left:-70px;
-
-    .med-book-left {
-        margin-left:70px;
         margin-top: 50px;
     }
 
     .low {margin-left: 135px;}
 
     .garant {
-
         font-size: 30px;
         margin-left: 100px;
-        font-size: 35px;
-
-
     }
 
     .read {
@@ -558,18 +530,7 @@ input {outline:none;}
         margin-bottom: 50px;
         margin-left: 100px;
     }
-
-
-
-    .med { 
-        width: 875px;
-        height: 456px;
-        background: transparent url(/i/image/med-992.jpg) center center no-repeat ;
-        margin-top: 35px;
-        margin-left: -80px;
-    }
 }
-
 
 @media only screen and (max-width: 768px) {
     .form {
@@ -613,13 +574,13 @@ input {outline:none;}
         width: 77px;
         height: 67px;
         background: transparent url(/i/image/star2.png) center center no-repeat ;
-        margin-left: 50%;
+        margin: 0 auto;
         margin-top: 30px;
         margin-bottom: 30px;
     }
 
     .cookie {margin-left: 15px;
-             margin-bottom: 30px;}
+             margin-top: 70px;}
 
     .f-star {
         margin-top: 17px;
@@ -633,7 +594,7 @@ input {outline:none;}
         margin-left: 200px;
         position: relative; 
     }
-
+    
     .doctor-img {
         margin-left: 0px;
     }
@@ -643,16 +604,11 @@ input {outline:none;}
         margin-top: 50px;
     }
 
-    .med-book-right {
+    .med-book {
         margin-left: -105px;
         margin-top: 50px;
     }
-    
-    .med-book-left {
-        margin-left: -120px;
-        margin-top: 50px;
-    }
-    
+
     .low {margin-left: 20px;}
 
     .garant {
@@ -661,6 +617,7 @@ input {outline:none;}
     }
 
     .read {
+        margin-left: 0px;
     }
 }
 
@@ -668,20 +625,16 @@ input {outline:none;}
     .med-book-left {
         margin-left: -40px;
         margin-top: 50px;
-        font-size: 40px;
+        font-size: 30px;
     }
-
     
     .med-book-right {
         margin-left: 40px;
         margin-top: 50px;
-        font-size: 40px;
+        font-size: 30px;
     }
     
      .list-img {
-
-
-    .list-img {
         margin-left: 5px;
         margin-top: 50px;
     }
@@ -689,166 +642,10 @@ input {outline:none;}
     .star2 {
         margin-left: 45%;
     }
+    
+  
 }
 
-.menu-container {
-    width: 80%;
-    margin: 0 auto;
-    background: #e9e9e9;
-
-}
-
-.menu-mobile {
-    display: none;
-    padding: 20px;
-}
-
-.menu-mobile:after {
-    content: "\f394";
-    font-family: "Ionicons";
-    font-size: 2.5rem;
-    padding: 0;
-    float: right;
-    position: relative;
-    top: 50%;
-    -webkit-transform: translateY(-25%);
-    -ms-transform: translateY(-25%);
-    transform: translateY(-25%);
-}
-
-.menu-dropdown-icon:before {
-    content: "\f489";
-    font-family: "Ionicons";
-    display: none;
-    cursor: pointer;
-    float: right;
-    padding: 1.5em 2em;
-    background: #fff;
-    color: #333;
-}
-
-.menu > ul {
-    margin: 0 auto;
-    width: 100%;
-    list-style: none;
-    padding: 0;
-    position: relative;
-    /* IF .menu position=relative -> ul = container width, ELSE ul = 100% width */
-    box-sizing: border-box;
-}
-
-.menu > ul:before,
-.menu > ul:after {
-    content: "";
-    display: table;
-}
-
-.menu > ul:after {
-    clear: both;
-}
-
-.menu > ul > li {
-    float: left;
-    background: #e9e9e9;
-    padding: 0;
-    margin: 0;
-}
-
-.menu > ul > li a {
-    text-decoration: none;
-    padding: 1.5em 3em;
-    display: block;
-}
-
-.menu > ul > li:hover {
-    background: #f0f0f0;
-}
-
-.menu > ul > li > ul {
-    display: none;
-    width: 100%;
-    background: #f0f0f0;
-    padding: 20px;
-    position: absolute;
-    z-index: 99;
-    left: 0;
-    margin: 0;
-    list-style: none;
-    box-sizing: border-box;
-}
-
-.menu > ul > li > ul:before,
-.menu > ul > li > ul:after {
-    content: "";
-    display: table;
-}
-
-.menu > ul > li > ul:after {
-    clear: both;
-}
-
-.menu > ul > li > ul > li {
-    margin: 0;
-    padding-bottom: 0;
-    list-style: none;
-    width: 25%;
-    background: none;
-    float: left;
-}
-
-.menu > ul > li > ul > li a {
-    color: #777;
-    padding: .2em 0;
-    width: 95%;
-    display: block;
-    border-bottom: 1px solid #ccc;
-}
-
-.menu > ul > li > ul > li > ul {
-    display: block;
-    padding: 0;
-    margin: 10px 0 0;
-    list-style: none;
-    box-sizing: border-box;
-}
-
-.menu > ul > li > ul > li > ul:before,
-.menu > ul > li > ul > li > ul:after {
-    content: "";
-    display: table;
-}
-
-.menu > ul > li > ul > li > ul:after {
-    clear: both;
-}
-
-.menu > ul > li > ul > li > ul > li {
-    float: left;
-    width: 100%;
-    padding: 10px 0;
-    margin: 0;
-    font-size: .8em;
-}
-
-.menu > ul > li > ul > li > ul > li a {
-    border: 0;
-}
-
-.menu > ul > li > ul.normal-sub {
-    width: 300px;
-    left: auto;
-    padding: 10px 20px;
-}
-
-.menu > ul > li > ul.normal-sub > li {
-    width: 100%;
-}
-
-.menu > ul > li > ul.normal-sub > li a {
-    border: 0;
-    padding: 1em 0;
-}
->>>>>>> 8c3392d278558c91f2a043b184b9068dbdfb99b7
 
 
 .space10 {width: 100%; height: 10px;}

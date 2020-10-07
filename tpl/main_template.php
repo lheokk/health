@@ -37,6 +37,7 @@
     </head>
     <body>
         <style> .full {width: 100%; height: auto}</style>
+       
         <div class="container">
             <div class="row">
                 <div class="col-2">
@@ -52,7 +53,7 @@
                                 <li><a href="#">О центре</a></li> <!-- megamenu.css строка 65 для того, чтобы поправить отступы. 58, чтобы изменить цвет фона -->
                                 <li><a href="#">Услуги</a></li>
                                 <li><a href="#">Акции</a></li>
-                                <li><a href="#">Партнёрство</a></li>
+                                <li><a href="#">Партнерство</a></li>
                             </ul>
                             <div style="clear: both;"></div>
                         </div>
@@ -104,10 +105,7 @@
                 </div>
             </div>
         </div><link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet" />
-        <div class="row flex-column-reverse flex-lg-row">
-            <div class="col-md-12 col-lg-6 col-xl-7">A</div>
-            <div class="col-md-12 col-lg-6 col-xl-5">B</div>
-        </div>
+       
         <div class='bg-F7'>
             <div class="space50"></div>
             <div class="container">
@@ -127,7 +125,7 @@
                                     <div class="garant">
                                         Мы обладаем медицинской лицензией МинЗдрава РФ и предоставляет только официальные документы...
                                     </div>
-                                    <div class="read"> Читать полностью...</div>
+                                    <div class="read"> <a href="#"> Читать полностью... </a></div>
                                 </div>
                             </div>
                         </div>
@@ -161,13 +159,15 @@
                                     <div class="garant">
                                         Мы обладаем медицинской лицензией МинЗдрава РФ и предоставляет только официальные документы...
                                     </div>
-                                    <div class="read"> Читать полностью...</div>
+                                    <div class="read"> <a href="#"> Читать полностью... </a></div>
+                                    
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+             <div class="empty"></div>
         </div>
         <div class="star2"></div>
 
@@ -175,7 +175,7 @@
             <div class="row">
                 <div class="col">
                     <div class="success">Наш успех заключается не только в качестве и в максимальном комфорте для организаций и частных лиц. В первую очередь - это приятные цены.</div>
-                    <div class="prices"> Развернуть цены на услуги </div>
+                    <div> <a class="prices" href="#"> Развернуть цены на услуги + </a></div>
                 </div> 
             </div> 
         </div> 
@@ -467,8 +467,10 @@
             </div>
 
             <div class="col-md-1">
+               
                 <div class="f-star"></div>
                 <div class="f-rusmed">РУСМЕДЗДРАВ</div>
+                
             </div>
         </div>
     </div>
