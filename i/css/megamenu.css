@@ -1,8 +1,6 @@
 
 .menu-container {
-    width: 80%;
     margin: 0 auto;
-    background: #e9e9e9;
 
 }
 
@@ -37,7 +35,6 @@
 
 .menu > ul {
     margin: 0 auto;
-    width: 100%;
     list-style: none;
     padding: 0;
     position: relative;
@@ -57,19 +54,29 @@
 
 .menu > ul > li {
     float: left;
-    background: #e9e9e9;
+    background: white;
     padding: 0;
     margin: 0;
 }
 
 .menu > ul > li a {
     text-decoration: none;
-    padding: 1.5em 3em;
+    padding: .8em 2em;
     display: block;
+    font-family: 'Helvetica Light';
+    font-weight: bold;
+    color: black;
 }
 
-.menu > ul > li:hover {
-    background: #f0f0f0;
+@media all and (max-width: 1200px) {
+    .menu > ul > li a {
+        font-size: 13px;
+        padding: .8em 1.3em;
+    }
+}
+
+.menu > ul > li:hover a {
+    color: #5B37E3;
 }
 
 .menu > ul > li > ul {

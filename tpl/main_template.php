@@ -39,31 +39,34 @@
         <style> .full {width: 100%; height: auto}</style>
         <div class="container">
             <div class="row">
-                <div class="col">
+                <div class="col-2">
                     <div class="star" style="float: left; margin-right: 15px;"></div>
-                    <div class='rusmed' style="line-height: 50px; font-weight: bold; letter-spacing: 5px;">РУСМЕДЗДРАВ</div>
+                    <div class='rusmed' style="line-height: 50px; float: left; font-weight: bold; letter-spacing: 5px;">РУСМЕДЗДРАВ</div>
+                    <div style="clear: both;"></div>
                 </div> 
 
-                <div class="col">
+                <div class="col-6">
                     <div class="menu-container">
                         <div class="menu">
                             <ul>
                                 <li><a href="#">О центре</a></li> <!-- megamenu.css строка 65 для того, чтобы поправить отступы. 58, чтобы изменить цвет фона -->
-                                <li>Услуги</li>
-                                <li>Акции</li>
-                                <li>Партнёрство</li>
+                                <li><a href="#">Услуги</a></li>
+                                <li><a href="#">Акции</a></li>
+                                <li><a href="#">Партнёрство</a></li>
                             </ul>
+                            <div style="clear: both;"></div>
                         </div>
                     </div>
                 </div> 
 
-                <div class="col">
+                <div class="col-3">
                     <div class="menu-container ">
                         <div class="menu ">
                             <ul>
-                                <li>Карьера</li>
-                                <li>Блог</li>
+                                <li><a href="#">Карьера</a></li>
+                                <li><a href="#">Блог</a></li>
                             </ul>
+                            <div style="clear: both;"></div>
                         </div>
                     </div>
                 </div> 
@@ -108,16 +111,15 @@
         <div class='bg-F7'>
             <div class="space50"></div>
             <div class="container">
-                <div class="row">
-                    <div class="row flex-column-reverse flex-lg-row">
-                    <div class="col-md-6">
+
+                <div class="row flex-column-reverse flex-lg-row">
+                    <div class="col-lg-6">
                         <div class="container">
                             <div class="row">
-                                <div class="col-5">
-                                    <div class="list-img"></div>
-                                </div>
                                 <div class="col">
-                                    <div class="med-book">Медицинские справки </div>
+                                    <div class="list-img" style="float:left; margin-right: 10px;"></div>
+                                    <div class="med-book-left">Медицинские справки </div>
+                                    <div style="clear: both;"></div>
                                 </div>
                             </div>
                             <div class="row">
@@ -130,12 +132,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-lg-6">
                         <div class=""></div>
                         <div class="doctor-img"></div>
                         <div class="low"> Дешевле, чем у конкурентов</div>
                     </div>
-                </div></div>
+                </div>
             </div>
             <div class="space50"></div>
             <div class="container">
@@ -148,11 +150,10 @@
                     <div class="col-lg-6">
                         <div class="container">
                             <div class="row">
-                                <div class="col-5">
-                                    <div class="list-img"></div>
-                                </div>
-                                <div class="col-4">
-                                    <div class="med-book">Медицинские справки</div>
+                                <div class="col">
+                                    <div class="list-img" style="float:left; margin-right: 10px;"></div>
+                                    <div class="med-book-right">Медицинские справки</div>
+                                    <div style="clear: both;"></div>
                                 </div>
                             </div>
                             <div class="row">
@@ -180,44 +181,60 @@
         </div> 
 
         <div class="bg-v">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-7">
-                        <div class="online"> Оставить онлайн заявку </div>
-                        <div class="free">Чтобы получить бесплатную консультацию <br> физическому или юридическому лицу, <br> необходимо заполнить форму или обратиться <br>к нашим специалистам по телефону <br>
-                            + 7 (495) 666-0-00. </div>
-                    </div>
-
-
-                    <div class="col-md-5">
-
-                        <div class="form form-1">
-                            <input type="text" value="" name="first_name"  placeholder="Имя" class="form-input" />
-                        </div>
-
-                        <div class="form ">
-                            <input type="text" value="" name="second_name" placeholder="Фамилия" class="form-input" />
-                        </div>
-
-                        <div class="form">
-                            <input type="text" value="" name="email"  placeholder="Номер телефона" class="form-input" />
-                        </div>
-
-                        <div class="form ">
-                            <input type="text" value="" name="title"  placeholder="Заголовок" class="form-input" />
-                        </div>
-
-                        <div class="form">
-                            <input type="text" value="" name="Company"  placeholder="Компания" class="form-input" />
+            <div id="contact-slide" class="cs-crop">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <div class="online">Оставить онлайн заявку</div>
+                            <div class="free">
+                                Чтобы получить бесплатную консультацию физическому или 
+                                юридическому лицу, необходимо заполнить форму или 
+                                обратиться к нашим специалистам по телефону<br />
+                                + 7 (495) 666-0-00. </div>
                         </div>
 
 
-
+                        <div class="col-md-5">
+                            <div class="form form-1">
+                                <input type="text" value="" name="first_name"  placeholder="Имя" class="form-input" />
+                            </div>
+                            <div class="form ">
+                                <input type="text" value="" name="second_name" placeholder="Фамилия" class="form-input" />
+                            </div>
+                            <div class="form">
+                                <input type="text" value="" name="email"  placeholder="Номер телефона" class="form-input" />
+                            </div>
+                            <div class="form ">
+                                <input type="text" value="" name="title"  placeholder="Заголовок" class="form-input" />
+                            </div>
+                            <div class="form">
+                                <input type="text" value="" name="Company"  placeholder="Компания" class="form-input" />
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class='up'></div>
+            <div class='up' id="contact-slide-arrow"></div>
         </div>
+        <script>
+            $(document).ready(function () {
+                $("#contact-slide-arrow").click(function () {
+                    if ($("#contact-slide").hasClass('cs-crop')) {
+                        $("#contact-slide").removeClass('cs-crop').addClass('cs-full');
+                    } else {
+                        var h = $("#contact-slide").height();
+                        $(".cs-full").css("height", h);
+                        $("#contact-slide").removeClass('cs-full').addClass('cs-crop');
+                    }
+                });
+            });
+        </script>
+        <style>
+            #contact-slide {overflow: hidden;
+                            transition: all ease-in-out .3s;}
+            .cs-crop {height: 320px;}
+            .cs-full {}
+        </style>
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -227,7 +244,7 @@
                 </div>                    
 
                 <div class="col-md-6">
-                    <div class="want">Хотите сэкономить до 30%? Получить<br> надежного партнера,  избавиться от <br>головных болей и всегда знать о том, что<br> ваши сотрудники будут иметь<br> необходимые документы на руках?</div>
+                    <div class="want">Хотите сэкономить до 30%? Получить надежного партнера,  избавиться от головных болей и всегда знать о том, что ваши сотрудники будут иметь необходимые документы на руках?</div>
                     <div class="offer">Читать индивидуальное предложение</div>
                 </div>
             </div>
@@ -272,11 +289,14 @@
                         <div class="owl-carousel owl-theme" id="owl">
 
                             <div class="pr"> 
-                                <div class="item"><h4>
-                                        <div class="procent"></div>
-                                        <div class="v_text_16">Акция</div>
+                                <div class="item">
+                                       <div>
+                                           <div class="procent"></div>
+                                           <div class="v_text_16">Акция</div>
+                                       </div>
                                         <div class="rectangle"></div>
-                                        <div class=""></div></h4>
+                                        <div class="rectangle-down-big">Полная водительская медкомиссия для ГИБДД Заказать: 3000 руб. </div>
+                                       <div class="rectangle-down-small">Официально и быстро. Для Москвы и Московской области...</div>
                                 </div></div>
 
                             <div class="pr"> 
