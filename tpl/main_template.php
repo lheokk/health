@@ -40,11 +40,11 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <div class="star">
+                    <div class="star"></div>
                         <div class='rusmed'>
                             РУСМЕДЗДРАВ
                         </div>
-                    </div>
+                    
                 </div> 
 
                 <div class="col">
@@ -104,10 +104,7 @@
                 </div>
             </div>
         </div><link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet" />
-        <div class="row flex-column-reverse flex-lg-row">
-            <div class="col-md-12 col-lg-6 col-xl-7">A</div>
-            <div class="col-md-12 col-lg-6 col-xl-5">B</div>
-        </div>
+      
         <div class='bg-F7'>
             <div class="space50"></div>
             <div class="container">
@@ -120,7 +117,7 @@
                                     <div class="list-img"></div>
                                 </div>
                                 <div class="col">
-                                    <div class="med-book">Медицинские справки </div>
+                                    <div class="med-book-left">Медицинские справки </div>
                                 </div>
                             </div>
                             <div class="row">
@@ -155,7 +152,7 @@
                                     <div class="list-img"></div>
                                 </div>
                                 <div class="col-4">
-                                    <div class="med-book">Медицинские справки</div>
+                                    <div class="med-book-right">Медицинские справки</div>
                                 </div>
                             </div>
                             <div class="row">
