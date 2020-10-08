@@ -61,11 +61,12 @@
 
 .menu > ul > li a {
     text-decoration: none;
-    padding: .1000em 2em;
+    padding: .8em 2em;
     display: block;
     font-family: 'Helvetica Light';
     font-weight: bold;
     color: black;
+    font-size: 14px;
 }
 
 @media all and (max-width: 1200px) {

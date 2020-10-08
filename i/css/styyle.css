@@ -125,8 +125,8 @@ menu-empty {
 }
 
 .read {
-    color: #6837E8;
-    text-decoration: none;align-content: 
+    color: #5B37E3;
+    text-decoration: none;
     font-size: 15px;
     margin-left: 10px;
     margin-top: 175px;
@@ -359,7 +359,7 @@ input {outline:none;}
     width: 77px;
     height: 67px;
     background: transparent url(/i/image/star_big.png) center center no-repeat ;
-    margin: 30px auto 0 auto;
+    margin: -35px auto 0 auto;
 }
 
 .index-text h1 {
@@ -469,7 +469,7 @@ input {outline:none;}
 
     .success {
         font-size: 36px;
-        margin-left: 110px;
+        margin-left: 80px;
     }
 
     
@@ -623,6 +623,16 @@ input {outline:none;}
 }
 
 @media only screen and (max-width: 576px) {
+        .success {
+        font-size: 25px;
+        margin-left: 30px;
+    }
+    
+    .prices {
+        font-size: 20px;
+        margin-left: 30px;
+    }
+    
     .med-book-left {
         margin-left: -40px;
         margin-top: 50px;
@@ -661,3 +671,6 @@ input {outline:none;}
 .space75 {width: 100%; height: 75px;}
 .space100 {width: 100%; height: 100px;}
 .space150 {width: 100%; height: 150px;}
+
+
+/*page2page2page2page2page2page2page2page2page2page2page2page2page2page2page2page2page2page2page2*/
