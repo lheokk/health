@@ -479,7 +479,7 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col">
+            <div class="col-sm-4">
                 <ul class="footer">
                     <li><a href="#">Справка для водителей</a></li>
                     <li><a href="#">Справка на оружие</a></li>
@@ -489,7 +489,7 @@
 
                 </ul>
             </div>
-            <div class="col">
+            <div class="col-sm-4">
                 <ul class="footer">
                     <li><a href="#">Профосмотры</a></li>
                     <li><a href="#">Медкнижки</a></li>
@@ -499,7 +499,7 @@
 
                 </ul>
             </div>
-            <div class="col">
+            <div class="col-sm-4">
                 <ul class="footer">
 
                     <li><a href="#">Отзывы</a></li>

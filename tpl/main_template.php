@@ -37,20 +37,20 @@
     </head>
     <body>
         <style> .full {width: 100%; height: auto}</style>
-       
+
         <div class="container">
             <div class="row">
-                <div class="col-2">
+                <div class="col-4">
                     <div class="star" style="float: left; margin-right: 15px;"></div>
                     <div class='rusmed' style="line-height: 50px; float: left; font-weight: bold; letter-spacing: 5px;">РУСМЕДЗДРАВ</div>
                     <div style="clear: both;"></div>
                 </div> 
 
-                <div class="col-6">
-                    <div class="menu-container">
+                <div class="col-5">
+                    <div class="menu-container desktop">
                         <div class="menu">
                             <ul>
-                                <li><a href="#">О центре</a></li> <!-- megamenu.css строка 65 для того, чтобы поправить отступы. 58, чтобы изменить цвет фона -->
+                                <li><a href="#">О центре</a></li>
                                 <li><a href="#">Услуги</a></li>
                                 <li><a href="#">Акции</a></li>
                                 <li><a href="#">Партнерство</a></li>
@@ -61,9 +61,13 @@
                 </div> 
 
                 <div class="col-3">
-                    <div class="menu-container ">
+                    <div class="menu-container">
                         <div class="menu ">
                             <ul>
+                                <li class="mobile"><a href="#">О центре</a></li>
+                                <li class="mobile"><a href="#">Услуги</a></li>
+                                <li class="mobile"><a href="#">Акции</a></li>
+                                <li class="mobile"><a href="#">Партнерство</a></li>
                                 <li><a href="#">Карьера</a></li>
                                 <li><a href="#">Блог</a></li>
                             </ul>
@@ -105,7 +109,7 @@
                 </div>
             </div>
         </div><link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet" />
-       
+
         <div class='bg-F7'>
             <div class="space50"></div>
             <div class="container">
@@ -160,16 +164,16 @@
                                         Мы обладаем медицинской лицензией МинЗдрава РФ и предоставляет только официальные документы...
                                     </div>
                                     <div class="read"> <a href="#"> Читать полностью... </a></div>
-                                    
+
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-             <div class="empty"></div>
+            <div class="empty"></div>
         </div>
-        <div class="star2"></div>
+        <div class="star_big"></div>
 
         <div class="container">
             <div class="row">
@@ -283,6 +287,7 @@
 
 
         <div class="bg-F7">
+            <div class="space50"></div>
             <div class="container">
                 <div class="row">
                     <div class="col">
@@ -290,51 +295,39 @@
 
                             <div class="pr"> 
                                 <div class="item">
-                                       <div>
-                                           <div class="procent"></div>
-                                           <div class="v_text_16">Акция</div>
-                                       </div>
-                                        <div class="rectangle"></div>
-                                        <div class="rectangle-down-big">Полная водительская медкомиссия для ГИБДД Заказать: 3000 руб. </div>
-                                       <div class="rectangle-down-small">Официально и быстро. Для Москвы и Московской области...</div>
-                                </div></div>
+                                    <div>
+                                        <div class="procent"></div>
+                                        <div class="v_text_16">Акция</div>
+                                    </div>
+                                    <div class="rectangle"></div>
+                                    <div class="rectangle-down-big" style="width: 330px;">
+                                        Полная водительская медкомиссия для ГИБДД Заказать: 3000 руб. 
+                                    </div>
+                                    <div class="rectangle-down-small" style="width: 330px;">
+                                        Официально и быстро. Для Москвы и Московской области...
+                                    </div>
+                                </div>
+
+                            </div>
 
                             <div class="pr"> 
-                                <div class="item"><h4>
-                                        <div class="doc"></div>
-                                        <div class="v_text_16">Статья</div>
-                                        <div class="rectangle"></div>
-                                        <div class="down-1"></div></h4>
-                                </div></div>
-                            <div class="pr"> 
-                                <div class="item"><h4>
-                                        <div class="stop"></div>
-                                        <div class="v_text_16">Новости</div>
-                                        <div class="rectangle"></div>
-                                        <div class=""></div></h4>
-                                </div></div>
-                            <div class="pr"> 
-                                <div class="item"><h4>
-                                        <div class="procent"></div>
-                                        <div class="v_text_16">Акция</div>
-                                        <div class="rectangle"></div>
-                                        <div class=""></div></h4>
-                                </div></div>
-                            <div class="pr"> 
-                                <div class="item"><h4>
-                                        <div class="procent"></div>
-                                        <div class="v_text_16">Акция</div>
-                                        <div class="rectangle"></div>
-                                        <div class=""></div></h4>
-                                </div></div>
-                            <div class="pr"> 
-                                <div class="item"><h4>
-                                        <div class="procent"></div>
-                                        <div class="v_text_16">Акция</div>
-                                        <div class="rectangle"></div>
-                                        <div class=""></div></h4>
-                                </div></div>
+                                <div class="item">
+                                    <div class="doc"></div>
+                                    <div class="v_text_16">Статья</div>
+                                    <div class="rectangle"></div>
+                                    <div class="down-1"></div>
+                                </div>
 
+                            </div>
+                            <div class="pr"> 
+                                <div class="item">
+                                    <div class="stop"></div>
+                                    <div class="v_text_16">Новости</div>
+                                    <div class="rectangle"></div>
+                                    <div class=""></div>
+                                </div>
+
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -467,17 +460,17 @@
             </div>
 
             <div class="col-md-1">
-               
+
                 <div class="f-star"></div>
                 <div class="f-rusmed">РУСМЕДЗДРАВ</div>
-                
+
             </div>
         </div>
     </div>
     <div class="container">
         <div class="row">
-            <div class="col">
-                <ul class="footer">
+            <div class="col-sm-4">
+                <ul class="footer footer-first">
                     <li><a href="#">Справка для водителей</a></li>
                     <li><a href="#">Справка на оружие</a></li>
                     <li><a href="#">Справка для бассейна и фитнеса</a></li>
@@ -486,7 +479,7 @@
 
                 </ul>
             </div>
-            <div class="col">
+            <div class="col-sm-4">
                 <ul class="footer">
                     <li><a href="#">Профосмотры</a></li>
                     <li><a href="#">Медкнижки</a></li>
@@ -496,7 +489,7 @@
 
                 </ul>
             </div>
-            <div class="col">
+            <div class="col-sm-4">
                 <ul class="footer">
 
                     <li><a href="#">Отзывы</a></li>

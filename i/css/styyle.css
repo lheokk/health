@@ -36,6 +36,7 @@
     height: 552px;
     background: transparent url(/i/image/med.jpg) center center no-repeat ;
     margin-top: 35px;
+    max-width: 100%;
 }
 .rusmed {
 
@@ -148,6 +149,7 @@ menu-empty {
     width: 543px;
     height: 471px;
     background: transparent url(/i/image/doctor.jpg) center center no-repeat;
+    max-width: 100%;
 }
 
 .line {
@@ -181,7 +183,7 @@ menu-empty {
     font-size: 24px;
     margin-top: 1px;
     margin-left: 100px;
-    color: #866ceb;
+    color: #5B37E3;
     text-decoration: none;
 }
 
@@ -357,8 +359,7 @@ input {outline:none;}
     width: 77px;
     height: 67px;
     background: transparent url(/i/image/star_big.png) center center no-repeat ;
-    margin-left: 47%;
-    margin-top: 30px;
+    margin: 30px auto 0 auto;
 }
 
 .index-text h1 {
@@ -643,7 +644,13 @@ input {outline:none;}
         margin-left: 45%;
     }
     
-  
+    .footer {
+        margin-top: 0px;
+    }
+    
+    .footer-first{
+        margin-top: 30px;
+    }
 }
 
 
@@ -654,57 +661,3 @@ input {outline:none;}
 .space75 {width: 100%; height: 75px;}
 .space100 {width: 100%; height: 100px;}
 .space150 {width: 100%; height: 150px;}
-
-/* ––––––––––––––––––––––––––––––––––––––––––––––––––
-Mobile style's
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-@media only screen and (max-width: 959px) {
-    .menu-container {
-        width: 100%;
-    }
-    .menu-mobile {
-        display: block;
-    }
-    .menu-dropdown-icon:before {
-        display: block;
-    }
-    .menu > ul {
-        display: none;
-    }
-    .menu > ul > li {
-        width: 100%;
-        float: none;
-        display: block;
-    }
-    .menu > ul > li a {
-        padding: 1.5em;
-        width: 100%;
-        display: block;
-    }
-    .menu > ul > li > ul {
-        position: relative;
-    }
-    .menu > ul > li > ul.normal-sub {
-        width: 100%;
-    }
-    .menu > ul > li > ul > li {
-        float: none;
-        width: 100%;
-        margin-top: 20px;
-    }
-    .menu > ul > li > ul > li:first-child {
-        margin: 0;
-    }
-    .menu > ul > li > ul > li > ul {
-        position: relative;
-    }
-    .menu > ul > li > ul > li > ul > li {
-        float: none;
-    }
-    .menu .show-on-mobile {
-        display: block;
-    }
-
-
-}
