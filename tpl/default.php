@@ -330,7 +330,7 @@
 
     <div class="row">
         <div class="col">
-            <div class="index-text"><h2>1. МЕДИЦИНСКИЙ ЦЕНТР РУСМЕДЗДРАВ</h2></div>
+            <div class="indexe"><h2>1. МЕДИЦИНСКИЙ ЦЕНТР РУСМЕДЗДРАВ</h2></div>
         </div>
     </div>
 
@@ -359,11 +359,14 @@
     </div>
     <style>
         .s:before {
-            content: "- "; /* Добавляем желаемый символ перед элементом списка */ 
+            content: "-"; /* Добавляем желаемый символ перед элементом списка */ 
         }
         .s {
             list-style: none; /* Убираем исходные маркеры */ 
         }
+        
+      
+       
     </style>
     <div class="row">
         <div class="col">
@@ -400,7 +403,7 @@
 
     <div class="row">
         <div class="col">
-            <div class="index-text"><h2>2. ЗДОРОВЬЕ РАБОЧЕГО КОЛЛЕКТИВА</h2></div>
+            <div class="indexe"><h2>2. ЗДОРОВЬЕ РАБОЧЕГО КОЛЛЕКТИВА</h2></div>
         </div>
     </div>
 

@@ -377,9 +377,17 @@ input {outline:none;}
     font-size:29px;
     text-align: center;
     margin-bottom: 44px;
-    font-weight: bold;
+   
 }
 
+.indexe h2 {
+    color: #5a35e3;
+    font-family: 'Helvetica Light';
+    font-size:29px;
+    text-align: center;
+    margin-bottom: 44px;
+    font-weight: bold;
+}
 
 .index-text p {
 
@@ -401,10 +409,10 @@ input {outline:none;}
 .ul_class {
     font-family: 'Helvetica Light';
     font-size:23px;
-    list-style-type: square;
     margin-bottom: 44px;
 
 }
+
 
 
 .f-star {
@@ -437,11 +445,29 @@ input {outline:none;}
     text-decoration: none;
 }
 
+.rusmed2 {
+    font-size: 31px;
+    color:black;
+    text-align:center;
+    letter-spacing: 10px;
+    font-weight: bold;
+    font-family: 'PTSansNarrow-Bold';
+}
 
 
+.star_big2 {
+    width: 77px;
+    height: 67px;
+    background: transparent url(/i/image/star_big2.png) center center no-repeat ;
+    margin: 50px auto 0 auto;
+}
 
+.med-book2 {
+    font-family: 'Helvetica Light';
+    font-size: 51px;
+    text-align: center
 
-
+}
 
 
 
@@ -674,3 +700,4 @@ input {outline:none;}
 
 
 /*page2page2page2page2page2page2page2page2page2page2page2page2page2page2page2page2page2page2page2*/
+
