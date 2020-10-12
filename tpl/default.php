@@ -318,7 +318,7 @@
 <div class="container">
     <div class="row">
         <div class="col">
-            <div class="star_big"></div>
+            <div class="star_big2"></div>
         </div>
     </div>  
 
