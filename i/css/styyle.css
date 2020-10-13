@@ -510,9 +510,13 @@ input {outline:none;}
     right: 0;
     bottom: 0;
     left: 0;
-    background:;
-    z-index: 324;
-
+    background: rgba(0,0,0,0.3);
+	z-index: 99999;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+    
+    
     transition: opacity 400ms ease-in;
     display: none;
     pointer-events: none;
@@ -528,15 +532,16 @@ input {outline:none;}
     position: relative;
     margin: 10% auto;
     padding: 5px 20px 13px 20px;
+    background: #fff;
 
-    background:none;
+    
 }
 
 
 .modalDialog  h2 {
     width: 555px;
     position: relative;
-    margin-left: 90px;
+    margin-left: 130px;
     font-size: 29px;
     color: #cb3f35;
     background:none;
@@ -547,9 +552,9 @@ input {outline:none;}
 	color: #cb3f35;
 	line-height: 25px;
 	position: absolute;
-	right: -12px;
+	right: 20px;
 	text-align: center;
-	top: -10px;
+	top: 10px;
 	outline: none;
 	font-weight: bold;
         background: none;
@@ -560,10 +565,11 @@ input {outline:none;}
     background: #00d9ff;
     color: #5B37E3;
     text-decoration: none;
-    outline: none;  
+    outline: none;
+  
 }
 
-.close2:hover { }
+.close2:hover {background: none; color: black;}
 
 .modal-input {
     font-weight: normal;
@@ -582,14 +588,53 @@ input {outline:none;}
 .modalDialog input {outline:none;
 font-size: 16px;
 padding-left: 5px;
-height: 40px;}
+height: 40px;
+}
+
+.modalDialog .btn  {
+    width: 140px;
+    background-color: #cb3f35;
+    display: block;
+    margin: 0 auto;
+    text-decoration: none;
+    color: white;
+    border-radius: 0px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 40px;
+    outline: none;
+}
+
+.modalDialog .btn:hover {
+    color: white;
+}
 
 .modalDialog .sent {
     color: #a2a2a2;
     text-align: center
-    
-    
 }
+
+.open_modal {
+    width: 250px;
+    background-color: #cb3f35;
+    display: block;
+    margin: 0 auto;
+    text-decoration: none;
+    color: white;
+    border-radius: 0px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 50px;
+    outline: none;
+    cursor: pointer;
+}
+
+.open_modal:hover{
+    text-decoration: none;
+    color: white;
+}
+
+
 
 @media only screen and (max-width: 1200px) {
     .list-img {
