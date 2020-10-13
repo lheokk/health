@@ -552,6 +552,7 @@ input {outline:none;}
 	top: -10px;
 	outline: none;
 	font-weight: bold;
+        background: none;
 	
 }
 
@@ -574,10 +575,21 @@ input {outline:none;}
     text-decoration: none;
 
 }
-input::-webkit-input-placeholder { color: #a2a2a2;
+.modalDialog input::-webkit-input-placeholder { color: #a2a2a2;
                                    font-size: 16px;
-                                   padding-left: 5px;}
-input {outline:none;}
+                                   
+                                   }
+.modalDialog input {outline:none;
+font-size: 16px;
+padding-left: 5px;
+height: 40px;}
+
+.modalDialog .sent {
+    color: #a2a2a2;
+    text-align: center
+    
+    
+}
 
 @media only screen and (max-width: 1200px) {
     .list-img {
