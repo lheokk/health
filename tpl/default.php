@@ -1,13 +1,14 @@
 <div class="container">
     <div class="row">
-        <div class="col-4">
-            <div class="star" style="float: left; margin-right: 15px;"></div>
+        <div class="col">
+            <div style="float: left; margin-top: 8px;">
+            <div class="star" style="float: left; margin-right: 15px; "></div>
             <div class='rusmed' style="line-height: 50px; float: left; font-weight: bold; letter-spacing: 5px;">РУСМЕДЗДРАВ</div>
             <div style="clear: both;"></div>
-        </div> 
+        </div>
 
-        <div class="col-5">
-            <div class="menu-container desktop">
+        
+            <div class="menu-container desktop" style="float: left; margin-left: 45px; margin-top: 5px; ">
                 <div class="menu">
                     <ul>
                         <li><a href="#">О центре</a></li>
@@ -18,10 +19,9 @@
                     <div style="clear: both;"></div>
                 </div>
             </div>
-        </div> 
-
-        <div class="col-3">
-            <div class="menu-container">
+        
+        
+            <div class="menu-container" style="float: right; margin-right: 35px; margin-top: 5px; margin-bottom: 10px;">
                 <div class="menu ">
                     <ul>
                         <li class="mobile"><a href="#">О центре</a></li>
@@ -41,8 +41,8 @@
     <div class="container ">
         <div class="row">
             <div class="col">
-                <div style="padding: 25px 0;">
-                    COVID-19. Тестирование на коронавирус с выездом на дом и предприятие. Читать подробнее
+                <div style="padding: 15px 0; font-size: 18px;">
+                    COVID-19. Тестирование на коронавирус с выездом на дом и предприятие. <a href="#" class="underline">Читать подробнее</a>
                 </div>
             </div>
         </div>
@@ -89,7 +89,7 @@
                             <div class="garant">
                                 Мы обладаем медицинской лицензией МинЗдрава РФ и предоставляет только официальные документы...
                             </div>
-                            <div class="read"> <a href="#"> Читать полностью... </a></div>
+                            <div class="read"> <a href="#"> Читать полностью </a></div>
                         </div>
                     </div>
                 </div>
@@ -123,7 +123,7 @@
                             <div class="garant">
                                 Мы обладаем медицинской лицензией МинЗдрава РФ и предоставляет только официальные документы...
                             </div>
-                            <div class="read"> <a href="#"> Читать полностью... </a></div>
+                            <div class="read"> <a href="#"> Читать полностью </a></div>
 
                         </div>
                     </div>

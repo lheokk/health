@@ -12,7 +12,19 @@
     font-style: normal;
 }
 
+.underline {
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid white;
+    transition: all 0.2s ease-in-out;
 
+}
+
+.underline:hover{
+    text-decoration: none;
+    color: white;
+    border-bottom-color: transparent;
+}
 .white-line {
     padding-top: 35px;
 }
@@ -89,11 +101,15 @@
 }
 
 .low {
-    margin-left: 15px;
+    font-weight: bold;
+    margin-left: 9px;
+    padding-left: 15px;
     margin-top: 10px;
     font-family:  "Helvetica Light";
     font-size: 14px;
     font-style:italic;
+    border-left: 2px solid #5B37E3
+    
 }
 
 .kniga-img {
@@ -106,18 +122,18 @@
 
 .med-book-left {
     font-family:  "Helvetica Light";
-    font-size: 40px;
-    line-height: 50px;
-    margin-top: 20px;
-    margin-left: -100px;
+    font-size: 60px;
+    line-height: 66px;
+    margin-top: -3px;
+    margin-left: 130px;
 }
 
 .med-book-right {
     font-family:  "Helvetica Light";
-    font-size: 40px;
-    line-height: 50px;
-    margin-top: 20px;
-    margin-left: -100px;
+    font-size: 66px;
+    line-height: 70px;
+    margin-top: -3px;
+    margin-left: 130px;
 }
 .garant {
     margin-left: 10px;
@@ -140,11 +156,34 @@ menu-empty {
 }
 
 .read {
-    color: #5B37E3;
+    
     text-decoration: none;
     font-size: 15px;
     margin-left: 10px;
-    margin-top: 175px;
+    margin-top: -20px;
+    
+}
+
+.read a {
+    display: inline-block;
+    position: relative;
+    color: #5B37E3;
+}
+
+.read a:hover::after {
+    width: 100%;
+    
+}
+
+.read a::after {
+    height: 1px;
+    width: 60%;
+    content: '';
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    transition: all 0.2s ease-in-out;
+    background-color: #5B37E3;
 }
 
 .read a:hover {
@@ -725,7 +764,8 @@ height: 40px;
         margin-top: 50px;
     }
 
-    .low {margin-left: 135px;}
+    .low {margin-left: 135px;
+    }
 
     .garant {
         font-size: 30px;
