@@ -148,17 +148,17 @@
     <div id="contact-slide" class="cs-crop">
         <div class="container">
             <div class="row">
-                <div class="col-md-7">
+                <div class="col-md-6">
                     <div class="online">Оставить онлайн заявку</div>
                     <div class="free">
                         Чтобы получить бесплатную консультацию физическому или 
-                        юридическому лицу, необходимо заполнить форму или 
+                        юридическому лицу,&nbsp;необходимо заполнить форму или 
                         обратиться к нашим специалистам по телефону<br />
                         + 7 (495) 666-0-00. </div>
                 </div>
 
 
-                <div class="col-md-5">
+                <div class="col-md-6">
                     <div class="form form-1">
                         <input type="text" value="" name="first_name"  placeholder="Имя" class="form-input" />
                     </div>
@@ -247,14 +247,10 @@
 
 
 <div class="bg-F7">
-    <div class="space50"></div>
+    <div class="space100"></div>
     <div class="container">
         <div class="row">
-            <div class="col">
-                <div class="owl-carousel owl-theme" id="owl">
-
-                    <div class="pr"> 
-                        <div class="item">
+            <div class="col-4">
                             <div>
                                 <div class="procent"></div>
                                 <div class="v_text_16">Акция</div>
@@ -266,34 +262,34 @@
                             <div class="rectangle-down-small" style="width: 330px;">
                                 Официально и быстро. Для Москвы и Московской области...
                             </div>
-                        </div>
-
-                    </div>
-
-                    <div class="pr"> 
-                        <div class="item">
+                            </div>
+            <div class="col-4">
+                            
                             <div class="doc"></div>
                             <div class="v_text_16">Статья</div>
                             <div class="rectangle"></div>
-                            <div class="down-1"></div>
-                        </div>
+                            <div class="rectangle-down-big" style="width: 330px;">
+                                Полная водительская медкомиссия для ГИБДД Заказать: 3000 руб. 
+                            </div>
+                            <div class="rectangle-down-small" style="width: 330px;">
+                                Официально и быстро. Для Москвы и Московской области...
+                            </div></div>
 
-                    </div>
-                    <div class="pr"> 
-                        <div class="item">
+                            <div class="col-4">
                             <div class="stop"></div>
                             <div class="v_text_16">Новости</div>
                             <div class="rectangle"></div>
-                            <div class=""></div>
-                        </div>
+                            <div class="rectangle-down-big" style="width: 330px;">
+                                Полная водительская медкомиссия для ГИБДД Заказать: 3000 руб. 
+                            </div>
+                            <div class="rectangle-down-small" style="width: 330px;">
+                                Официально и быстро. Для Москвы и Московской области...
+                            </div> </div>
 
-                    </div>
                 </div>
             </div>
+    <div style="width: 100%; height: 250px;"></div>
         </div>
-    </div>
-</div>  
-
 <script>
     $('#owl').owlCarousel({
         loop: true,

@@ -60,9 +60,24 @@
 
 .bg-F7 {
     background-color: #F7F7F7;
-    margin-top: 60px;
+    margin-top: 100px;
     width: 100%
 
+}
+
+.rectangle-down-big {
+    font-weight: bold;
+    font-size: 28px;
+    margin-top: 30px;
+    line-height: 36px;
+    font-family: 'Helvetica Light';
+}
+
+.rectangle-down-small {
+    font-family: 'Helvetica Light';
+    font-size:22px;
+    margin-top: 15px;
+    
 }
 
 .book-img {
@@ -243,7 +258,8 @@ input {outline:none;}
 .sales {
     font-size: 36px;
     font-family: "Helvetica Light";
-    margin-top: 140px;
+    line-height: 40px;
+    margin-top: 137px;
     margin-left: 25px;
 }
 
