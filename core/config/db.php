@@ -32,11 +32,11 @@
     {
         $g_config['pdo']['databases'] = array
         (
-//            'db' => array(
-//                'dsn' => 'mysql:host=*host*;dbname=*dbname*;charset=utf8',
-//                'login' => '',
-//                'pwd' => ''
-//            ),
+            'db' => array(
+                'dsn' => 'mysql:host=51.89.9.22;dbname=health;charset=utf8',
+                'login' => 'server_22_admin',
+                'pwd' => 'Z46aB2Rd'
+            ),
         );
     }
 ?>
