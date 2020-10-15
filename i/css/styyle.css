@@ -63,7 +63,7 @@
     font-family:  "Helvetica Light";
     color: #D6D4D4;
     margin-top: 20px;
-
+    font-size: 17px;
 }
 
 .ooo {
@@ -122,7 +122,7 @@
 
 .med-book-left {
     font-family:  "Helvetica Light";
-    font-size: 60px;
+    font-size: 51px;
     line-height: 66px;
     margin-top: -3px;
     margin-left: 130px;
@@ -130,7 +130,7 @@
 
 .med-book-right {
     font-family:  "Helvetica Light";
-    font-size: 66px;
+    font-size: 51px;
     line-height: 70px;
     margin-top: -3px;
     margin-left: 130px;
@@ -167,7 +167,7 @@ menu-empty {
 .read a {
     display: inline-block;
     position: relative;
-    color: #5B37E3;
+    color: #9882eb;
 }
 
 .read a:hover::after {
@@ -183,11 +183,11 @@ menu-empty {
     bottom: -6px;
     left: 0;
     transition: all 0.2s ease-in-out;
-    background-color: #5B37E3;
+    background-color: #9882eb;
 }
 
 .read a:hover {
-    color: #5B37E3;
+    color: #9882eb;
     text-decoration: none;
 }
 
@@ -237,7 +237,7 @@ menu-empty {
     font-size: 24px;
     margin-top: 1px;
     margin-left: 100px;
-    color: #5B37E3;
+    color: #866ceb;
     text-decoration: none;
 }
 
@@ -313,7 +313,7 @@ input {outline:none;}
 }
 
 .want {
-    font-size: 24px;
+    font-size: 23px;
     font-family: "Helvetica Light";
     margin-top: 140px;
 }
@@ -321,8 +321,8 @@ input {outline:none;}
 .offer { 
     margin-top:55px;   
     font-family: 'Helvetica Light';
-    color: #C3B2F2;
-    font-size: 18px;
+    color: #9881eb;
+    font-size: 15px;
 }
 
 .footer { list-style-type: none;
@@ -330,6 +330,7 @@ input {outline:none;}
           margin-top:70px;
           font-family: 'Helvetica Light';
           line-height: 20px;
+          font-weight: bold;
 }
 
 .cookie {
@@ -358,7 +359,7 @@ input {outline:none;}
 }
 
 .v_text_16 {
-    font-size: 16px;
+    font-size: 15px;
     font-family: 'PTSansNarrow-Bold';
     color: #9881eb;
     margin-left: 60px;
@@ -492,6 +493,10 @@ input {outline:none;}
 
 .footer a {
     color: black;
+    font-size: 14px;
+    font-family: 'PTSansNarrow-Bold';
+    font-weight: bold;
+    
 }
 
 .footer a:hover {
@@ -596,10 +601,11 @@ input {outline:none;}
 .modalDialog  h2 {
     width: 555px;
     position: relative;
-    margin-left: 130px;
+    margin-left: -13px;
     font-size: 29px;
     color: #cb3f35;
     background:none;
+    
 }
 
 .close2 {
@@ -765,6 +771,7 @@ height: 40px;
     }
 
     .low {margin-left: 135px;
+          
     }
 
     .garant {

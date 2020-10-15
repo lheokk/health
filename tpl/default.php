@@ -64,7 +64,7 @@
                 Заказать обратный звонок
             </div>
         </div>
-        <div class='col-lg-6 col-md-6'>
+        <div class='col-lg-6 col-md-6' style="font-size: 23px; font-family: 'Helvetica Light'">
             ООО «РУСМЕДЗДРАВ» предоставляет полный <br> пакет услуг согласно Приказу Министерства <br> здравоохранения и социального развития РФ <br> от 12.04.2011№ 302 н «Об утверждении перечней <br> вредных и (или) опасных производственных <br> факторов, при выполнении которых проводятся <br> обязательные предварительные и периодические <br> осмотры (обследования)»
         </div>
     </div>
@@ -250,7 +250,7 @@
     <div class="space100"></div>
     <div class="container">
         <div class="row">
-            <div class="col-4">
+            <div class="col-md-4">
                             <div>
                                 <div class="procent"></div>
                                 <div class="v_text_16">Акция</div>
@@ -261,29 +261,26 @@
                             </div>
                             <div class="rectangle-down-small" style="width: 330px;">
                                 Официально и быстро. Для Москвы и Московской области...
-                            </div>
-                            </div>
-            <div class="col-4">
+                            </div></div>
+            <div class="col-md-4">
                             
                             <div class="doc"></div>
                             <div class="v_text_16">Статья</div>
                             <div class="rectangle"></div>
                             <div class="rectangle-down-big" style="width: 330px;">
-                                Полная водительская медкомиссия для ГИБДД Заказать: 3000 руб. 
-                            </div>
+                                Как бороться с COVID-19?                            </div>
                             <div class="rectangle-down-small" style="width: 330px;">
-                                Официально и быстро. Для Москвы и Московской области...
+                                Статья рассказывает о методах сопротивления вирусу...
                             </div></div>
 
-                            <div class="col-4">
+            <div class="col-md-4">
                             <div class="stop"></div>
                             <div class="v_text_16">Новости</div>
                             <div class="rectangle"></div>
                             <div class="rectangle-down-big" style="width: 330px;">
-                                Полная водительская медкомиссия для ГИБДД Заказать: 3000 руб. 
-                            </div>
+                                Мы открыли новый филиал                            </div>
                             <div class="rectangle-down-small" style="width: 330px;">
-                                Официально и быстро. Для Москвы и Московской области...
+                                Совершенно недавно у нас открылся новый филиал в Москве...
                             </div> </div>
 
                 </div>
