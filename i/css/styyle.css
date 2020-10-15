@@ -330,7 +330,7 @@ input {outline:none;}
           margin-top:70px;
           font-family: 'Helvetica Light';
           line-height: 20px;
-          font-weight: bold;
+         
 }
 
 .cookie {
@@ -487,15 +487,14 @@ input {outline:none;}
     margin-left: 150px;
     letter-spacing: 5px;
     margin-top: 68px;
-    font-weight: 200;
+    font-weight: bold;
 
 }
 
 .footer a {
     color: black;
     font-size: 14px;
-    font-family: 'PTSansNarrow-Bold';
-    font-weight: bold;
+    font-family: 'Helvetica Light';
     
 }
 
@@ -634,12 +633,13 @@ input {outline:none;}
 
 .modal-input {
     font-weight: normal;
-    border:none;
+    border: none;
     color:#a2a2a2;
     width: 100%;
     background: #cb3f35;
     font-size: 22px;
     text-decoration: none;
+    
 
 }
 .modalDialog input::-webkit-input-placeholder { color: #a2a2a2;
