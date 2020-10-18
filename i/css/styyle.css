@@ -639,24 +639,28 @@ input {outline:none;}
     background: #cb3f35;
     font-size: 22px;
     text-decoration: none;
+   margin-top: -40px;
+   margin-bottom: -40px;
     
 
 }
 .modalDialog input::-webkit-input-placeholder { color: #a2a2a2;
                                    font-size: 16px;
+                                  
                                    
                                    }
 .modalDialog input {outline:none;
 font-size: 16px;
 padding-left: 5px;
 height: 40px;
+
 }
 
 .modalDialog .btn  {
     width: 140px;
     background-color: #cb3f35;
     display: block;
-    margin: 0 auto;
+    margin: -20px auto 15px auto;
     text-decoration: none;
     color: white;
     border-radius: 0px;
@@ -672,7 +676,11 @@ height: 40px;
 
 .modalDialog .sent {
     color: #a2a2a2;
-    text-align: center
+    text-align: center;
+    font-size: 16px;
+    line-height: 15px; 
+    font-weight: bold;
+    margin-top: -10px;
 }
 
 .open_modal {
