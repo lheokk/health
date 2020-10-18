@@ -200,9 +200,13 @@ Mobile style's
         display: block;
     }
     .menu > ul > li a {
-        padding: 1.5em;
+        
+        text-align: left;
+        font-family: 'Helvetica Light';
+        color: #5151d3;
         width: 100%;
         display: block;
+        border-bottom: 1px solid #F7F7F7;
     }
     .menu > ul > li > ul {
         position: relative;
