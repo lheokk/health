@@ -193,14 +193,17 @@ Mobile style's
     }
     .menu > ul {
         display: none;
+       
+       
     }
     .menu > ul > li {
         width: 100%;
         float: none;
         display: block;
+        
     }
     .menu > ul > li a {
-        
+       
         text-align: left;
         font-family: 'Helvetica Light';
         color: #5151d3;
@@ -208,6 +211,14 @@ Mobile style's
         display: block;
         border-bottom: 1px solid #F7F7F7;
     }
+    
+    .menu > ul > li a:first-child { 
+    margin-top:;
+    }
+
+
+
+    
     .menu > ul > li > ul {
         position: relative;
     }
