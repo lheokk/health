@@ -7,24 +7,47 @@
 .menu-mobile {
     display: none;
     padding: 20px;
+    position: relative;
 }
 
-.menu-mobile:after {
-    content: "\f394";
-    font-family: "Ionicons";
-    font-size: 2.5rem;
-    padding: 0;
-    float: right;
-    position: relative;
-    top: 50%;
-    -webkit-transform: translateY(-25%);
-    -ms-transform: translateY(-25%);
-    transform: translateY(-25%);
+.menu-mobile span.burger, .menu-mobile span.burger:before, .menu-mobile span.burger:after{
+    display: block;
+    width: 30px;
+    height: 1px;
+    position: absolute;
+    background: black;
+    left: 0px;
+    transition: all 0.2s ease-in-out;
+}
+
+.menu-mobile span.burger:before, .menu-mobile span.burger:after {
+    content: '';
+}
+
+.menu-mobile span.burger:before {
+    top: 10px;
+}
+
+.menu-mobile span.burger:after {
+    top: 20px;
+}
+
+.menu-mobile span.burger {
+    top: 40px;
+}
+.menu-mobile.orthodox .burger:before {
+    background: white;
+}
+
+.menu-mobile.orthodox .burger {
+    transform: translateY(9px) rotate(-45deg);
+}
+
+.menu-mobile.orthodox .burger:after {
+    transform: translateY(-19px) rotate(90deg);
 }
 
 .menu-dropdown-icon:before {
-    content: "\f489";
-    font-family: "Ionicons";
     display: none;
     cursor: pointer;
     float: right;
@@ -38,6 +61,7 @@
     list-style: none;
     padding: 0;
     position: relative;
+    background: white;
     /* IF .menu position=relative -> ul = container width, ELSE ul = 100% width */
     box-sizing: border-box;
 }
@@ -83,7 +107,7 @@
 .menu > ul > li > ul {
     display: none;
     width: 100%;
-    background: #f0f0f0;
+    background: transparent;
     padding: 20px;
     position: absolute;
     z-index: 99;
@@ -113,7 +137,7 @@
 }
 
 .menu > ul > li > ul > li a {
-    color: #777;
+    
     padding: .2em 0;
     width: 95%;
     display: block;
@@ -166,6 +190,8 @@
 }
 
 
+
+
 /* ––––––––––––––––––––––––––––––––––––––––––––––––––
 Mobile style's
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -174,13 +200,28 @@ Mobile style's
 
 @media only screen and (max-width: 992px) {
     .desktop {display: none;}
+    .mobile {
+        padding-left: 20px !important;
+        padding-bottom: 15px !important;
+    }
+    
+    .menu li a {
+        font-size: 20px !important;
+    }
+    
+    .menu li.small a {
+        font-size: 16px !important;
+    }
+    .menu li.small {
+        padding-left: 16px !important;
+    }
     
     .menu-container {
         width: 100%;
     }
     .menu-mobile {
         display: block;
-        position: absolute; 
+        position: fixed; 
         width: 30px;
         height: 60px;
         top: -20px; 
@@ -213,7 +254,7 @@ Mobile style's
     }
     
     .menu > ul > li a:first-child { 
-    margin-top:;
+
     }
 
 

@@ -2,12 +2,12 @@
     <div class="row">
         <div class="col">
             <div style="float: left; margin-top: 8px;">
-            <div class="star" style="float: left; margin-right: 15px; "></div>
-            <div class='rusmed' style="line-height: 50px; float: left; font-weight: bold; letter-spacing: 5px;">РУСМЕДЗДРАВ</div>
-            <div style="clear: both;"></div>
-        </div>
+                <div class="star" style="float: left; margin-right: 15px; "></div>
+                <div class='rusmed' style="line-height: 50px; float: left; font-weight: bold; letter-spacing: 5px;">РУСМЕДЗДРАВ</div>
+                <div style="clear: both;"></div>
+            </div>
 
-        
+
             <div class="menu-container desktop" style="float: left; margin-left: 45px; margin-top: 5px; ">
                 <div class="menu">
                     <ul>
@@ -19,17 +19,29 @@
                     <div style="clear: both;"></div>
                 </div>
             </div>
-        
-        
+
+
             <div class="menu-container" style="float: right; margin-right: 35px; margin-top: 5px; margin-bottom: 10px;">
                 <div class="menu ">
                     <ul>
+                        <li class="mobile">
+                            <div class="star" style="float: left; margin-right: 15px; "></div>
+                            <div class='rusmed' style="line-height: 50px; float: left; font-weight: bold; letter-spacing: 5px;">РУСМЕДЗДРАВ</div>
+                            <div style="clear: both;"></div>
+                        </li>
                         <li class="mobile"><a href="#">О центре</a></li>
-                        <li class="mobile"><a href="#">Услуги</a></li>
+                        <li class="mobile">
+                            <a href="#">Услуги</a>
+                            <ul>
+                                <li class="small"><a href="#" >Медициские книжки</a></li>
+                                <li class="small"><a href="#">Медициские справки</a></li>
+                                <li class="small"><a href="#">Медициские осмотры</a></li>
+                            </ul>
+                        </li>
                         <li class="mobile"><a href="#">Акции</a></li>
                         <li class="mobile"><a href="#">Партнерство</a></li>
-                        <li><a href="#">Карьера</a></li>
-                        <li><a href="#">Блог</a></li>
+                        <li class="small"><a href="#">Карьера</a></li>
+                        <li class="small"><a href="#">Блог</a></li>
                     </ul>
                     <div style="clear: both;"></div>
                 </div>
@@ -251,42 +263,42 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-                            <div>
-                                <div class="procent"></div>
-                                <div class="v_text_16">Акция</div>
-                            </div>
-                            <div class="rectangle"></div>
-                            <div class="rectangle-down-big" style="width: 330px;">
-                                Полная водительская медкомиссия для ГИБДД Заказать: 3000 руб. 
-                            </div>
-                            <div class="rectangle-down-small" style="width: 330px;">
-                                Официально и быстро. Для Москвы и Московской области...
-                            </div></div>
-            <div class="col-md-4">
-                            
-                            <div class="doc"></div>
-                            <div class="v_text_16">Статья</div>
-                            <div class="rectangle"></div>
-                            <div class="rectangle-down-big" style="width: 330px;">
-                                Как бороться с COVID-19?                            </div>
-                            <div class="rectangle-down-small" style="width: 330px;">
-                                Статья рассказывает о методах сопротивления вирусу...
-                            </div></div>
-
-            <div class="col-md-4">
-                            <div class="stop"></div>
-                            <div class="v_text_16">Новости</div>
-                            <div class="rectangle"></div>
-                            <div class="rectangle-down-big" style="width: 330px;">
-                                Мы открыли новый филиал                            </div>
-                            <div class="rectangle-down-small" style="width: 330px;">
-                                Совершенно недавно у нас открылся новый филиал в Москве...
-                            </div> </div>
-
+                <div>
+                    <div class="procent"></div>
+                    <div class="v_text_16">Акция</div>
                 </div>
-            </div>
-    <div style="width: 100%; height: 250px;"></div>
+                <div class="rectangle"></div>
+                <div class="rectangle-down-big" style="width: 330px;">
+                    Полная водительская медкомиссия для ГИБДД Заказать: 3000 руб. 
+                </div>
+                <div class="rectangle-down-small" style="width: 330px;">
+                    Официально и быстро. Для Москвы и Московской области...
+                </div></div>
+            <div class="col-md-4">
+
+                <div class="doc"></div>
+                <div class="v_text_16">Статья</div>
+                <div class="rectangle"></div>
+                <div class="rectangle-down-big" style="width: 330px;">
+                    Как бороться с COVID-19?                            </div>
+                <div class="rectangle-down-small" style="width: 330px;">
+                    Статья рассказывает о методах сопротивления вирусу...
+                </div></div>
+
+            <div class="col-md-4">
+                <div class="stop"></div>
+                <div class="v_text_16">Новости</div>
+                <div class="rectangle"></div>
+                <div class="rectangle-down-big" style="width: 330px;">
+                    Мы открыли новый филиал                            </div>
+                <div class="rectangle-down-small" style="width: 330px;">
+                    Совершенно недавно у нас открылся новый филиал в Москве...
+                </div> </div>
+
         </div>
+    </div>
+    <div style="width: 100%; height: 250px;"></div>
+</div>
 <script>
     $('#owl').owlCarousel({
         loop: true,
@@ -357,9 +369,9 @@
         .s {
             list-style: none; /* Убираем исходные маркеры */ 
         }
-        
-      
-       
+
+
+
     </style>
     <div class="row">
         <div class="col">
