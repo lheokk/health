@@ -55,8 +55,12 @@
     font-size: 16px;
     font-family: 'PTSansNarrow-Bold';
 
+}
 
+.rusmed-mobile {
 
+    font-size: 16px;
+    font-family: 'PTSansNarrow-Bold';
 }
 
 .bell {
@@ -705,7 +709,9 @@ height: 40px;
 
 
 
+
 @media only screen and (max-width: 1200px) {
+   
     .list-img {
         margin-left: 70px;
     }
@@ -722,6 +728,10 @@ height: 40px;
     .read {
     }
 }
+    
+    .low {
+        margin-left: 0px;
+    }
 
 
 @media only screen and (max-width: 992px) {
@@ -730,7 +740,6 @@ height: 40px;
         font-size: 36px;
         margin-left: 80px;
     }
-
 
 
 
@@ -778,9 +787,6 @@ height: 40px;
         margin-top: 50px;
     }
 
-    .low {margin-left: 135px;
-          
-    }
 
     .garant {
         font-size: 30px;
@@ -871,7 +877,7 @@ height: 40px;
         margin-top: 50px;
     }
 
-    .low {margin-left: 20px;}
+   
 
     .garant {
         font-size: 30px;
@@ -923,9 +929,6 @@ height: 40px;
         margin-top: 30px;
     }
 }
-
-
-
 .space10 {width: 100%; height: 10px;}
 .space20 {width: 100%; height: 20px;}
 .space50 {width: 100%; height: 50px;}
@@ -933,6 +936,4 @@ height: 40px;
 .space100 {width: 100%; height: 100px;}
 .space150 {width: 100%; height: 150px;}
 
-
-/*page2page2page2page2page2page2page2page2page2page2page2page2page2page2page2page2page2page2page2*/
 

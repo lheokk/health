@@ -210,7 +210,7 @@ Mobile style's
     }
     
     .menu li.small a {
-        font-size: 16px !important;
+        font-size: 15px !important;
     }
     .menu li.small {
         padding-left: 16px !important;
@@ -229,6 +229,22 @@ Mobile style's
         z-index: 99;
         outline: none !important;
     }
+    
+    .right-insta {
+        color: #5151d3;
+        font-size: 15px !important;
+        margin-top: 20px;
+        float: left;
+    }
+    
+    .insta {
+    width: 78px;
+    height: 78px;
+    background: transparent url(/i/image/insta.png) center center no-repeat ;  
+    background-size: 28px;
+    float: left;
+    margin-left: -8px;}
+    
     .menu-dropdown-icon:before {
         display: block;
     }
@@ -252,6 +268,8 @@ Mobile style's
         display: block;
         border-bottom: 1px solid #F7F7F7;
     }
+    
+    
     
     .menu > ul > li a:first-child { 
 

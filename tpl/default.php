@@ -26,7 +26,7 @@
                     <ul>
                         <li class="mobile">
                             <div class="star" style="float: left; margin-right: 15px; "></div>
-                            <div class='rusmed' style="line-height: 50px; float: left; font-weight: bold; letter-spacing: 5px;">РУСМЕДЗДРАВ</div>
+                            <div class='rusmed-mobile' style="line-height: 50px; float: left; font-weight: bold; letter-spacing: 5px;">РУСМЕДЗДРАВ</div>
                             <div style="clear: both;"></div>
                         </li>
                         <li class="mobile"><a href="#">О центре</a></li>
@@ -40,8 +40,13 @@
                         </li>
                         <li class="mobile"><a href="#">Акции</a></li>
                         <li class="mobile"><a href="#">Партнерство</a></li>
-                        <li class="small"><a href="#">Карьера</a></li>
-                        <li class="small"><a href="#">Блог</a></li>
+                        <li class="small"><a href="#" style="border-bottom: none;">Карьера</a></li>
+                        <li class="small"><a href="#" style="border-bottom: none;">Блог</a></li>
+                        <li class="small mobile" style="border-bottom:none">
+                            <div class="insta"></div>
+                            <div class="right-insta"><a href="#" style="border-bottom: none;">О нас</a></div>
+                            <div class="right-insta"><a href="#" style="border-bottom: none;"> Контакт</a></div>
+                        </li>
                     </ul>
                     <div style="clear: both;"></div>
                 </div>
