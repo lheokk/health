@@ -92,23 +92,25 @@
         var offsetTop = $(document).scrollTop();
         var y = (520 - offsetTop < 0) ? 0 : 520 - offsetTop;
         $("#triangle").attr("points", "0," + y + " 0,520 1120,520 1120,445");
-        $(".slide-box").css("top", -(300-y));
+        $(".slide-box").css("top", -(300 - y));
     }
 </script>
 <div class='container'>    
     <div class='row'>
-        <div class='col-lg-6 col-md-6 '>
+        <div class='col-lg-6'>
             <div class="slide-box">
                 <div class="easely">
-                    Намного проче, чем кажется.
+                    Намного проще, чем кажется.
                 </div>
                 <div class='bell'>
                     Заказать обратный звонок
                 </div>
             </div>
         </div>
-        <div class='col-lg-6 col-md-6' style="font-size: 23px; font-family: 'Helvetica Light'">
-            ООО «РУСМЕДЗДРАВ» предоставляет полный <br> пакет услуг согласно Приказу Министерства <br> здравоохранения и социального развития РФ <br> от 12.04.2011№ 302 н «Об утверждении перечней <br> вредных и (или) опасных производственных <br> факторов, при выполнении которых проводятся <br> обязательные предварительные и периодические <br> осмотры (обследования)»
+        <div class='col-lg-6 under-triangle'>
+            <div style="padding: 0 20px;">
+                ООО «РУСМЕДЗДРАВ» предоставляет полный пакет услуг согласно Приказу Министерства здравоохранения и социального развития РФ от 12.04.2011№ 302 н «Об утверждении перечней вредных и (или) опасных производственных факторов, при выполнении которых проводятся обязательные предварительные и периодические осмотры (обследования)»
+            </div>
         </div>
     </div>
 </div><link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet" />
