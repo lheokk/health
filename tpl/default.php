@@ -69,16 +69,42 @@
 <div class="container">
     <div class="row">
         <div class="col">
-            <div class="med">
-            </div>
+            <div class="med"></div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 520" preserveAspectRatio="none" class="triangle">
+            <polygon id="triangle" points="0,520 0,520 1120,520 1120,445" fill-rule="nonzero" fill="#fff"></polygon>
+            </svg>
         </div>
     </div>
 </div>
+<style>
+    .triangle {position: absolute; bottom: 0;}
+    .slide-box {position: absolute; left: 150px; top: 0;}
+    .easely {font-size: 47px;}
+</style>
+<script>
+    $(document).ready(function () {
+        $(document).on("scroll", function () {
+            triangle();
+        });
+        triangle();
+    });
+    function triangle() {
+        var offsetTop = $(document).scrollTop();
+        var y = (520 - offsetTop < 0) ? 0 : 520 - offsetTop;
+        $("#triangle").attr("points", "0," + y + " 0,520 1120,520 1120,445");
+        $(".slide-box").css("top", -(300-y));
+    }
+</script>
 <div class='container'>    
     <div class='row'>
-        <div class='col-lg-6 col-md-6'>
-            <div class='bell'>
-                Заказать обратный звонок
+        <div class='col-lg-6 col-md-6 '>
+            <div class="slide-box">
+                <div class="easely">
+                    Намного проче, чем кажется.
+                </div>
+                <div class='bell'>
+                    Заказать обратный звонок
+                </div>
             </div>
         </div>
         <div class='col-lg-6 col-md-6' style="font-size: 23px; font-family: 'Helvetica Light'">
@@ -97,7 +123,7 @@
                     <div class="row">
                         <div class="col">
                             <div class="list-img" style="float:left; margin-right: 10px;"></div>
-                            <div class="med-book-left">Медицинские справки </div>
+                            <div class="med-book left">Медицинские справки </div>
                             <div style="clear: both;"></div>
                         </div>
                     </div>
@@ -131,7 +157,7 @@
                     <div class="row">
                         <div class="col">
                             <div class="list-img" style="float:left; margin-right: 10px;"></div>
-                            <div class="med-book-right">Медицинские справки</div>
+                            <div class="med-book right">Медицинские справки</div>
                             <div style="clear: both;"></div>
                         </div>
                     </div>
@@ -162,6 +188,7 @@
 </div> 
 
 <div class="bg-v">
+    <div style="width: 100%; height: 60px;"></div>
     <div id="contact-slide" class="cs-crop">
         <div class="container">
             <div class="row">
@@ -176,14 +203,14 @@
 
 
                 <div class="col-md-6">
-                    <div class="form form-1">
+                    <div class="form">
                         <input type="text" value="" name="first_name"  placeholder="Имя" class="form-input" />
                     </div>
                     <div class="form ">
                         <input type="text" value="" name="second_name" placeholder="Фамилия" class="form-input" />
                     </div>
                     <div class="form">
-                        <input type="text" value="" name="email"  placeholder="Номер телефона" class="form-input" />
+                        <input type="text" value="" name="email"  placeholder="Телефон" class="form-input" />
                     </div>
                     <div class="form ">
                         <input type="text" value="" name="title"  placeholder="Заголовок" class="form-input" />
@@ -195,27 +222,23 @@
             </div>
         </div>
     </div>
-    <div class='up' id="contact-slide-arrow"></div>
+    <div class='down' id="contact-slide-arrow"></div>
 </div>
 <script>
     $(document).ready(function () {
         $("#contact-slide-arrow").click(function () {
             if ($("#contact-slide").hasClass('cs-crop')) {
                 $("#contact-slide").removeClass('cs-crop').addClass('cs-full');
+                $("#contact-slide-arrow").removeClass('down').addClass('up');
             } else {
                 var h = $("#contact-slide").height();
                 $(".cs-full").css("height", h);
-                $("#contact-slide").removeClass('cs-full').addClass('cs-crop');
+                $("#contact-slide").removeClass('cs-full').addClass('cs-crop').removeAttr("style");
+                $("#contact-slide-arrow").removeClass('up').addClass('down');
             }
         });
     });
 </script>
-<style>
-    #contact-slide {overflow: hidden;
-                    transition: all ease-in-out .3s;}
-    .cs-crop {height: 320px;}
-    .cs-full {}
-</style>
 <div class="container">
     <div class="row">
         <div class="col-md-6">
@@ -269,34 +292,39 @@
         <div class="row">
             <div class="col-md-4">
                 <div>
-                    <div class="procent"></div>
+                    <div class="image_left" style="background: transparent url(/i/image/procent.png) center left no-repeat ;"></div>
                     <div class="v_text_16">Акция</div>
                 </div>
-                <div class="rectangle"></div>
-                <div class="rectangle-down-big" style="width: 330px;">
+                <div class="rectangle">
+                    <img src="/upl/flatironbg.jpg" />
+                </div>
+                <div class="rectangle-down-big">
                     Полная водительская медкомиссия для ГИБДД Заказать: 3000 руб. 
                 </div>
-                <div class="rectangle-down-small" style="width: 330px;">
+                <div class="rectangle-down-small">
                     Официально и быстро. Для Москвы и Московской области...
                 </div></div>
             <div class="col-md-4">
 
-                <div class="doc"></div>
-                <div class="v_text_16">Статья</div>
-                <div class="rectangle"></div>
-                <div class="rectangle-down-big" style="width: 330px;">
+                <div class="image_left" style="background: transparent url(/i/image/doc.png) center left no-repeat ;"></div>                <div class="v_text_16">Статья</div>
+                <div class="rectangle">
+                    <img src="/upl/flatironbg.jpg" />
+                </div>
+                <div class="rectangle-down-big">
                     Как бороться с COVID-19?                            </div>
-                <div class="rectangle-down-small" style="width: 330px;">
+                <div class="rectangle-down-small" >
                     Статья рассказывает о методах сопротивления вирусу...
                 </div></div>
 
             <div class="col-md-4">
-                <div class="stop"></div>
+                <div class="image_left" style="background: transparent url(/i/image/stop.png) center left no-repeat ;"></div>
                 <div class="v_text_16">Новости</div>
-                <div class="rectangle"></div>
-                <div class="rectangle-down-big" style="width: 330px;">
+                <div class="rectangle">
+                    <img src="/upl/flatironbg.jpg" />
+                </div>
+                <div class="rectangle-down-big">
                     Мы открыли новый филиал                            </div>
-                <div class="rectangle-down-small" style="width: 330px;">
+                <div class="rectangle-down-small">
                     Совершенно недавно у нас открылся новый филиал в Москве...
                 </div> </div>
 
