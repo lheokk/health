@@ -128,17 +128,18 @@
 
 .med-book.left {
     margin-top: 20px;
+    
 }
 
 .med-book {
     font-family:  "Helvetica Light";
     font-size: 51px;
-    line-height: 70px;
+    line-height: 50px;
     margin-left: 130px;
 }
 
 .med-book.right {
-    margin-top: 20px;
+    margin-top: 17px;
 }
 
 .garant {
@@ -379,6 +380,7 @@ input {outline:none;}
     font-family: 'Helvetica Light';
     font-size: 36px;
     margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 .stop {
