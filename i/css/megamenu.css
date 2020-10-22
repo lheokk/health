@@ -8,6 +8,7 @@
     display: none;
     padding: 20px;
     position: relative;
+    
 }
 
 .menu-mobile span.burger, .menu-mobile span.burger:before, .menu-mobile span.burger:after{
@@ -64,6 +65,7 @@
     background: white;
     /* IF .menu position=relative -> ul = container width, ELSE ul = 100% width */
     box-sizing: border-box;
+    overflow-y: auto;
 }
 
 .menu > ul:before,
@@ -250,7 +252,7 @@ Mobile style's
     }
     .menu > ul {
         display: none;
-       
+        overflow-y: scroll;
        
     }
     .menu > ul > li {
@@ -306,6 +308,7 @@ Mobile style's
         top: 0;
         left: 0;
         z-index: 98;
+        
     }
     
     .menu .show-on-mobile li {
