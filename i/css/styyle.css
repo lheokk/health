@@ -295,7 +295,13 @@ menu-empty {
     text-decoration: none;
 
 }
+
+.form-text {
+    color: red;
+}
+
 input::-webkit-input-placeholder { color: white; }
+
 input {outline:none;}
 
 .sales {

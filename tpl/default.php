@@ -11,10 +11,10 @@
             <div class="menu-container desktop" style="float: left; margin-left: 45px; margin-top: 5px; ">
                 <div class="menu">
                     <ul>
-                        <li><a href="#">О центре</a></li>
-                        <li><a href="#">Услуги</a></li>
-                        <li><a href="#">Акции</a></li>
-                        <li><a href="#">Партнерство</a></li>
+                        <li><a href="#" style="font-weight: 400;">О центре</a></li>
+                        <li><a href="#" style="font-weight: 400;">Услуги</a></li>
+                        <li><a href="#" style="font-weight: 400;">Акции</a></li>
+                        <li><a href="#" style="font-weight: 400;">Партнерство</a></li>
                     </ul>
                     <div style="clear: both;"></div>
                 </div>
@@ -40,8 +40,8 @@
                         </li>
                         <li class="mobile"><a href="#">Акции</a></li>
                         <li class="mobile"><a href="#">Партнерство</a></li>
-                        <li class="small"><a href="#" style="border-bottom: none;">Карьера</a></li>
-                        <li class="small"><a href="#" style="border-bottom: none;">Блог</a></li>
+                        <li class="small"><a href="#" style="border-bottom: none; font-weight: 400;">Карьера </a></li>
+                        <li class="small"><a href="#" style="border-bottom: none; font-weight: 400;">Блог</a></li>
                         <li class="small mobile" style="border-bottom:none">
                             <div class="insta"></div>
                             <div class="right-insta"><a href="#" style="border-bottom: none;">О нас</a></div>
@@ -183,13 +183,16 @@
                         <input type="text" value="" name="second_name" placeholder="Фамилия" class="form-input" />
                     </div>
                     <div class="form">
-                        <input type="text" value="" name="email"  placeholder="Номер телефона" class="form-input" />
+                        <input type="text" value="" name="email"  placeholder="Электронная почта" class="form-input" />
                     </div>
                     <div class="form ">
                         <input type="text" value="" name="title"  placeholder="Заголовок" class="form-input" />
                     </div>
                     <div class="form">
                         <input type="text" value="" name="Company"  placeholder="Компания" class="form-input" />
+                    </div>
+                    <div class="form">
+                        <textarea type="text" value="" name="Сообщение"  placeholder="Компания" class="form-input"></textarea>
                     </div>
                 </div>
             </div>
