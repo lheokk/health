@@ -215,7 +215,7 @@
 
                         <input type="text" value="" name="email"  placeholder="Электронная почта" class="form-input" />
                     </div>
-                    
+
                     <div class="form ">
                         <input type="text" value="" name="title"  placeholder="Заголовок" class="form-input" />
                     </div>
@@ -284,16 +284,33 @@
             </div>
         </div>
     </div>
-</div>        <script>
-    $('.owl-carousel').owlCarousel({
-        margin: 10,
-        loop: true,
-        autoWidth: true,
-        items: 4,
-        autoplay:true,
-        autoplayTimeout:1000,
-    autoplayHoverPause:true})
-    
+</div>
+<script>
+    $(document).ready(function(){
+
+        var owl = $(".owl-carousel");
+        owl.owlCarousel({
+            margin: 10,
+            loop: true,
+            autoWidth: false,
+            items: 4,
+            autoplay: true,
+            autoplayTimeout: 4000,
+            autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                770: {
+                    items: 2
+                },
+                1215: {
+                    items: 4
+                }
+            }
+        });
+        owl.trigger('owl.play',1000);
+    });
 </script>
 
 
@@ -343,25 +360,6 @@
     </div>
     <div style="width: 100%; height: 250px;"></div>
 </div>
-<script>
-    $('#owl').owlCarousel({
-        loop: true,
-        margin: 100,
-        autoWidth: false,
-        nav: true,
-        responsive: {
-            0: {
-                items: 1
-            },
-            770: {
-                items: 2
-            },
-            1215: {
-                items: 3
-            }
-        }
-    });
-</script>
 
 </div>    
 <div class="container">
