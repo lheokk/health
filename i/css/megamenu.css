@@ -90,7 +90,6 @@
     padding: .8em 2em;
     display: block;
     font-family: 'Helvetica Light';
-    font-weight: bold;
     color: black;
     font-size: 18px;
 }
@@ -208,11 +207,12 @@ Mobile style's
     }
     
     .menu li a {
-        font-size: 20px !important;
+        font-size: 28px !important;
+     
     }
     
     .menu li.small a {
-        font-size: 15px !important;
+        font-size: 21px !important;
     }
     .menu li.small {
         padding-left: 16px !important;
@@ -235,7 +235,7 @@ Mobile style's
     .right-insta {
         color: #5151d3;
         font-size: 15px !important;
-        margin-top: 20px;
+        margin-top: 9px;
         float: left;
     }
     

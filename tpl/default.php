@@ -79,7 +79,7 @@
 <style>
     .triangle {position: absolute; bottom: 0;}
     .slide-box {position: absolute; left: 150px; top: 0;}
-    .easely {font-size: 47px;}
+    
 </style>
 <script>
     $(document).ready(function () {
@@ -103,12 +103,14 @@
                     Намного проще, чем кажется.
                 </div>
                 <div class='bell'>
+                    <a href="#">
                     Заказать обратный звонок
+                    </a>
                 </div>
             </div>
         </div>
         <div class='col-lg-6 under-triangle'>
-            <div style="padding: 0 20px;">
+            <div class="ooo"style="padding: 0 20px;">
                 ООО «РУСМЕДЗДРАВ» предоставляет полный пакет услуг согласно Приказу Министерства здравоохранения и социального развития РФ от 12.04.2011№ 302 н «Об утверждении перечней вредных и (или) опасных производственных факторов, при выполнении которых проводятся обязательные предварительные и периодические осмотры (обследования)»
             </div>
         </div>
@@ -223,7 +225,7 @@
                         <input type="text" value="" name="Company"  placeholder="Компания" class="form-input" />
                     </div>
                     <div class="form">
-                        <input type="text" value="" name="message"  placeholder="Сообщение" class="form-input">
+                        <textarea type="text" value="" name="message"  placeholder="Сообщение" class="form-input"></textarea>
                     </div>
                 </div>
             </div>
@@ -295,14 +297,14 @@
             autoWidth: false,
             items: 4,
             autoplay: true,
-            autoplayTimeout: 4000,
+            autoplayTimeout: 2500,
             autoplayHoverPause: true,
             responsive: {
                 0: {
                     items: 1
                 },
                 770: {
-                    items: 2
+                    items: 3
                 },
                 1215: {
                     items: 4

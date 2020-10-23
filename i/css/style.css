@@ -63,15 +63,34 @@
     font-family: 'PTSansNarrow-Bold';
 }
 
+.easely {
+    font-size: 47px;
+    color:#5a35e3;
+    line-height:55px;
+}
+
 .bell {
     font-family:  "Helvetica Light";
     color: #D6D4D4;
     margin-top: 20px;
     font-size: 17px;
+    margin-left: 5px;   
+}
+
+.bell a {
+    display: inline-block;
+    position: relative;
+    color: #D6D4D4;
+}
+
+.bell a:hover {
+    color: #D6D4D4;
+    text-decoration: none;
 }
 
 .ooo {
-    margin-left: 60%;
+
+    font-size:23px;
 }
 
 .bg-F7 {
@@ -135,7 +154,8 @@
     font-family:  "Helvetica Light";
     font-size: 51px;
     line-height: 50px;
-    margin-left: 130px;
+    margin-left: 2px;
+    float: left;
 }
 
 .med-book.right {
@@ -204,6 +224,8 @@ menu-empty {
     background: transparent url(/i/image/list.png) center center no-repeat ;
     margin-top: 20px;
     margin-left: 10px;
+    background-size: contain;
+    float: left;
 }
 
 .doctor-img {
@@ -300,11 +322,17 @@ menu-empty {
 
 }
 
+
+
 input::-webkit-input-placeholder { color: white; }
 
 input::-webkit-input-placeholder { color: white; font-weight: 100;}
 
 input {outline:none;}
+
+textarea {outline:none;}
+textarea:-moz-placeholder { color: red; }
+textarea::-webkit-input-placeholder { color: white; font-weight: 100; }
 
 .sales {
     font-size: 36px;
@@ -981,23 +1009,33 @@ height: 40px;
         margin-left: 30px;
     }
 
-    .med-book-left {
+    .med-book.left {
         margin-left: -40px;
         margin-top: 50px;
         font-size: 30px;
     }
 
-    .med-book-right {
+    .med-book.right {
         margin-left: 40px;
         margin-top: 50px;
         font-size: 30px;
     }
 
     .list-img {
-        margin-left: 5px;
+        margin-left: -13px;
         margin-top: 50px;
+        background-size:70px;
+        
     }
 
+    .f-star {
+        margin-left: 30px;
+    }
+    
+    .f-rusmed {
+        margin-left: 80px;
+    }
+    
     .star2 {
         margin-left: 45%;
     }
@@ -1014,6 +1052,8 @@ height: 40px;
         margin-top: 30px;
     }
 }
+
+
 .space10 {width: 100%; height: 10px;}
 .space20 {width: 100%; height: 20px;}
 .space50 {width: 100%; height: 50px;}
