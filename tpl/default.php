@@ -70,8 +70,8 @@
     <div class="row">
         <div class="col">
             <div class="med"></div>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 520" preserveAspectRatio="none" class="triangle">
-            <polygon id="triangle" points="0,520 0,520 1120,520 1120,445" fill-rule="nonzero" fill="#fff"></polygon>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1059 550" preserveAspectRatio="none" class="triangle">
+            <polygon id="triangle" points="0,550 0,550 1059,550 1059,550" fill-rule="nonzero" fill="#fff"></polygon>
             </svg>
         </div>
     </div>
@@ -79,7 +79,7 @@
 <style>
     .triangle {position: absolute; bottom: 0;}
     .slide-box {position: absolute; left: 150px; top: 0;}
-    
+
 </style>
 <script>
     $(document).ready(function () {
@@ -91,7 +91,7 @@
     function triangle() {
         var offsetTop = $(document).scrollTop();
         var y = (520 - offsetTop < 0) ? 0 : 520 - offsetTop;
-        $("#triangle").attr("points", "0," + y + " 0,520 1120,520 1120,445");
+        $("#triangle").attr("points", "0," + y + " 0,550 1059,550 1059,550");
         $(".slide-box").css("top", -(300 - y));
     }
 </script>
@@ -104,7 +104,7 @@
                 </div>
                 <div class='bell'>
                     <a href="#">
-                    Заказать обратный звонок
+                        Заказать обратный звонок
                     </a>
                 </div>
             </div>
@@ -227,11 +227,26 @@
                     <div class="form">
                         <textarea type="text" value="" name="message"  placeholder="Сообщение" class="form-input"></textarea>
                     </div>
+                    <div class="form" style="border-bottom: none;">
+                        <input type="submit" name="send" value="Отправить" class="form-input" />
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class='down' id="contact-slide-arrow"></div>
+    <!--<div class='down' id="contact-slide-arrow"></div>-->
+    <div style="width: 100%; height: 100px;">
+        <button class='expand down' id="contact-slide-arrow">
+            <svg width="11" height="5.5">
+            <use xlink:href="#icon--arrow">
+            <svg viewBox="0 0 12.1 7.1" aria-labelledby="aicon--arrow-title" id="icon--arrow" xmlns="http://www.w3.org/2000/svg">
+            <title id="aicon--arrow-title">arrow</title>
+            <path class="ast0" d="M6 7.1l-6-6L1.1 0 6 5l5-5 1.1 1.1z"></path>
+            </svg>
+            </use>
+            </svg>
+        </button>
+    </div>
 </div>
 <script>
     $(document).ready(function () {
@@ -288,7 +303,7 @@
     </div>
 </div>
 <script>
-    $(document).ready(function(){
+    $(document).ready(function () {
 
         var owl = $(".owl-carousel");
         owl.owlCarousel({
@@ -311,7 +326,7 @@
                 }
             }
         });
-        owl.trigger('owl.play',1000);
+        owl.trigger('owl.play', 1000);
     });
 </script>
 
