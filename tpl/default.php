@@ -69,12 +69,13 @@
 <div class="container">
     <div class="row">
         <div class="col">
-            <div class="med"></div>
+            <div class="med"><div class="name"><a style="line-height: 15px; color: transparent;">hello</a><br><a style="">Основатель компании</a><br><a style="margin-top: 10px">Владислав Подвойский</a></div></div>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 520" preserveAspectRatio="none" class="triangle">
             <polygon id="triangle" points="0,520 0,520 1120,520 1120,445" fill-rule="nonzero" fill="#fff"></polygon>
             </svg>
         </div>
     </div>
+    
 </div>
 <style>
     .triangle {position: absolute; bottom: 0;}
@@ -258,7 +259,7 @@
 
         <div class="col-md-6">
             <div class="want">Хотите сэкономить до 30%? Получить надежного партнера,  избавиться от головных болей и всегда знать о том, что ваши сотрудники будут иметь необходимые документы на руках?</div>
-            <div class="offer">Читать индивидуальное предложение</div>
+            <div class="offer"><a href="#">Читать индивидуальное предложение</a></div>
         </div>
     </div>
 </div>
