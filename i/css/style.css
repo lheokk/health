@@ -93,7 +93,7 @@
 
 .easely {
     letter-spacing: -1px;
-    font-size: 47px;
+    font-size: 44px;
     color:#5a35e3;
     line-height:55px;
 }
@@ -268,7 +268,7 @@ menu-empty {
 .read {
     
     text-decoration: none;
-    font-size: 15px;
+    font-size: 16px;
     margin-left: 10px;
     margin-top: -20px;
     
@@ -349,7 +349,7 @@ menu-empty {
     color: #6837E8;
     font-size: 24px;
     margin-top: 1px;
-    margin-left: 100px;
+    margin-left:100px;
     color: #866ceb;
     text-decoration: none;
 }
@@ -369,14 +369,15 @@ menu-empty {
     font-size: 36px;
     font-family: "Helvetica Light";
     color: white;
-    margin-left: 95px;
+      margin-left: 20px;
+    
 }
 
 .free {
     font-size: 22px;
     font-family: "Helvetica Light";
     color: white;
-    margin-left: 95px;
+    margin-left: 20px;
     margin-top: 20px;
     line-height: 24px;
 }
@@ -441,7 +442,7 @@ textarea.form-input {
     font-family: "Helvetica Light";
     line-height: 40px;
     margin-top: 137px;
-    margin-left: 25px;
+    margin-left: 15px;
 }
 
 #contact-slide-arrow--deleted {
@@ -524,8 +525,8 @@ textarea.form-input {
     }
 
 .v_text_16 {
-    font-size: 15px;
-    font-family: 'PTSansNarrow-Bold';
+    font-size: 16px;
+    font-family: 'Helvetica Light';
     color: #9881eb;
     margin-left: 60px;
     position: relative;
@@ -686,7 +687,7 @@ textarea.form-input {
     width: 77px;
     height: 67px;
     background: transparent url(/i/image/star_big2.png) center center no-repeat ;
-    margin: 30px auto 0 auto;
+    margin: -34px auto 0 auto;
 }
 
 .med-book2 {
@@ -899,6 +900,7 @@ height: 40px;
     fill: rgba(255, 255, 255, 0.73);
 }
 
+.sdvig{}
 @media only screen and (max-width: 1200px) {
    
     .list-img {
@@ -938,8 +940,8 @@ height: 40px;
         margin-left: 80px;
     }
 
-    .online {margin: 0;}
-    .free {margin-left: 0;}
+    .online {margin-left: -20px;}
+    .free {margin-left: -20px;}
     #contact-slide .form:first-child {margin-top: 30px;}
     .cs-crop {
         height: 230px;
@@ -998,7 +1000,12 @@ height: 40px;
         margin-left: -70px;
         margin-top: 50px !important;
     }
-
+    
+     .prices {
+        margin-left: 80px;
+       
+    }
+    
     .low {
         margin-left: 110px;
     }
@@ -1020,36 +1027,71 @@ height: 40px;
     .rectangle-down-small {
         font-size: 18px;
     }
+    
+    
 }
 
 @media only screen and (max-width: 768px) {
+    
+    .easely { font-size: 38px;
+    }
+    
+    .ooo {
+        font-size: 20px;
+    }
+    
+    .med-book {
+        font-size: 38px;
+    }
+    
+    .online {
+        font-size: 26px;
+         margin-top:20px;
+         margin-left: 15px;
+         text-align: left;
+    }
+    
+    .free {
+        font-size: 20px;
+        margin-bottom: 15px;
+        margin-left: 15px;
+        text-align: left;
+    }
+    
     .form {
         margin-top: 25px;
+        margin-left: 15px;
     }
 
-    .sales { margin-top: 80px;
-             margin-bottom: 20px;}
+    .sales { font-size: 26px;
+        margin-top: 80px;
+             margin-bottom: 20px;
+    margin-left: 15px;}
 
     .want {margin-top:20px;
-           margin-left:30px;
-           margin-bottom: 15px;}
+           margin-left:15px;
+           margin-bottom: 15px;
+    font-size: 20px;
+    }
 
+    .us {font-size: 26px;
+    margin-left: 15px;}
+    
     .offer {
         margin-top: 15px;
         margin-left: 30px;
         margin-bottom: 50px;
+        margin-left: 15px;
     }
 
     .up {
         margin-top: 35px;
+       
     }
 
-    .online {
-        margin-top:20px;
-    }
     
-    .online {margin: 0;}
-    .free {margin-left: 0;}
+    
+    
     #contact-slide .form:first-child {margin-top: 30px;}
     .cs-crop {
         height: 350px;
@@ -1058,12 +1100,17 @@ height: 40px;
     .success {
         margin-left: 10px;
         font-size: 30px;
+        letter-spacing: 0px;
     }
 
     .prices {
         margin-left: 10px;
         margin-top: 35px;
         font-size: 20px;
+    }
+    
+    .sales {
+        line-height: 30px;
     }
 
     .star2 {
@@ -1087,10 +1134,12 @@ height: 40px;
     .rectangle-down-small{
         max-width: 100%;
         margin-bottom:45px;
+        font-size: 18px;
     }
     
     .rectangle-down-big{
         max-width: 100%;
+        font-size: 20px;
     }
     
    
@@ -1109,6 +1158,7 @@ height: 40px;
         margin-top: 30px;
         margin-left: 200px;
         position: relative; 
+        
     }
 
     .doctor-img {
@@ -1128,7 +1178,7 @@ height: 40px;
    
 
     .garant {
-        font-size: 30px;
+        font-size: 20px;
         margin-left: 0px;
     }
 
@@ -1139,16 +1189,19 @@ height: 40px;
     .low {
         margin-left: 0px;
     }
+    
+    doctor-img{max-width: 80%;}
 }
 
 @media only screen and (max-width: 576px) {
     .success {
-        font-size: 25px;
+        font-size: 24px;
         margin-left: 30px;
+        letter-spacing: 0px;
     }
 
     .prices {
-        font-size: 20px;
+        font-size: 18px;
         margin-left: 30px;
     }
     
@@ -1157,15 +1210,6 @@ height: 40px;
         font-size: 24px;
     }
     
-    .med-book.left {
-       
-       
-    }
-
-    .med-book.right {
-      
-        
-    }
 
     .list-img {
         margin-left: -25px;
@@ -1174,6 +1218,11 @@ height: 40px;
         
     }
 
+    .us {
+    font-size: 26px;}
+    
+    
+    
     .f-star {
         margin-left: 30px;
     }
@@ -1192,6 +1241,7 @@ height: 40px;
     
     .footer a{
         font-size: 20px;
+        font-family: 'Helvetica Light'
     }
 
     .footer-first{

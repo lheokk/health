@@ -349,7 +349,7 @@
                     <img src="/upl/flatironbg.jpg" />
                 </div>
                 <div class="rectangle-down-big">
-                    Полная водительская медкомиссия для ГИБДД Заказать: 3000 руб. 
+                    Полная водительская медкомиссия для ГИБДД <br> Заказать: 3000 руб. 
                 </div>
                 <div class="rectangle-down-small">
                     Официально и быстро. Для Москвы и Московской области...
@@ -380,7 +380,7 @@
 
         </div>
     </div>
-    <div style="width: 100%; height: 250px;"></div>
+    <div style="width: 100%; height: 200px;"></div>
 </div>
 
 </div>    
