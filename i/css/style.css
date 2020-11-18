@@ -19,6 +19,13 @@
     font-style: normal;
 }
 
+@font-face{
+    font-family: 'GothamSSm Medium';
+    src: url('/i/fonts/1742-font.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 .underline {
     text-decoration: none;
@@ -81,14 +88,15 @@
 .rusmed {
 
     font-size: 16px;
-    font-family: 'PTSansNarrow-Bold';
+    font-family: 'GothamSSm Medium';
+    letter-spacing: 2px !important;
 
 }
 
 .rusmed-mobile {
-
+    letter-spacing: 2px !important;
     font-size: 16px;
-    font-family: 'PTSansNarrow-Bold';
+    font-family: 'GothamSSm Medium';
 }
 
 .easely {
@@ -115,7 +123,7 @@
 
 .bell a:hover::after {
     width: 100%;
-    
+
 }
 
 .bell a::after {
@@ -160,7 +168,7 @@
     font-size:22px;
     margin-top: 15px;
     max-width: 330px;
-    
+
 }
 
 .book-img {
@@ -180,7 +188,7 @@
     font-size: 14px;
     font-style:italic;
     border-left: 2px solid #5B37E3
-    
+
 }
 
 .kniga-img {
@@ -193,7 +201,7 @@
 
 .med-book.left {
     margin-top: 9px;
-    
+
 }
 
 .med-book {
@@ -201,7 +209,7 @@
     font-size: 51px;
     line-height: calc(58 / 50);
     margin-left: 2px;
-    
+
 }
 
 .med-book.right {
@@ -209,13 +217,13 @@
 }
 
 .its {
-    
+
     text-decoration: none;
     font-size: 43px;
     margin-left: 10px;
     margin-top: -20px;
-    
-    
+
+
 }
 
 .its a {
@@ -226,7 +234,7 @@
 
 .its a:hover::after {
     width: 100%;
-    
+
 }
 
 .its a::after {
@@ -266,12 +274,12 @@ menu-empty {
 }
 
 .read {
-    
+
     text-decoration: none;
     font-size: 16px;
     margin-left: 10px;
     margin-top: -20px;
-    
+
 }
 
 .read a {
@@ -282,7 +290,7 @@ menu-empty {
 
 .read a:hover::after {
     width: 100%;
-    
+
 }
 
 .read a::after {
@@ -307,7 +315,7 @@ menu-empty {
     background: transparent url(/i/image/list.png) center center no-repeat ;
     margin-top: 20px;
     margin-left: 10px;
-   
+
     float: left;
 }
 
@@ -369,8 +377,8 @@ menu-empty {
     font-size: 36px;
     font-family: "Helvetica Light";
     color: white;
-      margin-left: 20px;
-    
+    margin-left: 20px;
+
 }
 
 .free {
@@ -475,7 +483,7 @@ textarea.form-input {
 
 .offer a:hover::after {
     width: 100%;
-    
+
 }
 
 .offer a::after {
@@ -499,7 +507,7 @@ textarea.form-input {
           margin-top:70px;
           font-family: 'Helvetica Light';
           line-height: 20px;
-         
+
 }
 
 .cookie {
@@ -521,8 +529,8 @@ textarea.form-input {
     height: 43px;       
     float: left;
     padding-top: 110px;
-    
-    }
+
+}
 
 .v_text_16 {
     font-size: 16px;
@@ -652,7 +660,8 @@ textarea.form-input {
 
 .f-rusmed {
     font-size: 16px;
-    font-family: 'PTSansNarrow-Bold';
+    letter-spacing: 2px !important;
+    font-family: 'GothamSSm Medium';
     position: relative;
     margin-left: 150px;
     letter-spacing: 5px;
@@ -665,7 +674,7 @@ textarea.form-input {
     color: black;
     font-size: 14px;
     font-family: 'Helvetica Light';
-    
+
 }
 
 .footer a:hover {
@@ -740,12 +749,12 @@ textarea.form-input {
     bottom: 0;
     left: 0;
     background: rgba(0,0,0,0.3);
-	z-index: 99999;
-	-webkit-transition: opacity 400ms ease-in;
-	-moz-transition: opacity 400ms ease-in;
-	transition: opacity 400ms ease-in;
-    
-    
+    z-index: 99999;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+
+
     transition: opacity 400ms ease-in;
     display: none;
     pointer-events: none;
@@ -763,7 +772,7 @@ textarea.form-input {
     padding: 5px 20px 13px 20px;
     background: #fff;
 
-    
+
 }
 
 
@@ -774,21 +783,21 @@ textarea.form-input {
     font-size: 29px;
     color: #cb3f35;
     background:none;
-    
+
 }
 
 .close2 {
-	text-decoration: none;
-	color: #cb3f35;
-	line-height: 25px;
-	position: absolute;
-	right: 20px;
-	text-align: center;
-	top: 10px;
-	outline: none;
-	font-weight: bold;
-        background: none;
-	
+    text-decoration: none;
+    color: #cb3f35;
+    line-height: 25px;
+    position: absolute;
+    right: 20px;
+    text-align: center;
+    top: 10px;
+    outline: none;
+    font-weight: bold;
+    background: none;
+
 }
 
 .close2:hover { 
@@ -796,7 +805,7 @@ textarea.form-input {
     color: #5B37E3;
     text-decoration: none;
     outline: none;
-  
+
 }
 
 .close2:hover {background: none; color: black;}
@@ -809,20 +818,20 @@ textarea.form-input {
     background: #cb3f35;
     font-size: 22px;
     text-decoration: none;
-   margin-top: -40px;
-   margin-bottom: -40px;
-    
+    margin-top: -40px;
+    margin-bottom: -40px;
+
 
 }
 .modalDialog input::-webkit-input-placeholder { color: #a2a2a2;
-                                   font-size: 16px;
-                                  
-                                   
-                                   }
+                                                font-size: 16px;
+
+
+}
 .modalDialog input {outline:none;
-font-size: 16px;
-padding-left: 5px;
-height: 40px;
+                    font-size: 16px;
+                    padding-left: 5px;
+                    height: 40px;
 
 }
 
@@ -875,7 +884,7 @@ height: 40px;
 
 
 #contact-slide {overflow: hidden;
-                    transition: all ease-in-out .3s;}
+                transition: all ease-in-out .3s;}
 .cs-crop {height: 193px;}
 .cs-full {}
 
@@ -902,7 +911,7 @@ height: 40px;
 
 .sdvig{}
 @media only screen and (max-width: 1200px) {
-   
+
     .list-img {
         margin-left: 10px;
     }
@@ -911,11 +920,11 @@ height: 40px;
         font-size: 40px;
         line-height: 40px;
     }
-    
+
     .online {
         line-height: 36px;
     }
-    
+
     .cs-crop {
         height: 236px;
     }
@@ -926,12 +935,12 @@ height: 40px;
 
     .read {
     }
-    
+
     .low {
         margin-left: 0px;
     }
 }
-   
+
 
 @media only screen and (max-width: 992px) {
 
@@ -946,16 +955,16 @@ height: 40px;
     .cs-crop {
         height: 230px;
     }
-    
+
     .slide-box {
         position: relative !important;
         text-align: center;
         left: 0 !important;
         top: 0 !important;
     }
-    
+
     .triangle {display: none;}
-    
+
     .under-triangle {
         font-size: 23px; 
         font-family: 'Helvetica Light';
@@ -1000,12 +1009,12 @@ height: 40px;
         margin-left: -70px;
         margin-top: 50px !important;
     }
-    
-     .prices {
+
+    .prices {
         margin-left: 80px;
-       
+
     }
-    
+
     .low {
         margin-left: 110px;
     }
@@ -1019,64 +1028,64 @@ height: 40px;
         margin-bottom: 50px;
         margin-left: 100px;
     }
-    
+
     .rectangle-down-big {
         font-size: 24px;
     }
-    
+
     .rectangle-down-small {
         font-size: 18px;
     }
-    
-    
+
+
 }
 
 @media only screen and (max-width: 768px) {
-    
+
     .easely { font-size: 38px;
     }
-    
+
     .ooo {
         font-size: 20px;
     }
-    
+
     .med-book {
         font-size: 38px;
     }
-    
+
     .online {
         font-size: 26px;
-         margin-top:20px;
-         margin-left: 15px;
-         text-align: left;
+        margin-top:20px;
+        margin-left: 15px;
+        text-align: left;
     }
-    
+
     .free {
         font-size: 20px;
         margin-bottom: 15px;
         margin-left: 15px;
         text-align: left;
     }
-    
+
     .form {
         margin-top: 25px;
         margin-left: 15px;
     }
 
     .sales { font-size: 26px;
-        margin-top: 80px;
+             margin-top: 80px;
              margin-bottom: 20px;
-    margin-left: 15px;}
+             margin-left: 15px;}
 
     .want {margin-top:20px;
            margin-left:15px;
            margin-bottom: 15px;
-    font-size: 20px;
+           font-size: 20px;
     }
 
     .us {font-size: 26px;
-    margin-left: 15px;}
-    
+         margin-left: 15px;}
+
     .offer {
         margin-top: 15px;
         margin-left: 30px;
@@ -1086,12 +1095,12 @@ height: 40px;
 
     .up {
         margin-top: 35px;
-       
+
     }
 
-    
-    
-    
+
+
+
     #contact-slide .form:first-child {margin-top: 30px;}
     .cs-crop {
         height: 350px;
@@ -1108,7 +1117,7 @@ height: 40px;
         margin-top: 35px;
         font-size: 20px;
     }
-    
+
     .sales {
         line-height: 30px;
     }
@@ -1121,29 +1130,29 @@ height: 40px;
         margin-top: 30px;
         margin-bottom: 30px;
     }
-    
+
     .image_left {
 
     }
-    
+
     .rectangle {
         max-width: 100%;  
-        
+
     }
-    
+
     .rectangle-down-small{
         max-width: 100%;
         margin-bottom:45px;
         font-size: 18px;
     }
-    
+
     .rectangle-down-big{
         max-width: 100%;
         font-size: 20px;
     }
-    
-   
-    
+
+
+
     .cookie {margin-left: 15px;
              margin-top: 70px;}
 
@@ -1158,7 +1167,7 @@ height: 40px;
         margin-top: 30px;
         margin-left: 200px;
         position: relative; 
-        
+
     }
 
     .doctor-img {
@@ -1175,7 +1184,7 @@ height: 40px;
         margin-top: 50px;
     }
 
-   
+
 
     .garant {
         font-size: 20px;
@@ -1185,11 +1194,11 @@ height: 40px;
     .read {
         margin-left: 0px;
     }
-    
+
     .low {
         margin-left: 0px;
     }
-    
+
     doctor-img{max-width: 80%;}
 }
 
@@ -1204,33 +1213,33 @@ height: 40px;
         font-size: 18px;
         margin-left: 30px;
     }
-    
+
     .med-book {
         margin-top: 50px;
         font-size: 24px;
     }
-    
+
 
     .list-img {
         margin-left: -25px;
         margin-top: 50px;
         background-size:70px;
-        
+
     }
 
     .us {
-    font-size: 26px;}
-    
-    
-    
+        font-size: 26px;}
+
+
+
     .f-star {
         margin-left: 30px;
     }
-    
+
     .f-rusmed {
         margin-left: 80px;
     }
-    
+
     .star2 {
         margin-left: 45%;
     }
@@ -1238,9 +1247,9 @@ height: 40px;
     .footer{
         margin-top: 0px;
     }
-    
+
     .footer a{
-        font-size: 20px;
+        font-size: 16px;
         font-family: 'Helvetica Light'
     }
 

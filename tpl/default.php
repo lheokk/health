@@ -491,7 +491,7 @@
             </div>
         </div>
 
-        <div class="col-md-1">
+        <div class="col-md-8">
 
             <div class="f-star"></div>
             <div class="f-rusmed">РУСМЕДЗДРАВ</div>
