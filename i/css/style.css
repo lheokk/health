@@ -595,7 +595,7 @@ textarea.form-input {
 }
 
 .index-text h1 {
-    margin-bottom: 35px;
+    margin-bottom: 30px;
     color: #5a35e3;
     font-family: 'Helvetica Light';
     font-size: 29px;
@@ -623,10 +623,9 @@ textarea.form-input {
 }
 
 .index-text p {
-
     font-family: 'Helvetica Light';
     font-size:23px;
-    line-height: 29px;
+    line-height: 34px;
     margin-bottom: 44px;
 }
 
