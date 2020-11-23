@@ -1278,7 +1278,13 @@ textarea.form-input {
     margin-top: 37px;
     margin-left: 10px;
 }
-
+ .art-head-h3 h3 {
+    height: 100px;
+    align-items: center;
+    display: flex;
+    line-height: calc(58 / 50);
+    }
+    
 .art-head-h3 h3 span {
     font-family:  "Helvetica Light";
     font-size: 38px;
