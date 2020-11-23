@@ -204,12 +204,28 @@
 
 }
 
+.art-head-h3 {
+    margin-top: 6px;
+}
+
+.art-head-h3 h3 {
+    height: 115px;
+    align-items: center;
+    display: flex;
+    line-height: calc(58 / 50);
+}
+
+.art-head-h3 h3 span {
+    font-family:  "Helvetica Light";
+    font-size: 51px;
+}
+
+
 .med-book {
     font-family:  "Helvetica Light";
     font-size: 51px;
     line-height: calc(58 / 50);
     margin-left: 2px;
-
 }
 
 .med-book.right {
