@@ -173,7 +173,14 @@
                     <div class="row">
                         <div class="col">
                             <div class="list-img" style="float:left; margin-right: 10px;"></div>
-                            <div class="med-book right">Медицинские справки</div>
+                           <!-- <div class="med-book right">Медицинские справки</div>-->
+                           <div class="art-head-h3">
+                                <h3>
+                                    <span>
+                                        Медицинские справки
+                                    </span>
+                                </h3>
+                            </div>
                             <div style="clear: both;"></div>
                         </div>
                     </div>

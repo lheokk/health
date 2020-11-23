@@ -205,7 +205,8 @@
 }
 
 .art-head-h3 {
-    margin-top: 6px;
+    margin-top: 10px;
+    margin-left: 130px;
 }
 
 .art-head-h3 h3 {
@@ -958,7 +959,24 @@ textarea.form-input {
 
 
 @media only screen and (max-width: 992px) {
+    
+    .art-head-h3 {
+    margin-top: 10px;
+    margin-left: 130px;
+    }
 
+    .art-head-h3 h3 {
+    height: 115px;
+    align-items: center;
+    display: flex;
+    line-height: calc(58 / 50);
+    }
+
+    .art-head-h3 h3 span {
+   
+    font-size: 38px;
+    }
+    
     .success {
         font-size: 36px;
         margin-left: 80px;
@@ -1188,6 +1206,20 @@ textarea.form-input {
     .doctor-img {
         margin-left: 0px;
     }
+    
+    .art-head-h3 {
+    margin-top: 32px;
+    margin-left: 110px;
+    }
+
+    .art-head-h3 h3 {
+    height: 115px;
+    align-items: center;
+    display: flex;
+    line-height: calc(58 / 50);
+    }
+
+   
 
     .list-img {
         margin-left: 0px;
@@ -1236,11 +1268,23 @@ textarea.form-input {
 
 
     .list-img {
-        margin-left: -25px;
+        margin-left: -10px;
         margin-top: 50px;
-        background-size:70px;
+        background-size:75px;
 
     }
+    
+    .art-head-h3 {
+    margin-top: 37px;
+    margin-left: 10px;
+}
+
+.art-head-h3 h3 span {
+    font-family:  "Helvetica Light";
+    font-size: 38px;
+}
+
+
 
     .us {
         font-size: 26px;}
