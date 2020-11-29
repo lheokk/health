@@ -368,7 +368,7 @@ menu-empty {
     margin-left: 100px;
     margin-top:50px;
     margin-bottom: 70px;
-    letter-spacing: -2px;
+ 
 }
 
 .prices {
@@ -962,6 +962,25 @@ textarea.form-input {
 
 @media only screen and (max-width: 992px) {
     
+    .easely { font-size: 38px;
+             width: 100%;
+             text-align: left;
+    }
+    
+    .bell {
+        text-align: left;
+        margin-top: 10px;
+        
+    }
+    
+    .ooo {
+         font-size: 20px;
+        text-align: left;
+        margin-top: 0x;
+     
+        
+    }
+    
     .art-head-h3 {
     
     margin-left: 130px;
@@ -1078,11 +1097,34 @@ textarea.form-input {
 @media only screen and (max-width: 768px) {
 
     .easely { font-size: 38px;
+             width: 350px;
+             text-align: left;
     }
-
+    
+    .bell {
+        text-align: left;
+        margin-top: 10px;
+        
+    }
+    
     .ooo {
-        font-size: 20px;
+         font-size: 20px;
+        text-align: left;
+        margin-top: 0x;
+     
+        
     }
+    
+    .bell a::after {
+    height: 0px;
+    width: 30%;
+    content: '';
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    transition: all 0.2s ease-in-out;
+    background-color: #9882eb;
+}
 
     .med-book {
         font-size: 38px;
@@ -1243,7 +1285,24 @@ textarea.form-input {
     .read {
         margin-left: 0px;
     }
+    .read a::after {
+    height: 0px;
+   
+}
 
+    
+    .its a::after {
+        height: 0px;
+    }
+    
+    .offer a::after {
+    height: 0px;
+    }
+
+    .underline{
+   border: none;
+    }
+    
     .low {
         margin-left: 0px;
     }
