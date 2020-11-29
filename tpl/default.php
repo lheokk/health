@@ -58,7 +58,7 @@
     <div class="container ">
         <div class="row">
             <div class="col">
-                <div style="padding: 15px 0; font-size: 18px;">
+                <div style="padding: 15px 0; font-size: 18px;" class="mobile-covid">
                     COVID-19. Тестирование на коронавирус с выездом на дом и предприятие. <a href="#" class="underline">Читать подробнее</a>
                 </div>
             </div>
