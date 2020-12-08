@@ -1,3 +1,9 @@
 <?php
-print_r($_POST);
+
+    if (!empty($_POST))
+    {
+        echo $_POST['name'] . 'assdasdassd';
+        die;
+    }
+
 ?>
