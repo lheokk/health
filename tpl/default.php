@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col">
             <div style="float: left; margin-top: 8px;">
-                <div class="star" style="float: left; margin-right: 15px; "></div>
+                <div class="star" style="float: left; margin-right: 10px; "></div>
                 <div class='rusmed' style="line-height: 50px; float: left; font-weight: bold; letter-spacing: 5px;">РУСМЕДЗДРАВ</div>
                 <div style="clear: both;"></div>
             </div>
@@ -68,11 +68,14 @@
 
 <div class="container">
     <div class="row">
-        <div class="col">
+        <div class="col no-padding">
 
           
 
-            <div class="med"></div>
+            <div class="med">
+                <div class="tabl"> <div class="text-in-tabl">Основатель компании,<br> Владислав Подвойский</div></div>
+                <img src="/i/image/med.jpg" />
+            </div>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1059 550" preserveAspectRatio="none" class="triangle">
             <polygon id="triangle" points="0,550 0,550 1059,550 1059,550" fill-rule="nonzero" fill="#fff"></polygon>
 
@@ -104,6 +107,9 @@
     <div class='row'>
         <div class='col-lg-6'>
             <div class="slide-box">
+                <div class="tabl-down">
+                    Основатель компании Владислав Подвойски, всегда на рабочем месте для решения выжных вопросов
+                </div>
                 <div class="easely">
                     Намного проще, чем кажется.
                 </div>
@@ -128,10 +134,10 @@
 
         <div class="row flex-column-reverse flex-lg-row">
             <div class="col-lg-6">
-                <div class="container">
+                <div class="">
                     <div class="row">
                         <div class="col">
-                            <div class="list-img" style="float:left; margin-right: 10px;"></div>
+                            <div class="list-img" style="margin-right: 10px;"></div>
                             <!--<div class="med-book left">Медицинские справки</div>-->
                             <div class="art-head-h3">
                                 <h3>
@@ -172,7 +178,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col">
-                            <div class="list-img" style="float:left; margin-right: 10px;"></div>
+                            <div class="list-img" style="margin-right: 10px;"></div>
                            <!-- <div class="med-book right">Медицинские справки</div>-->
                            <div class="art-head-h3">
                                 <h3>
