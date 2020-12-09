@@ -247,19 +247,34 @@
                         <input type="text" value="" name="title"  placeholder="Заголовок" class="form-input" />
                     </div>
                     <div class="form">
-                        <input type="text" value="" name="Company"  placeholder="Компания" class="form-input" />
+                        <input type="text" value="" name="company"  placeholder="Компания" class="form-input" />
                     </div>
                     <div class="form">
                         <textarea type="text" value="" name="message"  placeholder="Сообщение" class="form-input"></textarea>
                     </div>
                     <div class="form" style="border-bottom: none;">
-                        <input type="submit" name="send" value="Отправить" class="form-input" />
+                        <input type="submit" id="send" name="send" value="Отправить" class="form-input" />
                     </div>
                 </div>
             </div>
         </div>
     </div>
-   
+   <script>
+        $(document).ready(function(){
+            $("input[name=send]").click(function(){
+                $.ajax({
+                   url:"/SendMail",
+                   type: "POST",
+                   data:"first_name="+$("input[name=first_name]").val()+"&second_name="+$("input[name=second_name]").val()+"&email="+$("input[name=email]").val()+"&title="+$("input[name=title]").val()+"&company="+$("input[name=company]").val()+"&message="+$("input[name=message]").val(),
+                   success: function(msg){
+                       alert(msg);
+                   },
+                   error: function(msg){}
+                });
+                return false;
+            });
+        });
+    </script>
     <div style="width: 100%; height: 100px;">
         <button class='expand down' id="contact-slide-arrow">
             <svg width="11" height="5.5">

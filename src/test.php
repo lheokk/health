@@ -2,8 +2,10 @@
 
     if (!empty($_POST))
     {
-        echo $_POST['name'] . 'assdasdassd';
-        die;
+        echo '<pre>';
+        print_r($_POST);
+        echo '</pre>';
+        die();
     }
 
 ?>

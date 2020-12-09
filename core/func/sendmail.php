@@ -48,8 +48,8 @@
             $mail->Host       = "smtp.yandex.ru";
             $mail->Port       = 465;
     
-            $mail->Username   = "auto.mailer.noreply";
-            $mail->Password   = "EB9p8cpi";
+            $mail->Username   = "anovicenko74@yandex.ru";
+            $mail->Password   = "AGed0b2nQ74";
     
             $mail->SMTPDebug    = 1; // 1 = errors and messages, 2 = messages only
             
