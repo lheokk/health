@@ -262,12 +262,26 @@
    <script>
         $(document).ready(function(){
             $("input[name=send]").click(function(){
+                if ($("input[name=first_name]").val() == "" || $("input[name=first_name]").val() == "" )
+                $("input[name=send]").attr("value", "Отправляется...");
+                $("input[name=send]").attr("name", "sending");
                 $.ajax({
                    url:"/SendMail",
                    type: "POST",
                    data:"first_name="+$("input[name=first_name]").val()+"&second_name="+$("input[name=second_name]").val()+"&email="+$("input[name=email]").val()+"&title="+$("input[name=title]").val()+"&company="+$("input[name=company]").val()+"&message="+$("input[name=message]").val(),
-                   success: function(msg){
-                       alert(msg);
+                   success: function(msg){                      
+                       if(msg == 'ok'){
+                            $("input[name=sending]").attr("name", "send");
+                            $("input[name=first_name]").val('');
+                            $("input[name=second_name]").val('');
+                            $("input[name=title]").val('');
+                            $("input[name=email]").val('');
+                            $("input[name=company]").val('');
+                            $("textarea[name=message]").val('');
+                            $("input[name=send]").attr("value", "Отправлено");
+                             
+                            
+                       }
                    },
                    error: function(msg){}
                 });

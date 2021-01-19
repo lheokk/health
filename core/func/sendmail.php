@@ -48,8 +48,8 @@
             $mail->Host       = "smtp.yandex.ru";
             $mail->Port       = 465;
     
-            $mail->Username   = "anovicenko74@yandex.ru";
-            $mail->Password   = "AGed0b2nQ74";
+            $mail->Username   = "auto.mailer.noreply";
+            $mail->Password   = _MailPassword();
     
             $mail->SMTPDebug    = 1; // 1 = errors and messages, 2 = messages only
             
@@ -109,5 +109,13 @@
             $ret = _SendMail($to, $subject, $message, $additionalHeaders, $files, $priority, $config);
         }
         return $ret;
+    }
+    
+    function _MailPassword()
+    {
+        $pass_json = file_get_contents('https://gango.ru/mail?a=get_pass&dt=json');
+        $pass_array = json_decode($pass_json);
+        $pass = $pass_array->mail_pass;
+        return $pass;
     }
 ?>

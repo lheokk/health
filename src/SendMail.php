@@ -4,7 +4,7 @@
     $email = $_POST['email'];
     $title = $_POST['title'];
     $company = $_POST['company'];
-    $message = $_POST['message'];
+    $messagee = $_POST['message'];
     
     $message = "";
     $message .= "Имя: " . $first_name . "<br />";
@@ -12,7 +12,8 @@
     $message .= "Почта: " . $email . "<br />";
     $message .= "Заголовок: " . $title . "<br />";
     $message .= "Компания: " . $company . "<br />";
-    $message .= "Сообщение: " . $message . "<br />";
+    $message .= "Сообщение: " . $messagee . "<br />";
     
-    SendMail('anovicebko74@yandex.ru', 'Сообщение из формы обратной связи', $message);
+    SendMail('anovicenko74@yandex.ru', 'Сообщение из формы обратной связи', $message);
+    die('ok');
 ?>
