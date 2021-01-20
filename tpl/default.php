@@ -262,32 +262,75 @@
    <script>
         $(document).ready(function(){
             $("input[name=send]").click(function(){
-                if ($("input[name=first_name]").val() == "" || $("input[name=first_name]").val() == "" )
-                $("input[name=send]").attr("value", "Отправляется...");
+                var fillForm = false;
+                if ($("input[name=first_name]").val() != "" && $("input[name=second_name]").val() != "" && $("input[name=email ]").val() != "" && $("input[name=title]").val() != "" && $("textarea[name=message]").val() != ""  ){
+                  fillForm = true;
+                  $("input[name=send]").attr("value", "Отправляется...");
                 $("input[name=send]").attr("name", "sending");
-                $.ajax({
-                   url:"/SendMail",
-                   type: "POST",
-                   data:"first_name="+$("input[name=first_name]").val()+"&second_name="+$("input[name=second_name]").val()+"&email="+$("input[name=email]").val()+"&title="+$("input[name=title]").val()+"&company="+$("input[name=company]").val()+"&message="+$("input[name=message]").val(),
-                   success: function(msg){                      
-                       if(msg == 'ok'){
-                            $("input[name=sending]").attr("name", "send");
-                            $("input[name=first_name]").val('');
-                            $("input[name=second_name]").val('');
-                            $("input[name=title]").val('');
-                            $("input[name=email]").val('');
-                            $("input[name=company]").val('');
-                            $("textarea[name=message]").val('');
-                            $("input[name=send]").attr("value", "Отправлено");
+                }
+                else {
+                    if ($("input[name=first_name]").val() == "") {
+                        $("input[name=first_name]").parent(".form").css("border-bottom","1px solid red");
+                    }
+                    else {
+                        $("input[name=first_name]").parent(".form").css("border-bottom","1px solid red");
+                    }
+                    if ($("input[name=second_name]").val() == "") {
+                         $("input[name=second_name]").parent(".form").css("border-bottom","1px solid red");
+                    }
+                    if ($("input[name=title]").val() == "") {
+                         $("input[name=title]").parent(".form").css("border-bottom","1px solid red");
+                    }
+                   if ($("input[name=email]").val() == "") {
+                         $("input[name=email]").parent(".form").css("border-bottom","1px solid red");
+                    }
+                    if ($("input[name=company]").val() == "") {
+                         $("input[name=company]").parent(".form").css("border-bottom","1px solid red");
+                    }
+                    if ($("textarea[name=message]").val() == "") {
+                         $("textarea[name=message]").parent(".form").css("border-bottom","1px solid red");
+                    }
+                }
+                
+                if (fillForm) {
+                   $.ajax({
+                    url:"/SendMail",
+                    type: "POST",
+                    data:"first_name="+$("input[name=first_name]").val()+"&second_name="+$("input[name=second_name]").val()+"&email="+$("input[name=email]").val()+"&title="+$("input[name=title]").val()+"&company="+$("input[name=company]").val()+"&message="+$("input[name=message]").val(),
+                    success: function(msg){                      
+                        if(msg == 'ok'){
+                             $("input[name=sending]").attr("name", "send");
+                             $("input[name=first_name]").val('');
+                             $("input[name=second_name]").val('');
+                             $("input[name=title]").val('');
+                             $("input[name=email]").val('');
+                             $("input[name=company]").val('');
+                             $("textarea[name=message]").val('');
+                             $("input[name=send]").attr("value", "Отправлено");
+                             $("input[name=first_name]").parent(".form").css("border-bottom","1px solid rgba(255, 255, 255, 0.53)");
+                             $("input[name=second_name]").parent(".form").css("border-bottom","1px solid rgba(255, 255, 255, 0.53)");
+                             $("input[name=email]").parent(".form").css("border-bottom","1px solid rgba(255, 255, 255, 0.53)");
+                             $("input[name=title]").parent(".form").css("border-bottom","1px solid rgba(255, 255, 255, 0.53)");
+                             $("input[name=company]").parent(".form").css("border-bottom","1px solid rgba(255, 255, 255, 0.53)");
+                             $("textarea[name=message]").parent(".form").css("border-bottom","1px solid rgba(255, 255, 255, 0.53)");
                              
-                            
-                       }
-                   },
-                   error: function(msg){}
-                });
+                             setTimeout(switch_button_value, 15000);
+                        }
+                    },
+                    error: function(msg){}
+                 }); 
+                 
+                }
+                
+        
                 return false;
             });
         });
+        
+        function switch_button_value() {
+             $("input[name=send]").attr("value", "Отправить");
+        }
+        
     </script>
     <div style="width: 100%; height: 100px;">
         <button class='expand down' id="contact-slide-arrow">
