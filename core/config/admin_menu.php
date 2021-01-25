@@ -3,23 +3,27 @@
     $g_config['admin_menu'] = empty($g_config['admin_menu']) ? array() : $g_config['admin_menu'];
  
     $g_config['admin_menu'] = array(
-		
         array(
             'href' => 'admin/articles/index',
-            'name' => 'Articles',
+            'name' => 'Страницы',
             'class' => 'icon-home',
             'section' => 'articles/',
             'submenu'=> array(
                             array(
                                     'href' => 'admin/articles/index',
-                                    'name' => 'Articles',
+                                    'name' => 'Список',
                                     'class' => 'icon-time',
-                                    'section' => 'index/articles'
+                                    'section' => 'articles/index'
+                                ),
+                            array(
+                                    'href' => 'admin/articles/edit',
+                                    'name' => 'Созать',
+                                    'class' => 'icon-time',
+                                    'section' => 'articles/edit'
                                 ),
                             ),
 
         ),
-        
         /*array(
             'href' => 'admin/gallery/index',
             'name' => 'Галерея',
