@@ -14,6 +14,6 @@
     $message .= "Компания: " . $company . "<br />";
     $message .= "Сообщение: " . $messagee . "<br />";
     
-    SendMail('anovicenko74@yandex.ru', 'Сообщение из формы обратной связи', $message);
+    SendMail('vlad@podvoysky.com', 'Сообщение из формы обратной связи', $message);
     die('ok');
 ?>
