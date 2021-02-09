@@ -13,7 +13,6 @@
     $message .= "Заголовок: " . $title . "<br />";
     $message .= "Компания: " . $company . "<br />";
     $message .= "Сообщение: " . $messagee . "<br />";
-    
     SendMail('vlad@podvoysky.com', 'Сообщение из формы обратной связи', $message);
     die('ok');
 ?>
