@@ -4,21 +4,7 @@
 
         const TABLE = 'pages';
 
-        protected function CreateTable() {
-            $this->db->query("
-                CREATE TABLE `pages` (                                         
-                  `id` int(11) NOT NULL AUTO_INCREMENT,                        
-                  `head` varchar(500) CHARACTER SET utf8 NOT NULL,             
-                  `link` varchar(500) CHARACTER SET utf8 NOT NULL,             
-                  `text` text CHARACTER SET utf8,                              
-                  `stamp` int(12) DEFAULT NULL,                                
-                  `title` varchar(500) CHARACTER SET utf8 DEFAULT NULL,        
-                  `description` varchar(500) CHARACTER SET utf8 DEFAULT NULL,  
-                  `keywords` varchar(500) CHARACTER SET utf8 DEFAULT NULL,     
-                  `gallery_id` int(11) DEFAULT NULL,                           
-                  PRIMARY KEY (`id`)                                           
-                ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8");
-        }
+        protected function CreateTable() {}
 
         public function __construct($id = NULL, $onlyShow = false)
         {

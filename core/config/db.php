@@ -17,26 +17,13 @@
     (
     );
     
-    if ($_SERVER['REMOTE_ADDR'] == '127.0.0.1')
-    {
-        $g_config['pdo']['databases'] = array
-        (
-            'db' => array(
-                'dsn' => 'mysql:host=localhost;dbname=gpsite;charset=utf8',
-                'login' => 'mysql',
-                'pwd' => 'mysql'
-            ),
-        );
-    }
-    else
-    {
-        $g_config['pdo']['databases'] = array
-        (
-            'db' => array(
-                'dsn' => 'mysql:host=51.89.9.22;dbname=health;charset=utf8',
-                'login' => 'server_22_admin',
-                'pwd' => 'Z46aB2Rd'
-            ),
-        );
-    }
+    $g_config['pdo']['databases'] = array
+    (
+        'db' => array(
+            'dsn' => 'mysql:host=94.23.92.103;dbname=health;charset=utf8',
+            'login' => 'health',
+            'pwd' => 'Z46aB2Rdf5S'
+        ),
+    );
+    
 ?>
