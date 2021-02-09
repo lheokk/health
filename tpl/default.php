@@ -296,7 +296,7 @@
                    $.ajax({
                     url:"/SendMail",
                     type: "POST",
-                    data:"first_name="+$("input[name=first_name]").val()+"&second_name="+$("input[name=second_name]").val()+"&email="+$("input[name=email]").val()+"&title="+$("input[name=title]").val()+"&company="+$("input[name=company]").val()+"&message="+$("input[name=message]").val(),
+                    data:"first_name="+$("input[name=first_name]").val()+"&second_name="+$("input[name=second_name]").val()+"&email="+$("input[name=email]").val()+"&title="+$("input[name=title]").val()+"&company="+$("input[name=company]").val()+"&message="+$("textarea[name=message]").val(),
                     success: function(msg){                      
                         if(msg == 'ok'){
                              $("input[name=sending]").attr("name", "send");
