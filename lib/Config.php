@@ -6,7 +6,7 @@
 
         protected function CreateTable() {
             $res = $this->db->query("
-                CREATE TABLE `news` (                                   
+                CREATE TABLE `config` (                                   
                   `id` int(11) NOT NULL AUTO_INCREMENT,                            
                   `name` char(255) NOT NULL,                      
                   `value` text,                                   

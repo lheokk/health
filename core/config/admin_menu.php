@@ -24,6 +24,21 @@
                             ),
 
         ),
+        array(
+            'href' => 'admin/index/index',
+            'name' => 'Главная',
+            'class' => 'icon-home',
+            'section' => 'index/',
+            'submenu'=> array(
+                            array(
+                                    'href' => 'admin/index/banner',
+                                    'name' => 'Баннер',
+                                    'class' => 'icon-time',
+                                    'section' => 'articles/edit'
+                                ),
+                            ),
+
+        ),
         /*array(
             'href' => 'admin/gallery/index',
             'name' => 'Галерея',
