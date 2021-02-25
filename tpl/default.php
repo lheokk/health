@@ -38,7 +38,7 @@
         <div class='col-lg-6'>
             <div class="slide-box">
                 <div class="tabl-down">
-                    Основатель компании Владислав Подвойски, всегда на рабочем месте для решения выжных вопросов
+                    Основатель компании Владислав Подвойски, всегда на рабочем месте для решения важных вопросов
                 </div>
                 <div class="easely">
                     Намного проще, чем кажется.
@@ -84,6 +84,7 @@
                             <div class="garant">
                                 Мы обладаем медицинской лицензией МинЗдрава РФ и предоставляет только официальные документы...
                             </div>
+                            <div class="space50"></div>
                             <div class="read"> <a href="#"> Читать полностью </a></div>
                         </div>
                     </div>
@@ -125,6 +126,7 @@
                             <div class="garant">
                                 Мы обладаем медицинской лицензией МинЗдрава РФ и предоставляет только официальные документы...
                             </div>
+                            <div class="space50"></div>
                             <div class="read"> <a href="#"> Читать полностью </a></div>
 
                         </div>
@@ -147,7 +149,7 @@
 </div> 
 
 <div class="bg-v">
-    <div style="width: 100%; height: 60px;"></div>
+    <div style="width: 100%; height: 15px;"></div>
     <div id="contact-slide" class="cs-crop">
         <div class="container">
             <div class="row">
@@ -359,7 +361,7 @@
 
 
 <div class="bg-F7">
-    <div class="space100"></div>
+    
     <div class="container">
         <div class="row">
             <div class="col-md-4">
@@ -373,6 +375,7 @@
                 <div class="rectangle-down-big">
                     Полная водительская медкомиссия для ГИБДД <br> Заказать: 3000 руб. 
                 </div>
+                <div class="space20"></div>
                 <div class="rectangle-down-small">
                     Официально и быстро. Для Москвы и Московской области...
                 </div></div>
@@ -384,6 +387,7 @@
                 </div>
                 <div class="rectangle-down-big">
                     Как бороться с COVID-19?                            </div>
+                <div class="space20"></div>
                 <div class="rectangle-down-small" >
                     Статья рассказывает о методах сопротивления вирусу...
                 </div></div>
@@ -396,6 +400,7 @@
                 </div>
                 <div class="rectangle-down-big">
                     Мы открыли новый филиал                            </div>
+                <div class="space20"></div>
                 <div class="rectangle-down-small">
                     Совершенно недавно у нас открылся новый филиал в Москве...
                 </div> </div>

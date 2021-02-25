@@ -45,6 +45,7 @@
 }
 
 .blue-line {
+    font-family: 'Helvetica Light';
     background-color: #5B37E3;
     width: 100%;
     color: #FFFFFF;
@@ -101,7 +102,7 @@
     font-family: 'Helvetica Light';
     font-size: 15px;
     text-align: left;
-    border-left: 3px solid #5a35e3;
+    border-left: 3.5px solid #5a35e3;
     margin-top: 15px;
     padding-left: 5px;
     display: none;
@@ -136,7 +137,9 @@
     font-family: 'GothamSSm Medium';
 }
 
-.mobile-covid {}
+.mobile-covid {
+    text-align: left;
+}
 
 .easely {
     margin-top: 50px;
@@ -1136,12 +1139,18 @@ textarea.form-input {
 }
 
 @media only screen and (max-width: 768px) {
+    
     .tabl-down{
         display: block;
+        
+        font-weight: bold;
+        max-width: 340px;
+        line-height: 17px;
     }
     
     .tabl {
        display: none;
+       
     }
     
     .med {
@@ -1185,7 +1194,7 @@ textarea.form-input {
 
     .online {
         font-size: 26px;
-        margin-top:20px;
+        margin-top:5px;
         margin-left: 15px;
         text-align: left;
     }
@@ -1202,10 +1211,13 @@ textarea.form-input {
         margin-left: 15px;
     }
 
-    .sales { font-size: 26px;
-             margin-top: 80px;
+    .sales { font-size: 28px;
+             margin-top: 32px;
              margin-bottom: 20px;
-             margin-left: 15px;}
+             margin-left: 15px;
+             line-height: 30px;
+             
+    }
 
     .want {margin-top:20px;
            margin-left:15px;
@@ -1248,9 +1260,6 @@ textarea.form-input {
         font-size: 20px;
     }
 
-    .sales {
-        line-height: 30px;
-    }
 
     .star2 {
         width: 77px;
