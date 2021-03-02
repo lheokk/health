@@ -108,6 +108,10 @@
     display: none;
 }
 
+.banner-margin {
+    margin-top: 40px;
+}
+
 .med { 
     width: 100%;
     height: auto;
@@ -138,7 +142,8 @@
 }
 
 .mobile-covid {
-    text-align: left;
+    padding: 15px 0;
+    font-size: 18px;
 }
 
 .easely {
@@ -1359,7 +1364,48 @@ textarea.form-input {
 
 @media only screen and (max-width: 576px) {
     
-    .mobile-covid {}
+    .mobile-covid {
+        text-align: left;
+        font-size: 16px;
+        padding: 11px 0;
+    }
+    
+    .banner-margin{
+        margin-top: 20px;
+    }
+    
+    .tabl-down{
+        margin-left: 15px;
+        font-size: 13px;
+        line-height: 13px;
+    }
+    
+    .easely {
+        margin-top: 62px;
+        padding-left: 15px;
+        font-size: 35px;
+        padding-right: 70px;
+        line-height: 39px;
+        letter-spacing: -2.5px;
+    }
+    
+    .bell {
+        padding-left: 15px;
+        font-size: 11px;
+        margin-top: 13px;
+        letter-spacing: 0.9px;
+    }
+    
+    .ooo {
+        font-size: 15px;
+        padding-left: 18px;
+        margin-top: 6px;
+        padding-right: 49px;
+        letter-spacing: 0.3px;
+    }
+    .bg-F7 {
+        margin-top: 45px;
+    }
     
     .med {
         margin-top: 1px;
@@ -1452,6 +1498,7 @@ textarea.form-input {
 
 .space10 {width: 100%; height: 10px;}
 .space20 {width: 100%; height: 20px;}
+.space35 {width: 100%; height: 35px;}
 .space50 {width: 100%; height: 50px;}
 .space75 {width: 100%; height: 75px;}
 .space100 {width: 100%; height: 100px;}
