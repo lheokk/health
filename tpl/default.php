@@ -164,7 +164,7 @@
 
 
                 <div class="col-md-6">
-                    <div class="form" style='margin-top: 10px;'>
+                    <div class="form" style='margin-top: 4px;'>
                         <input type="text" value="" name="first_name"  placeholder="Имя" class="form-input" />
                     </div>
                     <div class="form ">
