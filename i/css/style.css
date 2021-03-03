@@ -1411,6 +1411,10 @@ textarea.form-input {
         margin-top: 1px;
     }
     
+    .low {
+        font-size: 12px;
+    }
+   
     .success {
         font-size: 24px;
         margin-left: 30px;
@@ -1429,15 +1433,14 @@ textarea.form-input {
   
     .list-img {
         margin-left: 0px;
-        margin-top: 50px;
         background-size:60px;
         float: none;
-        margin: 30px 0 15px 0!important;
+        margin: 10px 0 15px 0!important;
 
     }
     
     .art-head-h3 {
-    margin-bottom: 53px;
+    margin-bottom: 50px;
     margin-top: 15px;
     
     height: 0px;
@@ -1454,25 +1457,41 @@ textarea.form-input {
 .art-head-h3 h3 span {
     font-family:  "Helvetica Light";
     font-size: 38px;
+    letter-spacing: -2.9px;
+    padding-right: 30px;
+    line-height: 38px;
 }
 
+.garant {
+    font-size: 16px;
+    letter-spacing: -0.4px;
+    padding-left: 3px;
+    margin-bottom: 0px;
+    
+}
+
+.read {
+    margin-top: 124px;
+    font-size:14px;
+    padding-left: 3px;
+    
+}
+
+.us {
+    font-size: 26px;}
 
 
-    .us {
-        font-size: 26px;}
 
-
-
-    .f-star {
-        margin-left: 15px;
+.f-star {
+    margin-left: 15px;
     }
 
-    .f-rusmed {
-        margin-left: 65px;
+.f-rusmed {
+    margin-left: 65px;
     }
 
-    .star2 {
-        margin-left: 45%;
+.star2 {
+    margin-left: 45%;
     }
 
     .footer{
