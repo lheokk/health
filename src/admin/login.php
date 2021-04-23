@@ -1,7 +1,7 @@
 <?php
 
 //    $user = new User();
-//    echo $ok = $user->SetUser('PGrata', 'Zxcvbnm123123', 'ikonarussia@gmail.com');
+//    echo $ok = $user->SetUser('manager', 'Zxcvbnm123123', 'ikonarussia@gmail.com');
 
     global $g_adminAuth;
 
